@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"67ec095e51946a887d952236ffa77963","name":"SauceDemo Tests Suite","statistic":{"failed":2,"broken":28,"skipped":10,"passed":7,"unknown":0,"total":47}},{"uid":"00bb925a726db954f7f6003b9d08c8c8","name":"AutomatedTestingSuite","statistic":{"failed":0,"broken":3,"skipped":3,"passed":7,"unknown":0,"total":13}}]}

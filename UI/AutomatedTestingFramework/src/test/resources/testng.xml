@@ -1,0 +1,73 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Tests Suite" parallel="false">
+    <!-- Define the browser parameter -->
+    <parameter name="browser" value="chrome"/>
+
+    <!-- Test Suite 1: Login Functionality -->
+    <test name="Login Functionality Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.MyTestingCo.tests.login.ValidLoginTest"/>
+            <class name="com.MyTestingCo.tests.login.InvalidLoginTest"/>
+            <class name="com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest"/>
+            <class name="com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest"/>
+            <class name="com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest"/>
+        </classes>
+    </test>
+
+    <!-- Test Suite 2: Product Filtering Functionality -->
+    <test name="Product Filtering Functionality Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.MyTestingCo.tests.filter.FilterByCategoryTest"/>
+            <class name="com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest"/>
+            <class name="com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest"/>
+            <class name="com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest"/>
+            <class name="com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest"/>
+        </classes>
+    </test>
+
+    <!-- Test Suite 3: Product Sorting Functionality -->
+    <test name="Product Sorting Functionality Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.MyTestingCo.tests.sorting.SortByPriceTest"/>
+            <class name="com.MyTestingCo.tests.sorting.SortByInvalidPriceTest"/>
+            <class name="com.MyTestingCo.tests.sorting.SortByMultiplePricesTest"/>
+            <class name="com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest"/>
+            <class name="com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest"/>
+        </classes>
+    </test>
+
+    <!-- Test Suite 4: Add to Cart Functionality -->
+    <test name="Add to Cart Functionality Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.MyTestingCo.tests.cart.AddValidProductToCartTest"/>
+            <class name="com.MyTestingCo.tests.cart.AddInvalidProductToCartTest"/>
+            <class name="com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest"/>
+            <class name="com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest"/>
+            <class name="com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest"/>
+        </classes>
+    </test>
+
+    <!-- Test Suite 5: Checkout Functionality -->
+    <test name="Checkout Functionality Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.MyTestingCo.tests.checkout.ValidCheckoutTest"/>
+            <class name="com.MyTestingCo.tests.checkout.InvalidCheckoutTest"/>
+            <class name="com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest"/>
+            <class name="com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest"/>
+            <class name="com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest"/>
+        </classes>
+    </test>
+
+    <!-- Test Suite 6: Logout Functionality -->
+    <test name="Logout Functionality Tests">
+        <classes>
+            <!-- Add classes for logout tests if available -->
+        </classes>
+    </test>
+
+</suite>

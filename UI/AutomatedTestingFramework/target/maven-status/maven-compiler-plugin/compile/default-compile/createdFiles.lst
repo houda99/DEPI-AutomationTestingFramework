@@ -1,0 +1,5 @@
+com\MyTestingCo\pages\LoginPage.class
+com\MyTestingCo\pages\SortPage.class
+com\MyTestingCo\pages\ProductsPage.class
+com\MyTestingCo\pages\CheckoutPage.class
+com\MyTestingCo\pages\FilterPage.class

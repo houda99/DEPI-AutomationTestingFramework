@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo Tests Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Product Filtering Functionality Tests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest">
+        <methods>
+          <include name="testFilterByInvalidCategory"/>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest -->
+      <class name="com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="testFilterByCategoryWithEmptyField"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest -->
+      <class name="com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="testFilterByMultipleCategories"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest -->
+      <class name="com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="testFilterByCategoryWithSpecialCharacters"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest -->
+    </classes>
+  </test> <!-- Product Filtering Functionality Tests(failed) -->
+  <test thread-count="5" name="Product Sorting Functionality Tests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTestingCo.tests.sorting.SortByInvalidPriceTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="testSortByInvalidPrice"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.sorting.SortByInvalidPriceTest -->
+      <class name="com.MyTestingCo.tests.sorting.SortByMultiplePricesTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="testSortByMultiplePrices"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.sorting.SortByMultiplePricesTest -->
+      <class name="com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="testSortByPriceWithEmptyField"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest -->
+      <class name="com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="testSortByPriceWithSpecialCharacters"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest -->
+    </classes>
+  </test> <!-- Product Sorting Functionality Tests(failed) -->
+  <test thread-count="5" name="Add to Cart Functionality Tests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="testAddProductWithEmptyFieldToCart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest -->
+      <class name="com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="testAddProductWithSpecialCharsToCart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest -->
+      <class name="com.MyTestingCo.tests.cart.AddInvalidProductToCartTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="testAddInvalidProductToCart"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.cart.AddInvalidProductToCartTest -->
+      <class name="com.MyTestingCo.tests.cart.AddValidProductToCartTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="testAddValidProductToCart"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.cart.AddValidProductToCartTest -->
+      <class name="com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="testAddMultipleProductsToCart"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest -->
+    </classes>
+  </test> <!-- Add to Cart Functionality Tests(failed) -->
+  <test thread-count="5" name="Checkout Functionality Tests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyTestingCo.tests.checkout.InvalidCheckoutTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="testInvalidCheckout"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.checkout.InvalidCheckoutTest -->
+      <class name="com.MyTestingCo.tests.checkout.ValidCheckoutTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="testValidCheckout"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.checkout.ValidCheckoutTest -->
+      <class name="com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest">
+        <methods>
+          <include name="testCheckoutWithMultipleProducts"/>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest -->
+      <class name="com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="testCheckoutWithEmptyField"/>
+          <include name="tearDown"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest -->
+      <class name="com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest">
+        <methods>
+          <include name="addScreenshotOnSuccess"/>
+          <include name="tearDown"/>
+          <include name="testCheckoutWithSpecialChars"/>
+          <include name="addScreenshotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest -->
+    </classes>
+  </test> <!-- Checkout Functionality Tests(failed) -->
+</suite> <!-- Failed suite [SauceDemo Tests Suite] -->

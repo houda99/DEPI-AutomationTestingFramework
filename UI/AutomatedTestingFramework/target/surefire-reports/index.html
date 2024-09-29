@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 18 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SauceDemo_Tests_Suite" class="navigator-link">
+              <span class="suite-name border-failed">SauceDemo Tests Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SauceDemo_Tests_Suite" class="navigator-link ">
+                    <span>D:\DEPI\java\AutomatedTestingFramework\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SauceDemo_Tests_Suite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SauceDemo_Tests_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SauceDemo_Tests_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SauceDemo_Tests_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SauceDemo_Tests_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SauceDemo_Tests_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 18 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SauceDemo_Tests_Suite" class="hide-methods failed suite-SauceDemo_Tests_Suite"> (hide)</a> <!-- hide-methods failed suite-SauceDemo_Tests_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Tests_Suite" class="show-methods failed suite-SauceDemo_Tests_Suite"> (show)</a> <!-- show-methods failed suite-SauceDemo_Tests_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-SauceDemo_Tests_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.cart.AddInvalidProductToCartTest" class="method navigator-link" hash-for-method="testAddInvalidProductToCart">testAddInvalidProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest" class="method navigator-link" hash-for-method="testAddMultipleProductsToCart">testAddMultipleProductsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest" class="method navigator-link" hash-for-method="testAddProductWithEmptyFieldToCart">testAddProductWithEmptyFieldToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest" class="method navigator-link" hash-for-method="testAddProductWithSpecialCharsToCart">testAddProductWithSpecialCharsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.cart.AddValidProductToCartTest" class="method navigator-link" hash-for-method="testAddValidProductToCart">testAddValidProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest" class="method navigator-link" hash-for-method="testCheckoutWithEmptyField">testCheckoutWithEmptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest" class="method navigator-link" hash-for-method="testCheckoutWithMultipleProducts">testCheckoutWithMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest" class="method navigator-link" hash-for-method="testCheckoutWithSpecialChars">testCheckoutWithSpecialChars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest" class="method navigator-link" hash-for-method="testFilterByCategoryWithEmptyField">testFilterByCategoryWithEmptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest" class="method navigator-link" hash-for-method="testFilterByCategoryWithSpecialCharacters">testFilterByCategoryWithSpecialCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest" class="method navigator-link" hash-for-method="testFilterByInvalidCategory">testFilterByInvalidCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest" class="method navigator-link" hash-for-method="testFilterByMultipleCategories">testFilterByMultipleCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.checkout.InvalidCheckoutTest" class="method navigator-link" hash-for-method="testInvalidCheckout">testInvalidCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.sorting.SortByInvalidPriceTest" class="method navigator-link" hash-for-method="testSortByInvalidPrice">testSortByInvalidPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.sorting.SortByMultiplePricesTest" class="method navigator-link" hash-for-method="testSortByMultiplePrices">testSortByMultiplePrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest" class="method navigator-link" hash-for-method="testSortByPriceWithEmptyField">testSortByPriceWithEmptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest" class="method navigator-link" hash-for-method="testSortByPriceWithSpecialCharacters">testSortByPriceWithSpecialCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.checkout.ValidCheckoutTest" class="method navigator-link" hash-for-method="testValidCheckout">testValidCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SauceDemo_Tests_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauceDemo_Tests_Suite" class="hide-methods passed suite-SauceDemo_Tests_Suite"> (hide)</a> <!-- hide-methods passed suite-SauceDemo_Tests_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Tests_Suite" class="show-methods passed suite-SauceDemo_Tests_Suite"> (show)</a> <!-- show-methods passed suite-SauceDemo_Tests_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SauceDemo_Tests_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest" class="method navigator-link" hash-for-method="loginWithEmptyPasswordTest">loginWithEmptyPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest" class="method navigator-link" hash-for-method="loginWithEmptyUsernameTest">loginWithEmptyUsernameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest" class="method navigator-link" hash-for-method="loginWithSpecialCharactersTest">loginWithSpecialCharactersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.filter.FilterByCategoryTest" class="method navigator-link" hash-for-method="testFilterByCategory">testFilterByCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.login.InvalidLoginTest" class="method navigator-link" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.sorting.SortByPriceTest" class="method navigator-link" hash-for-method="testSortByPrice">testSortByPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Tests_Suite" title="com.MyTestingCo.tests.login.ValidLoginTest" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemo_Tests_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauceDemo_Tests_Suite" class="panel SauceDemo_Tests_Suite">
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProductWithEmptyFieldToCart">
+                  </a> <!-- testAddProductWithEmptyFieldToCart -->
+                  <span class="method-name">testAddProductWithEmptyFieldToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa777fff3a16105b00389bdd31578a01, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49909/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa777fff3a16105b00389bdd31578a01
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.LoginPage.enterUsername(LoginPage.java:23)
+	at com.MyTestingCo.pages.LoginPage.login(LoginPage.java:40)
+	at com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest.testAddProductWithEmptyFieldToCart(AddProductWithEmptyFieldToCartTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user cannot add a product with an empty field to the cart after logging in.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.sorting.SortByInvalidPriceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortByInvalidPrice">
+                  </a> <!-- testSortByInvalidPrice -->
+                  <span class="method-name">testSortByInvalidPrice</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Invalid Price
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.MyTestingCo.pages.SortPage.sortByPrice(SortPage.java:22)
+	at com.MyTestingCo.tests.sorting.SortByInvalidPriceTest.testSortByInvalidPrice(SortByInvalidPriceTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the user cannot sort products by an invalid price)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.checkout.InvalidCheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidCheckout">
+                  </a> <!-- testInvalidCheckout -->
+                  <span class="method-name">testInvalidCheckout</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)]&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a1a3d448bd232e57ef43115c5e41f8a, findElement {value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49994}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49994/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a1a3d448bd232e57ef43115c5e41f8a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+	at com.MyTestingCo.tests.checkout.InvalidCheckoutTest.testInvalidCheckout(InvalidCheckoutTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user cannot checkout with invalid information.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterByCategoryWithEmptyField">
+                  </a> <!-- testFilterByCategoryWithEmptyField -->
+                  <span class="method-name">testFilterByCategoryWithEmptyField</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.MyTestingCo.pages.FilterPage.filterByCategory(FilterPage.java:22)
+	at com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest.testFilterByCategoryWithEmptyField(FilterByCategoryWithEmptyFieldTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the user cannot filter products by category with an empty field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.checkout.ValidCheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidCheckout">
+                  </a> <!-- testValidCheckout -->
+                  <span class="method-name">testValidCheckout</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#zip\-code&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d12cf8a4986da225850da9bb8b0b654, findElement {value=zip-code, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49942}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49942/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d12cf8a4986da225850da9bb8b0b654
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.CheckoutPage.enterZIPCode(CheckoutPage.java:36)
+	at com.MyTestingCo.tests.checkout.ValidCheckoutTest.testValidCheckout(ValidCheckoutTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user can checkout successfully.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortByPriceWithEmptyField">
+                  </a> <!-- testSortByPriceWithEmptyField -->
+                  <span class="method-name">testSortByPriceWithEmptyField</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.MyTestingCo.pages.SortPage.sortByPrice(SortPage.java:22)
+	at com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest.testSortByPriceWithEmptyField(SortByPriceWithEmptyFieldTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the user cannot sort products by price with an empty field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddMultipleProductsToCart">
+                  </a> <!-- testAddMultipleProductsToCart -->
+                  <span class="method-name">testAddMultipleProductsToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e824a5a9e8acc9f0475794fcf286efce, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49738/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e824a5a9e8acc9f0475794fcf286efce
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.LoginPage.enterUsername(LoginPage.java:23)
+	at com.MyTestingCo.pages.LoginPage.login(LoginPage.java:40)
+	at com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest.testAddMultipleProductsToCart(AddMultipleProductsToCartTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user can add multiple products to the cart after logging in.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortByPriceWithSpecialCharacters">
+                  </a> <!-- testSortByPriceWithSpecialCharacters -->
+                  <span class="method-name">testSortByPriceWithSpecialCharacters</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Price (low to high)!
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.MyTestingCo.pages.SortPage.sortByPrice(SortPage.java:22)
+	at com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest.testSortByPriceWithSpecialCharacters(SortByPriceWithSpecialCharactersTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the user can sort products by price with special characters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterByInvalidCategory">
+                  </a> <!-- testFilterByInvalidCategory -->
+                  <span class="method-name">testFilterByInvalidCategory</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Invalid Category
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.MyTestingCo.pages.FilterPage.filterByCategory(FilterPage.java:22)
+	at com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest.testFilterByInvalidCategory(FilterByInvalidCategoryTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the user cannot filter products by an invalid category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProductWithSpecialCharsToCart">
+                  </a> <!-- testAddProductWithSpecialCharsToCart -->
+                  <span class="method-name">testAddProductWithSpecialCharsToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1e02677e79e74bc1ce2ea6d34497ff6, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49775/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1e02677e79e74bc1ce2ea6d34497ff6
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.LoginPage.enterUsername(LoginPage.java:23)
+	at com.MyTestingCo.pages.LoginPage.login(LoginPage.java:40)
+	at com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest.testAddProductWithSpecialCharsToCart(AddProductWithSpecialCharsToCartTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user can add a product with special characters to the cart after logging in.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.cart.AddInvalidProductToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddInvalidProductToCart">
+                  </a> <!-- testAddInvalidProductToCart -->
+                  <span class="method-name">testAddInvalidProductToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)]&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dbfb89cc640a878667b01e5e6dfe8835, findElement {value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49678/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dbfb89cc640a878667b01e5e6dfe8835
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+	at com.MyTestingCo.tests.cart.AddInvalidProductToCartTest.testAddInvalidProductToCart(AddInvalidProductToCartTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user cannot add an invalid product to the cart.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.sorting.SortByMultiplePricesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortByMultiplePrices">
+                  </a> <!-- testSortByMultiplePrices -->
+                  <span class="method-name">testSortByMultiplePrices</span>
+                  <div class="stack-trace">java.lang.AssertionError: Products are not sorted by the specified price. expected [true] but found [false]
+	at com.MyTestingCo.tests.sorting.SortByMultiplePricesTest.testSortByMultiplePrices(SortByMultiplePricesTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the user can sort products by multiple prices)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutWithMultipleProducts">
+                  </a> <!-- testCheckoutWithMultipleProducts -->
+                  <span class="method-name">testCheckoutWithMultipleProducts</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#zip\-code&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d774ed109a733ae6003645968bbeebe3, findElement {value=zip-code, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50200/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d774ed109a733ae6003645968bbeebe3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.CheckoutPage.enterZIPCode(CheckoutPage.java:36)
+	at com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts(CheckoutWithMultipleProductsTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user can checkout with multiple products.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutWithEmptyField">
+                  </a> <!-- testCheckoutWithEmptyField -->
+                  <span class="method-name">testCheckoutWithEmptyField</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout\-button&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a23700efc493a715e94d328513c49e51, findElement {value=checkout-button, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50306/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a23700efc493a715e94d328513c49e51
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.CheckoutPage.clickCheckout(CheckoutPage.java:42)
+	at com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField(CheckoutWithEmptyFieldTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user cannot checkout with an empty field.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterByMultipleCategories">
+                  </a> <!-- testFilterByMultipleCategories -->
+                  <span class="method-name">testFilterByMultipleCategories</span>
+                  <div class="stack-trace">java.lang.AssertionError: Products are not filtered by the specified category. expected [true] but found [false]
+	at com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest.testFilterByMultipleCategories(FilterByMultipleCategoriesTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the user can filter products by multiple categories)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterByCategoryWithSpecialCharacters">
+                  </a> <!-- testFilterByCategoryWithSpecialCharacters -->
+                  <span class="method-name">testFilterByCategoryWithSpecialCharacters</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Name (A to Z)!
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.MyTestingCo.pages.FilterPage.filterByCategory(FilterPage.java:22)
+	at com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest.testFilterByCategoryWithSpecialCharacters(FilterByCategoryWithSpecialCharactersTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the user can filter products by category with special characters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.cart.AddValidProductToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddValidProductToCart">
+                  </a> <!-- testAddValidProductToCart -->
+                  <span class="method-name">testAddValidProductToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba6d58597003d5940cdacd0caff70a9d, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49637/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6d58597003d5940cdacd0caff70a9d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.LoginPage.enterUsername(LoginPage.java:23)
+	at com.MyTestingCo.pages.LoginPage.login(LoginPage.java:40)
+	at com.MyTestingCo.tests.cart.AddValidProductToCartTest.testAddValidProductToCart(AddValidProductToCartTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user can add a valid product to the cart after logging in.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutWithSpecialChars">
+                  </a> <!-- testCheckoutWithSpecialChars -->
+                  <span class="method-name">testCheckoutWithSpecialChars</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)]&quot;}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [deebed4ff2fdf6291374a657c4d16da8, findElement {value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50253/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: deebed4ff2fdf6291374a657c4d16da8
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+	at com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars(CheckoutWithSpecialCharsTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that a user can checkout with special characters.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-failed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.filter.FilterByCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterByCategory">
+                  </a> <!-- testFilterByCategory -->
+                  <span class="method-name">testFilterByCategory</span>
+                  <em>
+(Verify that the user can filter products by category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-passed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.login.ValidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
+                  <em>
+(Verify that a user can log in with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-passed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithEmptyUsernameTest">
+                  </a> <!-- loginWithEmptyUsernameTest -->
+                  <span class="method-name">loginWithEmptyUsernameTest</span>
+                  <em>
+(Login with Empty Username Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-passed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithEmptyPasswordTest">
+                  </a> <!-- loginWithEmptyPasswordTest -->
+                  <span class="method-name">loginWithEmptyPasswordTest</span>
+                  <em>
+(Login with Empty Password Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-passed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.login.InvalidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLogin">
+                  </a> <!-- testInvalidLogin -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <em>
+(Verify that an error message is displayed with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-passed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithSpecialCharactersTest">
+                  </a> <!-- loginWithSpecialCharactersTest -->
+                  <span class="method-name">loginWithSpecialCharactersTest</span>
+                  <em>
+(Login with Special Characters Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-passed -->
+          <div class="suite-SauceDemo_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MyTestingCo.tests.sorting.SortByPriceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortByPrice">
+                  </a> <!-- testSortByPrice -->
+                  <span class="method-name">testSortByPrice</span>
+                  <em>
+(Verify that the user can sort products by price)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Tests_Suite-class-passed -->
+        </div> <!-- panel SauceDemo_Tests_Suite -->
+        <div panel-name="test-xml-SauceDemo_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DEPI\java\AutomatedTestingFramework\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SauceDemo Tests Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Functionality Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.login.ValidLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.login.InvalidLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Functionality Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Product Filtering Functionality Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.filter.FilterByCategoryTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Product Filtering Functionality Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Product Sorting Functionality Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.sorting.SortByPriceTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.sorting.SortByInvalidPriceTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.sorting.SortByMultiplePricesTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Product Sorting Functionality Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add to Cart Functionality Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.cart.AddValidProductToCartTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.cart.AddInvalidProductToCartTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add to Cart Functionality Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Checkout Functionality Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.checkout.ValidCheckoutTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.checkout.InvalidCheckoutTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest&quot;/&gt;
+      &lt;class name=&quot;com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checkout Functionality Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Logout Functionality Tests&quot; verbose=&quot;0&quot;&gt;
+  &lt;/test&gt; &lt;!-- Logout Functionality Tests --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemo Tests Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauceDemo_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauceDemo Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Functionality Tests (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Product Filtering Functionality Tests (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Product Sorting Functionality Tests (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Add to Cart Functionality Tests (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Checkout Functionality Tests (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Logout Functionality Tests (0 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauceDemo_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauceDemo Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauceDemo_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauceDemo Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauceDemo_Tests_Suite');
+function tableData_SauceDemo_Tests_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSortByInvalidPrice')
+data.setCell(0, 2, 'com.MyTestingCo.tests.sorting.SortByInvalidPriceTest')
+data.setCell(0, 3, 24840);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testFilterByInvalidCategory')
+data.setCell(1, 2, 'com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest')
+data.setCell(1, 3, 21591);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSortByPriceWithSpecialCharacters')
+data.setCell(2, 2, 'com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest')
+data.setCell(2, 3, 21403);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testFilterByCategoryWithEmptyField')
+data.setCell(3, 2, 'com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest')
+data.setCell(3, 3, 14803);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testValidCheckout')
+data.setCell(4, 2, 'com.MyTestingCo.tests.checkout.ValidCheckoutTest')
+data.setCell(4, 3, 14117);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCheckoutWithEmptyField')
+data.setCell(5, 2, 'com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest')
+data.setCell(5, 3, 14044);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCheckoutWithMultipleProducts')
+data.setCell(6, 2, 'com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest')
+data.setCell(6, 3, 13757);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testInvalidCheckout')
+data.setCell(7, 2, 'com.MyTestingCo.tests.checkout.InvalidCheckoutTest')
+data.setCell(7, 3, 13310);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCheckoutWithSpecialChars')
+data.setCell(8, 2, 'com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest')
+data.setCell(8, 3, 12996);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testFilterByCategoryWithSpecialCharacters')
+data.setCell(9, 2, 'com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest')
+data.setCell(9, 3, 11618);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSortByPriceWithEmptyField')
+data.setCell(10, 2, 'com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest')
+data.setCell(10, 3, 11387);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAddInvalidProductToCart')
+data.setCell(11, 2, 'com.MyTestingCo.tests.cart.AddInvalidProductToCartTest')
+data.setCell(11, 3, 10990);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testAddProductWithSpecialCharsToCart')
+data.setCell(12, 2, 'com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest')
+data.setCell(12, 3, 10065);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testAddValidProductToCart')
+data.setCell(13, 2, 'com.MyTestingCo.tests.cart.AddValidProductToCartTest')
+data.setCell(13, 3, 10055);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testAddProductWithEmptyFieldToCart')
+data.setCell(14, 2, 'com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest')
+data.setCell(14, 3, 10020);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testAddMultipleProductsToCart')
+data.setCell(15, 2, 'com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest')
+data.setCell(15, 3, 10016);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSortByPrice')
+data.setCell(16, 2, 'com.MyTestingCo.tests.sorting.SortByPriceTest')
+data.setCell(16, 3, 5843);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSortByMultiplePrices')
+data.setCell(17, 2, 'com.MyTestingCo.tests.sorting.SortByMultiplePricesTest')
+data.setCell(17, 3, 3577);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testValidLogin')
+data.setCell(18, 2, 'com.MyTestingCo.tests.login.ValidLoginTest')
+data.setCell(18, 3, 2794);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testInvalidLogin')
+data.setCell(19, 2, 'com.MyTestingCo.tests.login.InvalidLoginTest')
+data.setCell(19, 3, 2123);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testFilterByMultipleCategories')
+data.setCell(20, 2, 'com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest')
+data.setCell(20, 3, 1599);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testFilterByCategory')
+data.setCell(21, 2, 'com.MyTestingCo.tests.filter.FilterByCategoryTest')
+data.setCell(21, 3, 1590);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginWithSpecialCharactersTest')
+data.setCell(22, 2, 'com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest')
+data.setCell(22, 3, 1463);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginWithEmptyPasswordTest')
+data.setCell(23, 2, 'com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest')
+data.setCell(23, 3, 1179);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginWithEmptyUsernameTest')
+data.setCell(24, 2, 'com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest')
+data.setCell(24, 3, 1160);
+window.suiteTableData['SauceDemo_Tests_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemo_Tests_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-SauceDemo_Tests_Suite">
+              </div> <!-- times-div-SauceDemo_Tests_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauceDemo_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauceDemo Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauceDemo_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauceDemo_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.login.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">2217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testValidLogin status=SUCCESS method=ValidLoginTest.testValidLogin()[pri:0, instanc...)</span>
+                <span class="method-start">5100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testValidLogin status=SUCCESS method=ValidLoginTest.testValidLogin()[pri:0, instanc...)</span>
+                <span class="method-start">5113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5399 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.login.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">5686 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLogin</span>
+                <span class="method-start">6783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testInvalidLogin status=SUCCESS method=InvalidLoginTest.testInvalidLogin()[pri:0, i...)</span>
+                <span class="method-start">8908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testInvalidLogin status=SUCCESS method=InvalidLoginTest.testInvalidLogin()[pri:0, i...)</span>
+                <span class="method-start">8910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9084 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">9273 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginWithEmptyUsernameTest</span>
+                <span class="method-start">10167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=loginWithEmptyUsernameTest status=SUCCESS method=LoginWithEmptyUsernameTest.loginWi...)</span>
+                <span class="method-start">11330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=loginWithEmptyUsernameTest status=SUCCESS method=LoginWithEmptyUsernameTest.loginWi...)</span>
+                <span class="method-start">11332 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11487 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">11663 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginWithEmptyPasswordTest</span>
+                <span class="method-start">12663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=loginWithEmptyPasswordTest status=SUCCESS method=LoginWithEmptyPasswordTest.loginWi...)</span>
+                <span class="method-start">13844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=loginWithEmptyPasswordTest status=SUCCESS method=LoginWithEmptyPasswordTest.loginWi...)</span>
+                <span class="method-start">13846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13987 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">14177 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginWithSpecialCharactersTest</span>
+                <span class="method-start">15121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=loginWithSpecialCharactersTest status=SUCCESS method=LoginWithSpecialCharactersTest...)</span>
+                <span class="method-start">16586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=loginWithSpecialCharactersTest status=SUCCESS method=LoginWithSpecialCharactersTest...)</span>
+                <span class="method-start">16587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16740 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.filter.FilterByCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">16962 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testFilterByCategory</span>
+                <span class="method-start">18201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testFilterByCategory status=SUCCESS method=FilterByCategoryTest.testFilterByCategor...)</span>
+                <span class="method-start">19793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testFilterByCategory status=SUCCESS method=FilterByCategoryTest.testFilterByCategor...)</span>
+                <span class="method-start">19795 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19983 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">20166 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFilterByInvalidCategory</span>
+                <span class="method-start">21171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testFilterByInvalidCategory status=FAILURE method=FilterByInvalidCategoryTest.testF...)</span>
+                <span class="method-start">42771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testFilterByInvalidCategory status=FAILURE method=FilterByInvalidCategoryTest.testF...)</span>
+                <span class="method-start">42927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42929 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">43219 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFilterByMultipleCategories</span>
+                <span class="method-start">44238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testFilterByMultipleCategories status=FAILURE method=FilterByMultipleCategoriesTest...)</span>
+                <span class="method-start">45840 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testFilterByMultipleCategories status=FAILURE method=FilterByMultipleCategoriesTest...)</span>
+                <span class="method-start">45990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45991 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">46180 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFilterByCategoryWithSpecialCharacters</span>
+                <span class="method-start">47190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testFilterByCategoryWithSpecialCharacters status=FAILURE method=FilterByCategoryWit...)</span>
+                <span class="method-start">58810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testFilterByCategoryWithSpecialCharacters status=FAILURE method=FilterByCategoryWit...)</span>
+                <span class="method-start">58966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58967 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">59379 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFilterByCategoryWithEmptyField</span>
+                <span class="method-start">60516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testFilterByCategoryWithEmptyField status=FAILURE method=FilterByCategoryWithEmptyF...)</span>
+                <span class="method-start">75321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testFilterByCategoryWithEmptyField status=FAILURE method=FilterByCategoryWithEmptyF...)</span>
+                <span class="method-start">75484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75485 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.sorting.SortByPriceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">76037 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSortByPrice</span>
+                <span class="method-start">77148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testSortByPrice status=SUCCESS method=SortByPriceTest.testSortByPrice()[pri:0, inst...)</span>
+                <span class="method-start">82993 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testSortByPrice status=SUCCESS method=SortByPriceTest.testSortByPrice()[pri:0, inst...)</span>
+                <span class="method-start">83013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83144 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.sorting.SortByInvalidPriceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">85481 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSortByInvalidPrice</span>
+                <span class="method-start">87306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testSortByInvalidPrice status=FAILURE method=SortByInvalidPriceTest.testSortByInval...)</span>
+                <span class="method-start">112148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testSortByInvalidPrice status=FAILURE method=SortByInvalidPriceTest.testSortByInval...)</span>
+                <span class="method-start">112313 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112315 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.sorting.SortByMultiplePricesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">112647 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSortByMultiplePrices</span>
+                <span class="method-start">113641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testSortByMultiplePrices status=FAILURE method=SortByMultiplePricesTest.testSortByM...)</span>
+                <span class="method-start">117220 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testSortByMultiplePrices status=FAILURE method=SortByMultiplePricesTest.testSortByM...)</span>
+                <span class="method-start">117376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117379 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">117560 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSortByPriceWithSpecialCharacters</span>
+                <span class="method-start">118639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testSortByPriceWithSpecialCharacters status=FAILURE method=SortByPriceWithSpecialCh...)</span>
+                <span class="method-start">140044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testSortByPriceWithSpecialCharacters status=FAILURE method=SortByPriceWithSpecialCh...)</span>
+                <span class="method-start">140202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140204 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">140485 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSortByPriceWithEmptyField</span>
+                <span class="method-start">141459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testSortByPriceWithEmptyField status=FAILURE method=SortByPriceWithEmptyFieldTest.t...)</span>
+                <span class="method-start">152850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testSortByPriceWithEmptyField status=FAILURE method=SortByPriceWithEmptyFieldTest.t...)</span>
+                <span class="method-start">153005 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">153006 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.cart.AddValidProductToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">153328 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddValidProductToCart</span>
+                <span class="method-start">154405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testAddValidProductToCart status=FAILURE method=AddValidProductToCartTest.testAddVa...)</span>
+                <span class="method-start">164465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testAddValidProductToCart status=FAILURE method=AddValidProductToCartTest.testAddVa...)</span>
+                <span class="method-start">164591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">164592 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.cart.AddInvalidProductToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">164831 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddInvalidProductToCart</span>
+                <span class="method-start">165856 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testAddInvalidProductToCart status=FAILURE method=AddInvalidProductToCartTest.testA...)</span>
+                <span class="method-start">176849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testAddInvalidProductToCart status=FAILURE method=AddInvalidProductToCartTest.testA...)</span>
+                <span class="method-start">176982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">176984 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">178746 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddMultipleProductsToCart</span>
+                <span class="method-start">179639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testAddMultipleProductsToCart status=FAILURE method=AddMultipleProductsToCartTest.t...)</span>
+                <span class="method-start">189657 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testAddMultipleProductsToCart status=FAILURE method=AddMultipleProductsToCartTest.t...)</span>
+                <span class="method-start">189786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">189788 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">190003 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddProductWithSpecialCharsToCart</span>
+                <span class="method-start">190991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testAddProductWithSpecialCharsToCart status=FAILURE method=AddProductWithSpecialCha...)</span>
+                <span class="method-start">201059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testAddProductWithSpecialCharsToCart status=FAILURE method=AddProductWithSpecialCha...)</span>
+                <span class="method-start">201159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">201160 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">201385 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddProductWithEmptyFieldToCart</span>
+                <span class="method-start">202346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testAddProductWithEmptyFieldToCart status=FAILURE method=AddProductWithEmptyFieldTo...)</span>
+                <span class="method-start">212368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testAddProductWithEmptyFieldToCart status=FAILURE method=AddProductWithEmptyFieldTo...)</span>
+                <span class="method-start">212497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212498 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.checkout.ValidCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">212760 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidCheckout</span>
+                <span class="method-start">213730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testValidCheckout status=FAILURE method=ValidCheckoutTest.testValidCheckout()[pri:0...)</span>
+                <span class="method-start">227849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testValidCheckout status=FAILURE method=ValidCheckoutTest.testValidCheckout()[pri:0...)</span>
+                <span class="method-start">227978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">227979 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.checkout.InvalidCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">228283 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testInvalidCheckout</span>
+                <span class="method-start">229228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testInvalidCheckout status=FAILURE method=InvalidCheckoutTest.testInvalidCheckout()...)</span>
+                <span class="method-start">242540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testInvalidCheckout status=FAILURE method=InvalidCheckoutTest.testInvalidCheckout()...)</span>
+                <span class="method-start">242703 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">242704 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">242961 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCheckoutWithMultipleProducts</span>
+                <span class="method-start">244087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testCheckoutWithMultipleProducts status=FAILURE method=CheckoutWithMultipleProducts...)</span>
+                <span class="method-start">257846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testCheckoutWithMultipleProducts status=FAILURE method=CheckoutWithMultipleProducts...)</span>
+                <span class="method-start">257973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">257975 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">258238 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCheckoutWithSpecialChars</span>
+                <span class="method-start">259308 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testCheckoutWithSpecialChars status=FAILURE method=CheckoutWithSpecialCharsTest.tes...)</span>
+                <span class="method-start">272306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testCheckoutWithSpecialChars status=FAILURE method=CheckoutWithSpecialCharsTest.tes...)</span>
+                <span class="method-start">272484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">272485 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">274248 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCheckoutWithEmptyField</span>
+                <span class="method-start">275029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnFailure([TestResult name=testCheckoutWithEmptyField status=FAILURE method=CheckoutWithEmptyFieldTest.testChe...)</span>
+                <span class="method-start">289075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">addScreenshotOnSuccess([TestResult name=testCheckoutWithEmptyField status=FAILURE method=CheckoutWithEmptyFieldTest.testChe...)</span>
+                <span class="method-start">289199 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">289201 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

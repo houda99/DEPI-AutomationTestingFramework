@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="7" failed="18" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-28T02:25:02 EEST" name="SauceDemo Tests Suite" finished-at="2024-09-28T02:29:51 EEST" duration-ms="289542">
+    <groups>
+    </groups>
+    <test started-at="2024-09-28T02:25:02 EEST" name="Login Functionality Tests" finished-at="2024-09-28T02:25:19 EEST" duration-ms="16974">
+      <class name="com.MyTestingCo.tests.login.ValidLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-28T02:25:02 EEST" name="setUp" finished-at="2024-09-28T02:25:04 EEST" duration-ms="2204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLogin()[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-28T02:25:04 EEST" name="testValidLogin" description="Verify that a user can log in with valid credentials" finished-at="2024-09-28T02:25:07 EEST" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-28T02:25:07 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:25:07 EEST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLoginTest.testValidLogin()[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-28T02:25:07 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:25:07 EEST" duration-ms="282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLoginTest.testValidLogin()[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-28T02:25:07 EEST" name="tearDown" finished-at="2024-09-28T02:25:07 EEST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.login.ValidLoginTest -->
+      <class name="com.MyTestingCo.tests.login.InvalidLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-28T02:25:07 EEST" name="setUp" finished-at="2024-09-28T02:25:08 EEST" duration-ms="1096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-28T02:25:08 EEST" name="testInvalidLogin" description="Verify that an error message is displayed with invalid credentials" finished-at="2024-09-28T02:25:10 EEST" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-28T02:25:10 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:25:10 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InvalidLoginTest.testInvalidLogin()[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-28T02:25:10 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:25:11 EEST" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InvalidLoginTest.testInvalidLogin()[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-28T02:25:11 EEST" name="tearDown" finished-at="2024-09-28T02:25:11 EEST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.login.InvalidLoginTest -->
+      <class name="com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-28T02:25:16 EEST" name="setUp" finished-at="2024-09-28T02:25:17 EEST" duration-ms="943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithSpecialCharactersTest()[pri:5, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-28T02:25:17 EEST" name="loginWithSpecialCharactersTest" description="Login with Special Characters Test" finished-at="2024-09-28T02:25:18 EEST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithSpecialCharactersTest -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-28T02:25:18 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:25:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithSpecialCharactersTest status=SUCCESS method=LoginWithSpecialCharactersTest.loginWithSpecialCharactersTest()[pri:5, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-28T02:25:18 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:25:18 EEST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithSpecialCharactersTest status=SUCCESS method=LoginWithSpecialCharactersTest.loginWithSpecialCharactersTest()[pri:5, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-28T02:25:18 EEST" name="tearDown" finished-at="2024-09-28T02:25:19 EEST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest -->
+      <class name="com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-28T02:25:13 EEST" name="setUp" finished-at="2024-09-28T02:25:14 EEST" duration-ms="999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithEmptyPasswordTest()[pri:4, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-28T02:25:14 EEST" name="loginWithEmptyPasswordTest" description="Login with Empty Password Test" finished-at="2024-09-28T02:25:15 EEST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyPasswordTest -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-28T02:25:15 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:25:15 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithEmptyPasswordTest status=SUCCESS method=LoginWithEmptyPasswordTest.loginWithEmptyPasswordTest()[pri:4, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-28T02:25:15 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:25:16 EEST" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithEmptyPasswordTest status=SUCCESS method=LoginWithEmptyPasswordTest.loginWithEmptyPasswordTest()[pri:4, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-28T02:25:16 EEST" name="tearDown" finished-at="2024-09-28T02:25:16 EEST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest -->
+      <class name="com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-28T02:25:11 EEST" name="setUp" finished-at="2024-09-28T02:25:12 EEST" duration-ms="893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithEmptyUsernameTest()[pri:3, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-28T02:25:12 EEST" name="loginWithEmptyUsernameTest" description="Login with Empty Username Test" finished-at="2024-09-28T02:25:13 EEST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyUsernameTest -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-28T02:25:13 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:25:13 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithEmptyUsernameTest status=SUCCESS method=LoginWithEmptyUsernameTest.loginWithEmptyUsernameTest()[pri:3, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-28T02:25:13 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:25:13 EEST" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithEmptyUsernameTest status=SUCCESS method=LoginWithEmptyUsernameTest.loginWithEmptyUsernameTest()[pri:3, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-28T02:25:13 EEST" name="tearDown" finished-at="2024-09-28T02:25:13 EEST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest -->
+    </test> <!-- Login Functionality Tests -->
+    <test started-at="2024-09-28T02:25:19 EEST" name="Product Filtering Functionality Tests" finished-at="2024-09-28T02:26:18 EEST" duration-ms="59050">
+      <class name="com.MyTestingCo.tests.filter.FilterByCategoryTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-28T02:25:19 EEST" name="setUp" finished-at="2024-09-28T02:25:20 EEST" duration-ms="1239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFilterByCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-28T02:25:20 EEST" name="testFilterByCategory" description="Verify that the user can filter products by category" finished-at="2024-09-28T02:25:21 EEST" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterByCategory -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-28T02:25:21 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:25:21 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByCategory status=SUCCESS method=FilterByCategoryTest.testFilterByCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-28T02:25:21 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:25:22 EEST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByCategory status=SUCCESS method=FilterByCategoryTest.testFilterByCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-28T02:25:22 EEST" name="tearDown" finished-at="2024-09-28T02:25:22 EEST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.filter.FilterByCategoryTest -->
+      <class name="com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-28T02:26:01 EEST" name="setUp" finished-at="2024-09-28T02:26:02 EEST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFilterByCategoryWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-28T02:26:02 EEST" name="testFilterByCategoryWithEmptyField" description="Verify that the user cannot filter products by category with an empty field" finished-at="2024-09-28T02:26:17 EEST" duration-ms="14803" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.MyTestingCo.pages.FilterPage.filterByCategory(FilterPage.java:22)
+at com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest.testFilterByCategoryWithEmptyField(FilterByCategoryWithEmptyFieldTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterByCategoryWithEmptyField -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-28T02:26:17 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:26:17 EEST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByCategoryWithEmptyField status=FAILURE method=FilterByCategoryWithEmptyFieldTest.testFilterByCategoryWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-28T02:26:17 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:26:17 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByCategoryWithEmptyField status=FAILURE method=FilterByCategoryWithEmptyFieldTest.testFilterByCategoryWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-28T02:26:17 EEST" name="tearDown" finished-at="2024-09-28T02:26:18 EEST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest -->
+      <class name="com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-28T02:25:48 EEST" name="setUp" finished-at="2024-09-28T02:25:49 EEST" duration-ms="1010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFilterByCategoryWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-28T02:25:49 EEST" name="testFilterByCategoryWithSpecialCharacters" description="Verify that the user can filter products by category with special characters" finished-at="2024-09-28T02:26:00 EEST" duration-ms="11618" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Name (A to Z)!
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Name (A to Z)!
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.MyTestingCo.pages.FilterPage.filterByCategory(FilterPage.java:22)
+at com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest.testFilterByCategoryWithSpecialCharacters(FilterByCategoryWithSpecialCharactersTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterByCategoryWithSpecialCharacters -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-28T02:26:00 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:26:01 EEST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByCategoryWithSpecialCharacters status=FAILURE method=FilterByCategoryWithSpecialCharactersTest.testFilterByCategoryWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-28T02:26:01 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:26:01 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByCategoryWithSpecialCharacters status=FAILURE method=FilterByCategoryWithSpecialCharactersTest.testFilterByCategoryWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-28T02:26:01 EEST" name="tearDown" finished-at="2024-09-28T02:26:01 EEST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest -->
+      <class name="com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-28T02:25:45 EEST" name="setUp" finished-at="2024-09-28T02:25:46 EEST" duration-ms="1019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFilterByMultipleCategories()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-28T02:25:46 EEST" name="testFilterByMultipleCategories" description="Verify that the user can filter products by multiple categories" finished-at="2024-09-28T02:25:47 EEST" duration-ms="1599" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Products are not filtered by the specified category. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Products are not filtered by the specified category. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest.testFilterByMultipleCategories(FilterByMultipleCategoriesTest.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterByMultipleCategories -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-28T02:25:47 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:25:48 EEST" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByMultipleCategories status=FAILURE method=FilterByMultipleCategoriesTest.testFilterByMultipleCategories()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-28T02:25:48 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:25:48 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByMultipleCategories status=FAILURE method=FilterByMultipleCategoriesTest.testFilterByMultipleCategories()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-28T02:25:48 EEST" name="tearDown" finished-at="2024-09-28T02:25:48 EEST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest -->
+      <class name="com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-28T02:25:22 EEST" name="setUp" finished-at="2024-09-28T02:25:23 EEST" duration-ms="1004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFilterByInvalidCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-28T02:25:23 EEST" name="testFilterByInvalidCategory" description="Verify that the user cannot filter products by an invalid category" finished-at="2024-09-28T02:25:44 EEST" duration-ms="21591" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Invalid Category
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Invalid Category
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.MyTestingCo.pages.FilterPage.filterByCategory(FilterPage.java:22)
+at com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest.testFilterByInvalidCategory(FilterByInvalidCategoryTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterByInvalidCategory -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-28T02:25:44 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:25:45 EEST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByInvalidCategory status=FAILURE method=FilterByInvalidCategoryTest.testFilterByInvalidCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-28T02:25:45 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:25:45 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFilterByInvalidCategory status=FAILURE method=FilterByInvalidCategoryTest.testFilterByInvalidCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-28T02:25:45 EEST" name="tearDown" finished-at="2024-09-28T02:25:45 EEST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest -->
+    </test> <!-- Product Filtering Functionality Tests -->
+    <test started-at="2024-09-28T02:26:18 EEST" name="Product Sorting Functionality Tests" finished-at="2024-09-28T02:27:35 EEST" duration-ms="77249">
+      <class name="com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-28T02:26:59 EEST" name="setUp" finished-at="2024-09-28T02:27:00 EEST" duration-ms="1079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortByPriceWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-28T02:27:00 EEST" name="testSortByPriceWithSpecialCharacters" description="Verify that the user can sort products by price with special characters" finished-at="2024-09-28T02:27:22 EEST" duration-ms="21403" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Price (low to high)!
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Price (low to high)!
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.MyTestingCo.pages.SortPage.sortByPrice(SortPage.java:22)
+at com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest.testSortByPriceWithSpecialCharacters(SortByPriceWithSpecialCharactersTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByPriceWithSpecialCharacters -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-28T02:27:22 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:27:22 EEST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByPriceWithSpecialCharacters status=FAILURE method=SortByPriceWithSpecialCharactersTest.testSortByPriceWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-28T02:27:22 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:27:22 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByPriceWithSpecialCharacters status=FAILURE method=SortByPriceWithSpecialCharactersTest.testSortByPriceWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-28T02:27:22 EEST" name="tearDown" finished-at="2024-09-28T02:27:22 EEST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest -->
+      <class name="com.MyTestingCo.tests.sorting.SortByMultiplePricesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-28T02:26:54 EEST" name="setUp" finished-at="2024-09-28T02:26:55 EEST" duration-ms="993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortByMultiplePrices()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-28T02:26:55 EEST" name="testSortByMultiplePrices" description="Verify that the user can sort products by multiple prices" finished-at="2024-09-28T02:26:59 EEST" duration-ms="3577" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Products are not sorted by the specified price. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Products are not sorted by the specified price. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.MyTestingCo.tests.sorting.SortByMultiplePricesTest.testSortByMultiplePrices(SortByMultiplePricesTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByMultiplePrices -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-28T02:26:59 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:26:59 EEST" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByMultiplePrices status=FAILURE method=SortByMultiplePricesTest.testSortByMultiplePrices()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-28T02:26:59 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:26:59 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByMultiplePrices status=FAILURE method=SortByMultiplePricesTest.testSortByMultiplePrices()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-28T02:26:59 EEST" name="tearDown" finished-at="2024-09-28T02:26:59 EEST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.sorting.SortByMultiplePricesTest -->
+      <class name="com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-28T02:27:22 EEST" name="setUp" finished-at="2024-09-28T02:27:23 EEST" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortByPriceWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-28T02:27:23 EEST" name="testSortByPriceWithEmptyField" description="Verify that the user cannot sort products by price with an empty field" finished-at="2024-09-28T02:27:34 EEST" duration-ms="11387" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.MyTestingCo.pages.SortPage.sortByPrice(SortPage.java:22)
+at com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest.testSortByPriceWithEmptyField(SortByPriceWithEmptyFieldTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByPriceWithEmptyField -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-28T02:27:34 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:27:35 EEST" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByPriceWithEmptyField status=FAILURE method=SortByPriceWithEmptyFieldTest.testSortByPriceWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-28T02:27:35 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:27:35 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByPriceWithEmptyField status=FAILURE method=SortByPriceWithEmptyFieldTest.testSortByPriceWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-28T02:27:35 EEST" name="tearDown" finished-at="2024-09-28T02:27:35 EEST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest -->
+      <class name="com.MyTestingCo.tests.sorting.SortByInvalidPriceTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-28T02:26:27 EEST" name="setUp" finished-at="2024-09-28T02:26:29 EEST" duration-ms="1825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortByInvalidPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-28T02:26:29 EEST" name="testSortByInvalidPrice" description="Verify that the user cannot sort products by an invalid price" finished-at="2024-09-28T02:26:54 EEST" duration-ms="24840" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Invalid Price
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Invalid Price
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.MyTestingCo.pages.SortPage.sortByPrice(SortPage.java:22)
+at com.MyTestingCo.tests.sorting.SortByInvalidPriceTest.testSortByInvalidPrice(SortByInvalidPriceTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByInvalidPrice -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-28T02:26:54 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:26:54 EEST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByInvalidPrice status=FAILURE method=SortByInvalidPriceTest.testSortByInvalidPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-28T02:26:54 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:26:54 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByInvalidPrice status=FAILURE method=SortByInvalidPriceTest.testSortByInvalidPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-28T02:26:54 EEST" name="tearDown" finished-at="2024-09-28T02:26:54 EEST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.sorting.SortByInvalidPriceTest -->
+      <class name="com.MyTestingCo.tests.sorting.SortByPriceTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-28T02:26:18 EEST" name="setUp" finished-at="2024-09-28T02:26:19 EEST" duration-ms="1111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortByPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-28T02:26:19 EEST" name="testSortByPrice" description="Verify that the user can sort products by price" finished-at="2024-09-28T02:26:25 EEST" duration-ms="5843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByPrice -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-28T02:26:25 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:26:25 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByPrice status=SUCCESS method=SortByPriceTest.testSortByPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-28T02:26:25 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:26:25 EEST" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByPrice status=SUCCESS method=SortByPriceTest.testSortByPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-28T02:26:25 EEST" name="tearDown" finished-at="2024-09-28T02:26:27 EEST" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.sorting.SortByPriceTest -->
+    </test> <!-- Product Sorting Functionality Tests -->
+    <test started-at="2024-09-28T02:27:35 EEST" name="Add to Cart Functionality Tests" finished-at="2024-09-28T02:28:34 EEST" duration-ms="59410">
+      <class name="com.MyTestingCo.tests.cart.AddValidProductToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-28T02:27:35 EEST" name="setUp" finished-at="2024-09-28T02:27:36 EEST" duration-ms="1077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddValidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-28T02:27:36 EEST" name="testAddValidProductToCart" description="Verify that a user can add a valid product to the cart after logging in." finished-at="2024-09-28T02:27:46 EEST" duration-ms="10055" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba6d58597003d5940cdacd0caff70a9d, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49637/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6d58597003d5940cdacd0caff70a9d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba6d58597003d5940cdacd0caff70a9d, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49637/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6d58597003d5940cdacd0caff70a9d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.LoginPage.enterUsername(LoginPage.java:23)
+at com.MyTestingCo.pages.LoginPage.login(LoginPage.java:40)
+at com.MyTestingCo.tests.cart.AddValidProductToCartTest.testAddValidProductToCart(AddValidProductToCartTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddValidProductToCart -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-28T02:27:46 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:27:46 EEST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddValidProductToCart status=FAILURE method=AddValidProductToCartTest.testAddValidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-28T02:27:46 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:27:46 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddValidProductToCart status=FAILURE method=AddValidProductToCartTest.testAddValidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-28T02:27:46 EEST" name="tearDown" finished-at="2024-09-28T02:27:46 EEST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.cart.AddValidProductToCartTest -->
+      <class name="com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-28T02:28:00 EEST" name="setUp" finished-at="2024-09-28T02:28:01 EEST" duration-ms="893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddMultipleProductsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-28T02:28:01 EEST" name="testAddMultipleProductsToCart" description="Verify that a user can add multiple products to the cart after logging in." finished-at="2024-09-28T02:28:11 EEST" duration-ms="10016" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e824a5a9e8acc9f0475794fcf286efce, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49738/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e824a5a9e8acc9f0475794fcf286efce]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e824a5a9e8acc9f0475794fcf286efce, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49738/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e824a5a9e8acc9f0475794fcf286efce
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.LoginPage.enterUsername(LoginPage.java:23)
+at com.MyTestingCo.pages.LoginPage.login(LoginPage.java:40)
+at com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest.testAddMultipleProductsToCart(AddMultipleProductsToCartTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleProductsToCart -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-28T02:28:11 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:28:11 EEST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddMultipleProductsToCart status=FAILURE method=AddMultipleProductsToCartTest.testAddMultipleProductsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-28T02:28:11 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:28:11 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddMultipleProductsToCart status=FAILURE method=AddMultipleProductsToCartTest.testAddMultipleProductsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-28T02:28:11 EEST" name="tearDown" finished-at="2024-09-28T02:28:12 EEST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest -->
+      <class name="com.MyTestingCo.tests.cart.AddInvalidProductToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-28T02:27:46 EEST" name="setUp" finished-at="2024-09-28T02:27:47 EEST" duration-ms="1024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddInvalidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-28T02:27:47 EEST" name="testAddInvalidProductToCart" description="Verify that a user cannot add an invalid product to the cart." finished-at="2024-09-28T02:27:58 EEST" duration-ms="10990" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dbfb89cc640a878667b01e5e6dfe8835, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49678/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dbfb89cc640a878667b01e5e6dfe8835]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dbfb89cc640a878667b01e5e6dfe8835, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49678/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dbfb89cc640a878667b01e5e6dfe8835
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+at com.MyTestingCo.tests.cart.AddInvalidProductToCartTest.testAddInvalidProductToCart(AddInvalidProductToCartTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddInvalidProductToCart -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-28T02:27:58 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:27:59 EEST" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddInvalidProductToCart status=FAILURE method=AddInvalidProductToCartTest.testAddInvalidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-28T02:27:59 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:27:59 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddInvalidProductToCart status=FAILURE method=AddInvalidProductToCartTest.testAddInvalidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-28T02:27:59 EEST" name="tearDown" finished-at="2024-09-28T02:28:00 EEST" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.cart.AddInvalidProductToCartTest -->
+      <class name="com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-28T02:28:23 EEST" name="setUp" finished-at="2024-09-28T02:28:24 EEST" duration-ms="961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddProductWithEmptyFieldToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-28T02:28:24 EEST" name="testAddProductWithEmptyFieldToCart" description="Verify that a user cannot add a product with an empty field to the cart after logging in." finished-at="2024-09-28T02:28:34 EEST" duration-ms="10020" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa777fff3a16105b00389bdd31578a01, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49909/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa777fff3a16105b00389bdd31578a01]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa777fff3a16105b00389bdd31578a01, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49909/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa777fff3a16105b00389bdd31578a01
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.LoginPage.enterUsername(LoginPage.java:23)
+at com.MyTestingCo.pages.LoginPage.login(LoginPage.java:40)
+at com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest.testAddProductWithEmptyFieldToCart(AddProductWithEmptyFieldToCartTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductWithEmptyFieldToCart -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-28T02:28:34 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:28:34 EEST" duration-ms="127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductWithEmptyFieldToCart status=FAILURE method=AddProductWithEmptyFieldToCartTest.testAddProductWithEmptyFieldToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-28T02:28:34 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:28:34 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductWithEmptyFieldToCart status=FAILURE method=AddProductWithEmptyFieldToCartTest.testAddProductWithEmptyFieldToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-28T02:28:34 EEST" name="tearDown" finished-at="2024-09-28T02:28:34 EEST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest -->
+      <class name="com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-28T02:28:12 EEST" name="setUp" finished-at="2024-09-28T02:28:13 EEST" duration-ms="988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddProductWithSpecialCharsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-28T02:28:13 EEST" name="testAddProductWithSpecialCharsToCart" description="Verify that a user can add a product with special characters to the cart after logging in." finished-at="2024-09-28T02:28:23 EEST" duration-ms="10065" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1e02677e79e74bc1ce2ea6d34497ff6, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49775/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1e02677e79e74bc1ce2ea6d34497ff6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1e02677e79e74bc1ce2ea6d34497ff6, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49775/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1e02677e79e74bc1ce2ea6d34497ff6
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.LoginPage.enterUsername(LoginPage.java:23)
+at com.MyTestingCo.pages.LoginPage.login(LoginPage.java:40)
+at com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest.testAddProductWithSpecialCharsToCart(AddProductWithSpecialCharsToCartTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductWithSpecialCharsToCart -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-28T02:28:23 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:28:23 EEST" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductWithSpecialCharsToCart status=FAILURE method=AddProductWithSpecialCharsToCartTest.testAddProductWithSpecialCharsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-28T02:28:23 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:28:23 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductWithSpecialCharsToCart status=FAILURE method=AddProductWithSpecialCharsToCartTest.testAddProductWithSpecialCharsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-28T02:28:23 EEST" name="tearDown" finished-at="2024-09-28T02:28:23 EEST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest -->
+    </test> <!-- Add to Cart Functionality Tests -->
+    <test started-at="2024-09-28T02:28:34 EEST" name="Checkout Functionality Tests" finished-at="2024-09-28T02:29:51 EEST" duration-ms="76714">
+      <class name="com.MyTestingCo.tests.checkout.InvalidCheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-28T02:28:50 EEST" name="setUp" finished-at="2024-09-28T02:28:51 EEST" duration-ms="944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-28T02:28:51 EEST" name="testInvalidCheckout" description="Verify that a user cannot checkout with invalid information." finished-at="2024-09-28T02:29:04 EEST" duration-ms="13310" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a1a3d448bd232e57ef43115c5e41f8a, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49994}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49994/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a1a3d448bd232e57ef43115c5e41f8a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a1a3d448bd232e57ef43115c5e41f8a, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49994}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49994/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a1a3d448bd232e57ef43115c5e41f8a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+at com.MyTestingCo.tests.checkout.InvalidCheckoutTest.testInvalidCheckout(InvalidCheckoutTest.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCheckout -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-28T02:29:04 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:29:04 EEST" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidCheckout status=FAILURE method=InvalidCheckoutTest.testInvalidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-28T02:29:04 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:29:04 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidCheckout status=FAILURE method=InvalidCheckoutTest.testInvalidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-28T02:29:04 EEST" name="tearDown" finished-at="2024-09-28T02:29:05 EEST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.checkout.InvalidCheckoutTest -->
+      <class name="com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-28T02:29:20 EEST" name="setUp" finished-at="2024-09-28T02:29:21 EEST" duration-ms="1070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutWithSpecialChars()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-28T02:29:21 EEST" name="testCheckoutWithSpecialChars" description="Verify that a user can checkout with special characters." finished-at="2024-09-28T02:29:34 EEST" duration-ms="12996" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')]"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [deebed4ff2fdf6291374a657c4d16da8, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50253/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: deebed4ff2fdf6291374a657c4d16da8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')]"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [deebed4ff2fdf6291374a657c4d16da8, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50253/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: deebed4ff2fdf6291374a657c4d16da8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+at com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars(CheckoutWithSpecialCharsTest.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWithSpecialChars -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-28T02:29:34 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:29:34 EEST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutWithSpecialChars status=FAILURE method=CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-28T02:29:34 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:29:34 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutWithSpecialChars status=FAILURE method=CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-28T02:29:34 EEST" name="tearDown" finished-at="2024-09-28T02:29:36 EEST" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest -->
+      <class name="com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-28T02:29:36 EEST" name="setUp" finished-at="2024-09-28T02:29:37 EEST" duration-ms="781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-28T02:29:37 EEST" name="testCheckoutWithEmptyField" description="Verify that a user cannot checkout with an empty field." finished-at="2024-09-28T02:29:51 EEST" duration-ms="14044" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkout\-button"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a23700efc493a715e94d328513c49e51, findElement {value=checkout-button, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50306/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a23700efc493a715e94d328513c49e51]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout\-button"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a23700efc493a715e94d328513c49e51, findElement {value=checkout-button, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50306/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a23700efc493a715e94d328513c49e51
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.CheckoutPage.clickCheckout(CheckoutPage.java:42)
+at com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField(CheckoutWithEmptyFieldTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWithEmptyField -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-28T02:29:51 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:29:51 EEST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutWithEmptyField status=FAILURE method=CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-28T02:29:51 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:29:51 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutWithEmptyField status=FAILURE method=CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-28T02:29:51 EEST" name="tearDown" finished-at="2024-09-28T02:29:51 EEST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest -->
+      <class name="com.MyTestingCo.tests.checkout.ValidCheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-28T02:28:34 EEST" name="setUp" finished-at="2024-09-28T02:28:35 EEST" duration-ms="968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-28T02:28:35 EEST" name="testValidCheckout" description="Verify that a user can checkout successfully." finished-at="2024-09-28T02:28:49 EEST" duration-ms="14117" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#zip\-code"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d12cf8a4986da225850da9bb8b0b654, findElement {value=zip-code, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49942}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49942/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d12cf8a4986da225850da9bb8b0b654]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#zip\-code"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d12cf8a4986da225850da9bb8b0b654, findElement {value=zip-code, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49942}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49942/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d12cf8a4986da225850da9bb8b0b654
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.CheckoutPage.enterZIPCode(CheckoutPage.java:36)
+at com.MyTestingCo.tests.checkout.ValidCheckoutTest.testValidCheckout(ValidCheckoutTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidCheckout -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-28T02:28:49 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:28:50 EEST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidCheckout status=FAILURE method=ValidCheckoutTest.testValidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-28T02:28:50 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:28:50 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidCheckout status=FAILURE method=ValidCheckoutTest.testValidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-28T02:28:50 EEST" name="tearDown" finished-at="2024-09-28T02:28:50 EEST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.checkout.ValidCheckoutTest -->
+      <class name="com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-28T02:29:05 EEST" name="setUp" finished-at="2024-09-28T02:29:06 EEST" duration-ms="1126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutWithMultipleProducts()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-28T02:29:06 EEST" name="testCheckoutWithMultipleProducts" description="Verify that a user can checkout with multiple products." finished-at="2024-09-28T02:29:19 EEST" duration-ms="13757" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#zip\-code"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d774ed109a733ae6003645968bbeebe3, findElement {value=zip-code, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50200/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d774ed109a733ae6003645968bbeebe3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#zip\-code"}
+  (Session info: chrome=129.0.6668.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d774ed109a733ae6003645968bbeebe3, findElement {value=zip-code, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50200/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d774ed109a733ae6003645968bbeebe3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.MyTestingCo.pages.CheckoutPage.enterZIPCode(CheckoutPage.java:36)
+at com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts(CheckoutWithMultipleProductsTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWithMultipleProducts -->
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-28T02:29:19 EEST" name="addScreenshotOnFailure" finished-at="2024-09-28T02:29:20 EEST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutWithMultipleProducts status=FAILURE method=CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnFailure -->
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-28T02:29:20 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-28T02:29:20 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutWithMultipleProducts status=FAILURE method=CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addScreenshotOnSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-28T02:29:20 EEST" name="tearDown" finished-at="2024-09-28T02:29:20 EEST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest -->
+    </test> <!-- Checkout Functionality Tests -->
+    <test started-at="2024-09-28T02:29:51 EEST" name="Logout Functionality Tests" finished-at="2024-09-28T02:29:51 EEST" duration-ms="0">
+    </test> <!-- Logout Functionality Tests -->
+  </suite> <!-- SauceDemo Tests Suite -->
+</testng-results>
