@@ -1,10 +1,10 @@
-#DEPI Automation Testing Framework
+# DEPI Automation Testing Framework
 =============================
 
-##Overview
+## Overview
 --------
 
-This repository contains the DEPI Automation Testing Framework, which includes API, UI, and performance tests for the Reqres.in and SauceDemo applications.
+This repository contains the DEPI Automation Testing Framework which is the final project of the , which includes API, UI, and performance tests for the Reqres.in and SauceDemo applications.
 
 ## Repository Structure
 -------------------
