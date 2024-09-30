@@ -9,9 +9,9 @@ This project contains UI tests for the SauceDemo  web application. The tests are
 Getting Started
 ---------------
 
-* Clone the repository: `git clone https://github.com/houda99/DEPI-AutomationTestingFramework.git'
-* Install dependencies: `mvn clean install`
-* Run tests: `mvn test`
+ Clone the repository: `git clone https://github.com/houda99/DEPI-AutomationTestingFramework.git'
+ Install dependencies: `mvn clean install`
+ Run tests: `mvn test`
 
 
 Test Suites
@@ -21,7 +21,7 @@ There are 5 test suite consists of the following tests:
 
 **Test Suite 1: Login Functionality**
 
-* **Test Case 1.1: Valid Login**
+ **Test Case 1.1: Valid Login**
 	+ **Test Case ID:** TC001
 	+ **Test Case Name:** Valid Login
 	+ **Test Case Description:** Verify that the user can login successfully with valid credentials.
@@ -30,7 +30,7 @@ There are 5 test suite consists of the following tests:
 		- Username: standard_user
 		- Password: secret_sauce
 	+ **Expected Result:** The user is logged in successfully and redirected to the products page.
-* **Test Case 1.2: Invalid Login**
+ **Test Case 1.2: Invalid Login**
 	+ **Test Case ID:** TC002
 	+ **Test Case Name:** Invalid Login
 	+ **Test Case Description:** Verify that the user cannot login with invalid credentials.
@@ -39,7 +39,7 @@ There are 5 test suite consists of the following tests:
 		- Username: invalid_user
 		- Password: invalid_password
 	+ **Expected Result:** The user is not logged in and an error message is displayed.
-* **Test Case 1.3: Login with Empty Username**
+ **Test Case 1.3: Login with Empty Username**
 	+ **Test Case ID:** TC003
 	+ **Test Case Name:** Login with Empty Username
 	+ **Test Case Description:** Verify that the user cannot login with an empty username.
@@ -48,7 +48,7 @@ There are 5 test suite consists of the following tests:
 		- Username: 
 		- Password: secret_sauce
 	+ **Expected Result:** The user is not logged in and an error message is displayed.
-* **Test Case 1.4: Login with Empty Password**
+ **Test Case 1.4: Login with Empty Password**
 	+ **Test Case ID:** TC004
 	+ **Test Case Name:** Login with Empty Password
 	+ **Test Case Description:** Verify that the user cannot login with an empty password.
@@ -57,7 +57,7 @@ There are 5 test suite consists of the following tests:
 		- Username: standard_user
 		- Password: 
 	+ **Expected Result:** The user is not logged in and an error message is displayed.
-* **Test Case 1.5: Login with Special Characters**
+ **Test Case 1.5: Login with Special Characters**
 	+ **Test Case ID:** TC005
 	+ **Test Case Name:** Login with Special Characters
 	+ **Test Case Description:** Verify that the user can login successfully with special characters in their username or password.
@@ -69,7 +69,7 @@ There are 5 test suite consists of the following tests:
 
 **Test Suite 2: Product Filtering Functionality**
 
-* **Test Case 2.1: Filter by Category**
+ **Test Case 2.1: Filter by Category**
 	+ **Test Case ID:** TC006
 	+ **Test Case Name:** Filter by Category
 	+ **Test Case Description:** Verify that the user can filter products by category.
@@ -77,7 +77,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Category: Sauce Labs Backpack
 	+ **Expected Result:** The user can filter products by category successfully.
-* **Test Case 2.2: Filter by Invalid Category**
+ **Test Case 2.2: Filter by Invalid Category**
 	+ **Test Case ID:** TC007
 	+ **Test Case Name:** Filter by Invalid Category
 	+ **Test Case Description:** Verify that the user cannot filter products by an invalid category.
@@ -85,7 +85,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Category: Invalid Category
 	+ **Expected Result:** The user is not able to filter products by an invalid category.
-* **Test Case 2.3: Filter by Multiple Categories**
+ **Test Case 2.3: Filter by Multiple Categories**
 	+ **Test Case ID:** TC008
 	+ **Test Case Name:** Filter by Multiple Categories
 	+ **Test Case Description:** Verify that the user can filter products by multiple categories.
@@ -93,7 +93,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Category: Sauce Labs Backpack, Sauce Labs Onesie
 	+ **Expected Result:** The user can filter products by multiple categories successfully.
-* **Test Case 2.4: Filter by Category with Special Characters**
+ **Test Case 2.4: Filter by Category with Special Characters**
 	+ **Test Case ID:** TC009
 	+ **Test Case Name:** Filter by Category with Special Characters
 	+ **Test Case Description:** Verify that the user can filter products by category with special characters.
@@ -101,7 +101,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Category: Price (low to high)!
 	+ **Expected Result:** The user can filter products by category with special characters successfully.
-* **Test Case 2.5: Filter by Category with Empty Field**
+ **Test Case 2.5: Filter by Category with Empty Field**
 	+ **Test Case ID:** TC010
 	+ **Test Case Name:** Filter by Category with Empty Field
 	+ **Test Case Description:** Verify that the user cannot filter products by category with an empty field.
@@ -112,7 +112,7 @@ There are 5 test suite consists of the following tests:
 
 **Test Suite 3: Product Sorting Functionality**
 
-* **Test Case 3.1: Sort by Price**
+ **Test Case 3.1: Sort by Price**
 	+ **Test Case ID:** TC011
 	+ **Test Case Name:** Sort by Price
 	+ **Test Case Description:** Verify that the user can sort products by price.
@@ -120,7 +120,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Price: Low to High
 	+ **Expected Result:** The user can sort products by price successfully.
-* **Test Case 3.2: Sort by Invalid Price**
+ **Test Case 3.2: Sort by Invalid Price**
 	+ **Test Case ID:** TC012
 	+ **Test Case Name:** Sort by Invalid Price
 	+ **Test Case Description:** Verify that the user cannot sort products by an invalid price.
@@ -128,7 +128,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Price: Invalid Price
 	+ **Expected Result:** The user is not able to sort products by an invalid price.
-* **Test Case 3.3: Sort by Multiple Prices**
+ **Test Case 3.3: Sort by Multiple Prices**
 	+ **Test Case ID:** TC013
 	+ **Test Case Name:** Sort by Multiple Prices
 	+ **Test Case Description:** Verify that the user can sort products by multiple prices.
@@ -136,7 +136,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Price: Low to High, High to Low
 	+ **Expected Result:** The user can sort products by multiple prices successfully.
-* **Test Case 3.4: Sort by Price with Special Characters**
+ **Test Case 3.4: Sort by Price with Special Characters**
 	+ **Test Case ID:** TC014
 	+ **Test Case Name:** Sort by Price with Special Characters
 	+ **Test Case Description:** Verify that the user can sort products by price with special characters.
@@ -144,7 +144,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Price: Low to High!
 	+ **Expected Result:** The user can sort products by price with special characters successfully.
-* **Test Case 3.5: Sort by Price with Empty Field**
+ **Test Case 3.5: Sort by Price with Empty Field**
 	+ **Test Case ID:** TC015
 	+ **Test Case Name:** Sort by Price with Empty Field
 	+ **Test Case Description:** Verify that the user cannot sort products by price with an empty field.
@@ -153,9 +153,9 @@ There are 5 test suite consists of the following tests:
 		- Price: 
 	+ **Expected Result:** The user is not able to sort products by price with an empty field.
 
-**Test Suite 4: Add to Cart Functionality**
+*Test Suite 4: Add to Cart Functionality**
 
-* **Test Case 4.1: Add Valid Product to Cart**
+ **Test Case 4.1: Add Valid Product to Cart**
 	+ **Test Case ID:** TC016
 	+ **Test Case Name:** Add Valid Product to Cart
 	+ **Test Case Description:** Verify that the user can add a valid product to their cart.
@@ -163,7 +163,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Product: Sauce Labs Onesie
 	+ **Expected Result:** The user can add a valid product to their cart successfully.
-* **Test Case 4.2: Add Invalid Product to Cart**
+ **Test Case 4.2: Add Invalid Product to Cart**
 	+ **Test Case ID:** TC017
 	+ **Test Case Name:** Add Invalid Product to Cart
 	+ **Test Case Description:** Verify that the user cannot add an invalid product to their cart.
@@ -171,7 +171,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Product: Invalid Product
 	+ **Expected Result:** The user is not able to add an invalid product to their cart.
-* **Test Case 4.3: Add Multiple Products to Cart**
+ **Test Case 4.3: Add Multiple Products to Cart**
 	+ **Test Case ID:** TC018
 	+ **Test Case Name:** Add Multiple Products to Cart
 	+ **Test Case Description:** Verify that the user can add multiple products to their cart.
@@ -179,7 +179,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Product: Sauce Labs Onesie, Sauce Labs Backpack
 	+ **Expected Result:** The user can add multiple products to their cart successfully.
-* **Test Case 4.4: Add Product to Cart with Special Characters**
+ **Test Case 4.4: Add Product to Cart with Special Characters**
 	+ **Test Case ID:** TC019
 	+ **Test Case Name:** Add Product to Cart with Special Characters
 	+ **Test Case Description:** Verify that the user can add a product to their cart with special characters.
@@ -187,7 +187,7 @@ There are 5 test suite consists of the following tests:
 	+ **Test Data:**
 		- Product: Sauce Labs Onesie!
 	+ **Expected Result:** The user can add a product to their cart with special characters successfully.
-* **Test Case 4.5: Add Product to Cart with Empty Field**
+ **Test Case 4.5: Add Product to Cart with Empty Field**
 	+ **Test Case ID:** TC020
 	+ **Test Case Name:** Add Product to Cart with Empty Field
 	+ **Test Case Description:** Verify that the user cannot add a product to their cart with an empty field.
@@ -198,7 +198,7 @@ There are 5 test suite consists of the following tests:
 
 **Test Suite 5: Checkout Functionality**
 
-* **Test Case 5.1: Valid Checkout**
+ **Test Case 5.1: Valid Checkout**
 	+ **Test Case ID:** TC021
 	+ **Test Case Name:** Valid Checkout
 	+ **Test Case Description:** Verify that the user can checkout successfully.
@@ -208,7 +208,7 @@ There are 5 test suite consists of the following tests:
 		- Last Name: Doe
 		- ZIP Code: 12345
 	+ **Expected Result:** The user can checkout successfully and receive an order confirmation.
-* **Test Case 5.2: Invalid Checkout**
+ **Test Case 5.2: Invalid Checkout**
 	+ **Test Case ID:** TC022
 	+ **Test Case Name:** Invalid Checkout
 	+ **Test Case Description:** Verify that the user cannot checkout with invalid information.
@@ -218,7 +218,7 @@ There are 5 test suite consists of the following tests:
 		- Last Name: Invalid
 		- ZIP Code: Invalid
 	+ **Expected Result:** The user is not able to checkout with invalid information.
-* **Test Case 5.3: Checkout with Multiple Products**
+ **Test Case 5.3: Checkout with Multiple Products**
 	+ **Test Case ID:** TC023
 	+ **Test Case Name:** Checkout with Multiple Products
 	+ **Test Case Description:** Verify that the user can checkout with multiple products.
@@ -228,7 +228,7 @@ There are 5 test suite consists of the following tests:
 		- Last Name: Doe
 		- ZIP Code: 12345
 	+ **Expected Result:** The user can checkout with multiple products successfully.
-* **Test Case 5.4: Checkout with Special Characters**
+ **Test Case 5.4: Checkout with Special Characters**
 	+ **Test Case ID:** TC024
 	+ **Test Case Name:** Checkout with Special Characters
 	+ **Test Case Description:** Verify that the user can checkout with special characters.
@@ -238,7 +238,7 @@ There are 5 test suite consists of the following tests:
 		- Last Name: Doe!
 		- ZIP Code: 12345!
 	+ **Expected Result:** The user can checkout with special characters successfully.
-* **Test Case 5.5: Checkout with Empty Field**
+ **Test Case 5.5: Checkout with Empty Field**
 	+ **Test Case ID:** TC025
 	+ **Test Case Name:** Checkout with Empty Field
 	+ **Test Case Description:** Verify that the user cannot checkout with an empty field.
@@ -250,10 +250,6 @@ There are 5 test suite consists of the following tests:
 	+ **Expected Result:** The user is not able to checkout with an empty field.
 
 
-UI Documentation
---------------
-
-* [Link to UI documentation]
 
 reports 
 ------------------------------
