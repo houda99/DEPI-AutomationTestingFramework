@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727698794072,259, Login Request,200,OK,Thread Group 1-1,text,false,"Test failed: text expected to contain /""Products""/",3297,164,1,1,https://www.saucedemo.com/?username=standard_user&password=secret_sauce,259,0,95
+1727698796081,135, Login Request,200,OK,Thread Group 1-2,text,false,"Test failed: text expected to contain /""Products""/",3295,164,1,1,https://www.saucedemo.com/?username=standard_user&password=secret_sauce,135,0,92
+1727698798071,134, Login Request,200,OK,Thread Group 1-3,text,false,"Test failed: text expected to contain /""Products""/",3293,164,1,1,https://www.saucedemo.com/?username=standard_user&password=secret_sauce,134,0,91
+1727698800083,135, Login Request,200,OK,Thread Group 1-4,text,false,"Test failed: text expected to contain /""Products""/",3295,164,1,1,https://www.saucedemo.com/?username=standard_user&password=secret_sauce,135,0,92
+1727698802072,135, Login Request,200,OK,Thread Group 1-5,text,false,"Test failed: text expected to contain /""Products""/",3295,164,1,1,https://www.saucedemo.com/?username=standard_user&password=secret_sauce,135,0,91
