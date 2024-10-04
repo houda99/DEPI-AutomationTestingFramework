@@ -1,0 +1,1501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1728067053246,691,login request,200,OK,Login thread 1-5,text,true,,3964,340,39,39,https://www.saucedemo.com/,291,0,174
+1728067053246,291,login request-0,301,Moved Permanently,Login thread 1-5,text,true,,664,221,39,39,https://saucedemo.com/,291,0,174
+1728067053537,400,login request-1,200,OK,Login thread 1-5,text,true,,3300,119,39,39,https://www.saucedemo.com/,400,0,274
+1728067053288,655,login request,200,OK,Login thread 1-7,text,true,,3964,340,38,38,https://www.saucedemo.com/,267,0,155
+1728067053288,267,login request-0,301,Moved Permanently,Login thread 1-7,text,true,,664,221,38,38,https://saucedemo.com/,267,0,155
+1728067053556,387,login request-1,200,OK,Login thread 1-7,text,true,,3300,119,38,38,https://www.saucedemo.com/,387,0,258
+1728067053308,637,login request,200,OK,Login thread 1-8,text,true,,3964,340,37,37,https://www.saucedemo.com/,278,0,164
+1728067053308,278,login request-0,301,Moved Permanently,Login thread 1-8,text,true,,664,221,37,37,https://saucedemo.com/,278,0,164
+1728067053586,359,login request-1,200,OK,Login thread 1-8,text,true,,3300,119,37,37,https://www.saucedemo.com/,359,0,229
+1728067053207,741,login request,200,OK,Login thread 1-3,text,true,,3964,340,36,36,https://www.saucedemo.com/,335,0,222
+1728067053207,335,login request-0,301,Moved Permanently,Login thread 1-3,text,true,,664,221,36,36,https://saucedemo.com/,335,0,222
+1728067053542,406,login request-1,200,OK,Login thread 1-3,text,true,,3300,119,36,36,https://www.saucedemo.com/,406,0,275
+1728067053328,624,login request,200,OK,Login thread 1-9,text,true,,3964,340,36,36,https://www.saucedemo.com/,289,0,162
+1728067053328,289,login request-0,301,Moved Permanently,Login thread 1-9,text,true,,664,221,36,36,https://saucedemo.com/,289,0,162
+1728067053617,335,login request-1,200,OK,Login thread 1-9,text,true,,3300,119,36,36,https://www.saucedemo.com/,335,0,201
+1728067053227,727,login request,200,OK,Login thread 1-4,text,true,,3964,340,35,35,https://www.saucedemo.com/,300,0,186
+1728067053227,300,login request-0,301,Moved Permanently,Login thread 1-4,text,true,,664,221,35,35,https://saucedemo.com/,300,0,186
+1728067053528,426,login request-1,200,OK,Login thread 1-4,text,true,,3300,119,35,35,https://www.saucedemo.com/,426,0,293
+1728067053166,789,login request,200,OK,Login thread 1-1,text,true,,3964,340,35,35,https://www.saucedemo.com/,369,0,253
+1728067053166,369,login request-0,301,Moved Permanently,Login thread 1-1,text,true,,664,221,35,35,https://saucedemo.com/,369,0,253
+1728067053535,420,login request-1,200,OK,Login thread 1-1,text,true,,3300,119,35,35,https://www.saucedemo.com/,420,0,285
+1728067053266,690,login request,200,OK,Login thread 1-6,text,true,,3965,340,33,33,https://www.saucedemo.com/,271,0,158
+1728067053266,271,login request-0,301,Moved Permanently,Login thread 1-6,text,true,,664,221,33,33,https://saucedemo.com/,271,0,158
+1728067053537,419,login request-1,200,OK,Login thread 1-6,text,true,,3301,119,33,33,https://www.saucedemo.com/,419,0,284
+1728067053347,609,login request,200,OK,Login thread 1-10,text,true,,3964,340,33,33,https://www.saucedemo.com/,301,0,166
+1728067053347,301,login request-0,301,Moved Permanently,Login thread 1-10,text,true,,664,221,33,33,https://saucedemo.com/,301,0,166
+1728067053649,307,login request-1,200,OK,Login thread 1-10,text,true,,3300,119,33,33,https://www.saucedemo.com/,307,0,172
+1728067053368,603,login request,200,OK,Login thread 1-11,text,true,,3964,340,32,32,https://www.saucedemo.com/,303,0,164
+1728067053368,303,login request-0,301,Moved Permanently,Login thread 1-11,text,true,,664,221,32,32,https://saucedemo.com/,303,0,164
+1728067053671,300,login request-1,200,OK,Login thread 1-11,text,true,,3300,119,32,32,https://www.saucedemo.com/,300,0,178
+1728067053392,589,login request,200,OK,Login thread 1-12,text,true,,3964,340,31,31,https://www.saucedemo.com/,290,0,155
+1728067053392,290,login request-0,301,Moved Permanently,Login thread 1-12,text,true,,664,221,31,31,https://saucedemo.com/,290,0,155
+1728067053682,299,login request-1,200,OK,Login thread 1-12,text,true,,3300,119,31,31,https://www.saucedemo.com/,299,0,177
+1728067053411,579,login request,200,OK,Login thread 1-13,text,true,,3964,340,31,31,https://www.saucedemo.com/,276,0,154
+1728067053411,276,login request-0,301,Moved Permanently,Login thread 1-13,text,true,,664,221,31,31,https://saucedemo.com/,276,0,154
+1728067053687,303,login request-1,200,OK,Login thread 1-13,text,true,,3300,119,31,31,https://www.saucedemo.com/,303,0,183
+1728067053428,577,login request,200,OK,Login thread 1-14,text,true,,3964,340,30,30,https://www.saucedemo.com/,282,0,151
+1728067053428,282,login request-0,301,Moved Permanently,Login thread 1-14,text,true,,664,221,30,30,https://saucedemo.com/,282,0,151
+1728067053710,295,login request-1,200,OK,Login thread 1-14,text,true,,3300,119,30,30,https://www.saucedemo.com/,295,0,182
+1728067053448,574,login request,200,OK,Login thread 1-15,text,true,,3964,340,30,30,https://www.saucedemo.com/,288,0,161
+1728067053448,288,login request-0,301,Moved Permanently,Login thread 1-15,text,true,,664,221,30,30,https://saucedemo.com/,288,0,161
+1728067053736,286,login request-1,200,OK,Login thread 1-15,text,true,,3300,119,30,30,https://www.saucedemo.com/,286,0,177
+1728067053492,590,login request,200,OK,Login thread 1-17,text,true,,3964,340,32,32,https://www.saucedemo.com/,308,0,177
+1728067053492,308,login request-0,301,Moved Permanently,Login thread 1-17,text,true,,664,221,32,32,https://saucedemo.com/,308,0,177
+1728067053800,282,login request-1,200,OK,Login thread 1-17,text,true,,3300,119,32,32,https://www.saucedemo.com/,282,0,162
+1728067053475,609,login request,200,OK,Login thread 1-16,text,true,,3964,340,31,31,https://www.saucedemo.com/,307,0,173
+1728067053475,307,login request-0,301,Moved Permanently,Login thread 1-16,text,true,,664,221,31,31,https://saucedemo.com/,307,0,173
+1728067053782,302,login request-1,200,OK,Login thread 1-16,text,true,,3300,119,31,31,https://www.saucedemo.com/,302,0,178
+1728067053510,586,login request,200,OK,Login thread 1-18,text,true,,3964,340,31,31,https://www.saucedemo.com/,306,0,175
+1728067053510,306,login request-0,301,Moved Permanently,Login thread 1-18,text,true,,664,221,31,31,https://saucedemo.com/,306,0,175
+1728067053816,280,login request-1,200,OK,Login thread 1-18,text,true,,3300,119,31,31,https://www.saucedemo.com/,280,0,171
+1728067053528,582,login request,200,OK,Login thread 1-19,text,true,,3965,340,31,31,https://www.saucedemo.com/,312,0,182
+1728067053528,312,login request-0,301,Moved Permanently,Login thread 1-19,text,true,,664,221,31,31,https://saucedemo.com/,312,0,182
+1728067053841,269,login request-1,200,OK,Login thread 1-19,text,true,,3301,119,31,31,https://www.saucedemo.com/,269,0,154
+1728067053550,579,login request,200,OK,Login thread 1-20,text,true,,3964,340,31,31,https://www.saucedemo.com/,304,0,172
+1728067053550,304,login request-0,301,Moved Permanently,Login thread 1-20,text,true,,664,221,31,31,https://saucedemo.com/,304,0,172
+1728067053854,275,login request-1,200,OK,Login thread 1-20,text,true,,3300,119,31,31,https://www.saucedemo.com/,275,0,159
+1728067053570,592,login request,200,OK,Login thread 1-21,text,true,,3964,340,31,31,https://www.saucedemo.com/,310,0,171
+1728067053570,310,login request-0,301,Moved Permanently,Login thread 1-21,text,true,,664,221,31,31,https://saucedemo.com/,310,0,171
+1728067053880,282,login request-1,200,OK,Login thread 1-21,text,true,,3300,119,31,31,https://www.saucedemo.com/,282,0,147
+1728067053588,583,login request,200,OK,Login thread 1-22,text,true,,3964,340,31,31,https://www.saucedemo.com/,314,0,175
+1728067053588,314,login request-0,301,Moved Permanently,Login thread 1-22,text,true,,664,221,31,31,https://saucedemo.com/,314,0,175
+1728067053903,268,login request-1,200,OK,Login thread 1-22,text,true,,3300,119,31,31,https://www.saucedemo.com/,268,0,148
+1728067053612,575,login request,200,OK,Login thread 1-23,text,true,,3964,340,30,30,https://www.saucedemo.com/,309,0,175
+1728067053612,309,login request-0,301,Moved Permanently,Login thread 1-23,text,true,,664,221,30,30,https://saucedemo.com/,309,0,175
+1728067053922,265,login request-1,200,OK,Login thread 1-23,text,true,,3300,119,30,30,https://www.saucedemo.com/,265,0,150
+1728067053629,579,login request,200,OK,Login thread 1-24,text,true,,3964,340,30,30,https://www.saucedemo.com/,316,0,183
+1728067053629,316,login request-0,301,Moved Permanently,Login thread 1-24,text,true,,664,221,30,30,https://saucedemo.com/,316,0,183
+1728067053946,262,login request-1,200,OK,Login thread 1-24,text,true,,3300,119,30,30,https://www.saucedemo.com/,262,0,150
+1728067053650,584,login request,200,OK,Login thread 1-25,text,true,,3964,340,31,31,https://www.saucedemo.com/,307,0,176
+1728067053650,307,login request-0,301,Moved Permanently,Login thread 1-25,text,true,,664,221,31,31,https://saucedemo.com/,307,0,176
+1728067053957,277,login request-1,200,OK,Login thread 1-25,text,true,,3300,119,31,31,https://www.saucedemo.com/,277,0,158
+1728067053688,586,login request,200,OK,Login thread 1-27,text,true,,3964,340,32,32,https://www.saucedemo.com/,302,0,184
+1728067053688,302,login request-0,301,Moved Permanently,Login thread 1-27,text,true,,664,221,32,32,https://saucedemo.com/,302,0,184
+1728067053990,284,login request-1,200,OK,Login thread 1-27,text,true,,3300,119,32,32,https://www.saucedemo.com/,284,0,170
+1728067053710,568,login request,200,OK,Login thread 1-28,text,true,,3964,340,31,31,https://www.saucedemo.com/,295,0,181
+1728067053710,295,login request-0,301,Moved Permanently,Login thread 1-28,text,true,,664,221,31,31,https://saucedemo.com/,295,0,181
+1728067054006,272,login request-1,200,OK,Login thread 1-28,text,true,,3300,119,31,31,https://www.saucedemo.com/,272,0,160
+1728067053730,557,login request,200,OK,Login thread 1-29,text,true,,3964,340,31,31,https://www.saucedemo.com/,293,0,181
+1728067053730,293,login request-0,301,Moved Permanently,Login thread 1-29,text,true,,664,221,31,31,https://saucedemo.com/,293,0,181
+1728067054023,264,login request-1,200,OK,Login thread 1-29,text,true,,3300,119,31,31,https://www.saucedemo.com/,264,0,151
+1728067053749,548,login request,200,OK,Login thread 1-30,text,true,,3964,340,30,30,https://www.saucedemo.com/,285,0,175
+1728067053749,285,login request-0,301,Moved Permanently,Login thread 1-30,text,true,,664,221,30,30,https://saucedemo.com/,285,0,175
+1728067054034,263,login request-1,200,OK,Login thread 1-30,text,true,,3300,119,30,30,https://www.saucedemo.com/,263,0,150
+1728067053768,548,login request,200,OK,Login thread 1-31,text,true,,3964,340,30,30,https://www.saucedemo.com/,290,0,178
+1728067053768,290,login request-0,301,Moved Permanently,Login thread 1-31,text,true,,664,221,30,30,https://saucedemo.com/,290,0,178
+1728067054059,257,login request-1,200,OK,Login thread 1-31,text,true,,3300,119,30,30,https://www.saucedemo.com/,257,0,146
+1728067053809,546,login request,200,OK,Login thread 1-33,text,true,,3964,340,31,31,https://www.saucedemo.com/,280,0,167
+1728067053809,280,login request-0,301,Moved Permanently,Login thread 1-33,text,true,,664,221,31,31,https://saucedemo.com/,280,0,167
+1728067054089,266,login request-1,200,OK,Login thread 1-33,text,true,,3300,119,31,31,https://www.saucedemo.com/,266,0,155
+1728067053789,566,login request,200,OK,Login thread 1-32,text,true,,3964,340,31,31,https://www.saucedemo.com/,291,0,170
+1728067053789,291,login request-0,301,Moved Permanently,Login thread 1-32,text,true,,664,221,31,31,https://saucedemo.com/,291,0,170
+1728067054081,274,login request-1,200,OK,Login thread 1-32,text,true,,3300,119,31,31,https://www.saucedemo.com/,274,0,160
+1728067053832,529,login request,200,OK,Login thread 1-34,text,true,,3964,340,29,29,https://www.saucedemo.com/,272,0,159
+1728067053832,272,login request-0,301,Moved Permanently,Login thread 1-34,text,true,,664,221,29,29,https://saucedemo.com/,272,0,159
+1728067054104,257,login request-1,200,OK,Login thread 1-34,text,true,,3300,119,29,29,https://www.saucedemo.com/,257,0,147
+1728067053850,539,login request,200,OK,Login thread 1-35,text,true,,3964,340,30,30,https://www.saucedemo.com/,271,0,156
+1728067053850,271,login request-0,301,Moved Permanently,Login thread 1-35,text,true,,664,221,30,30,https://saucedemo.com/,271,0,156
+1728067054121,268,login request-1,200,OK,Login thread 1-35,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,145
+1728067053871,533,login request,200,OK,Login thread 1-36,text,true,,3964,340,29,29,https://www.saucedemo.com/,267,0,151
+1728067053871,267,login request-0,301,Moved Permanently,Login thread 1-36,text,true,,664,221,29,29,https://saucedemo.com/,267,0,151
+1728067054138,266,login request-1,200,OK,Login thread 1-36,text,true,,3300,119,29,29,https://www.saucedemo.com/,266,0,144
+1728067053891,533,login request,200,OK,Login thread 1-37,text,true,,3964,340,29,29,https://www.saucedemo.com/,271,0,146
+1728067053891,271,login request-0,301,Moved Permanently,Login thread 1-37,text,true,,664,221,29,29,https://saucedemo.com/,271,0,146
+1728067054163,261,login request-1,200,OK,Login thread 1-37,text,true,,3300,119,29,29,https://www.saucedemo.com/,261,0,147
+1728067053929,526,login request,200,OK,Login thread 1-39,text,true,,3964,340,30,30,https://www.saucedemo.com/,261,0,147
+1728067053929,261,login request-0,301,Moved Permanently,Login thread 1-39,text,true,,664,221,30,30,https://saucedemo.com/,261,0,147
+1728067054191,264,login request-1,200,OK,Login thread 1-39,text,true,,3300,119,30,30,https://www.saucedemo.com/,264,0,150
+1728067053949,534,login request,200,OK,Login thread 1-40,text,true,,3965,340,30,30,https://www.saucedemo.com/,273,0,156
+1728067053949,273,login request-0,301,Moved Permanently,Login thread 1-40,text,true,,664,221,30,30,https://saucedemo.com/,273,0,156
+1728067054222,261,login request-1,200,OK,Login thread 1-40,text,true,,3301,119,30,30,https://www.saucedemo.com/,261,0,146
+1728067053967,538,login request,200,OK,Login thread 1-41,text,true,,3964,340,30,30,https://www.saucedemo.com/,273,0,152
+1728067053967,273,login request-0,301,Moved Permanently,Login thread 1-41,text,true,,664,221,30,30,https://saucedemo.com/,273,0,152
+1728067054241,264,login request-1,200,OK,Login thread 1-41,text,true,,3300,119,30,30,https://www.saucedemo.com/,264,0,150
+1728067053988,550,login request,200,OK,Login thread 1-42,text,true,,3964,340,31,31,https://www.saucedemo.com/,278,0,167
+1728067053988,278,login request-0,301,Moved Permanently,Login thread 1-42,text,true,,664,221,31,31,https://saucedemo.com/,278,0,167
+1728067054266,272,login request-1,200,OK,Login thread 1-42,text,true,,3300,119,31,31,https://www.saucedemo.com/,272,0,155
+1728067054009,535,login request,200,OK,Login thread 1-43,text,true,,3964,340,30,30,https://www.saucedemo.com/,270,0,157
+1728067054009,270,login request-0,301,Moved Permanently,Login thread 1-43,text,true,,664,221,30,30,https://saucedemo.com/,270,0,157
+1728067054279,265,login request-1,200,OK,Login thread 1-43,text,true,,3300,119,30,30,https://www.saucedemo.com/,265,0,154
+1728067054029,519,login request,200,OK,Login thread 1-44,text,true,,3964,340,30,30,https://www.saucedemo.com/,261,0,148
+1728067054029,261,login request-0,301,Moved Permanently,Login thread 1-44,text,true,,664,221,30,30,https://saucedemo.com/,261,0,148
+1728067054290,258,login request-1,200,OK,Login thread 1-44,text,true,,3300,119,30,30,https://www.saucedemo.com/,258,0,148
+1728067054049,555,login request,200,OK,Login thread 1-45,text,true,,3964,340,31,31,https://www.saucedemo.com/,275,0,156
+1728067054049,275,login request-0,301,Moved Permanently,Login thread 1-45,text,true,,664,221,31,31,https://saucedemo.com/,275,0,156
+1728067054324,280,login request-1,200,OK,Login thread 1-45,text,true,,3300,119,31,31,https://www.saucedemo.com/,280,0,154
+1728067054067,551,login request,200,OK,Login thread 1-46,text,true,,3964,340,31,31,https://www.saucedemo.com/,264,0,154
+1728067054067,264,login request-0,301,Moved Permanently,Login thread 1-46,text,true,,664,221,31,31,https://saucedemo.com/,264,0,154
+1728067054332,286,login request-1,200,OK,Login thread 1-46,text,true,,3300,119,31,31,https://www.saucedemo.com/,286,0,156
+1728067054087,547,login request,200,OK,Login thread 1-47,text,true,,3964,340,31,31,https://www.saucedemo.com/,273,0,158
+1728067054087,273,login request-0,301,Moved Permanently,Login thread 1-47,text,true,,664,221,31,31,https://saucedemo.com/,273,0,158
+1728067054360,274,login request-1,200,OK,Login thread 1-47,text,true,,3300,119,31,31,https://www.saucedemo.com/,274,0,147
+1728067054108,546,login request,200,OK,Login thread 1-48,text,true,,3964,340,31,31,https://www.saucedemo.com/,265,0,147
+1728067054108,265,login request-0,301,Moved Permanently,Login thread 1-48,text,true,,664,221,31,31,https://saucedemo.com/,265,0,147
+1728067054373,281,login request-1,200,OK,Login thread 1-48,text,true,,3300,119,31,31,https://www.saucedemo.com/,281,0,145
+1728067054129,560,login request,200,OK,Login thread 1-49,text,true,,3964,340,32,32,https://www.saucedemo.com/,261,0,148
+1728067054129,261,login request-0,301,Moved Permanently,Login thread 1-49,text,true,,664,221,32,32,https://saucedemo.com/,261,0,148
+1728067054390,299,login request-1,200,OK,Login thread 1-49,text,true,,3300,119,32,32,https://www.saucedemo.com/,299,0,151
+1728067054147,560,login request,200,OK,Login thread 1-50,text,true,,3964,340,32,32,https://www.saucedemo.com/,277,0,164
+1728067054147,277,login request-0,301,Moved Permanently,Login thread 1-50,text,true,,664,221,32,32,https://saucedemo.com/,277,0,164
+1728067054424,283,login request-1,200,OK,Login thread 1-50,text,true,,3300,119,32,32,https://www.saucedemo.com/,283,0,155
+1728067054168,544,login request,200,OK,Login thread 1-51,text,true,,3964,340,31,31,https://www.saucedemo.com/,273,0,160
+1728067054168,273,login request-0,301,Moved Permanently,Login thread 1-51,text,true,,664,221,31,31,https://saucedemo.com/,273,0,160
+1728067054441,271,login request-1,200,OK,Login thread 1-51,text,true,,3300,119,31,31,https://www.saucedemo.com/,270,0,149
+1728067054188,578,login request,200,OK,Login thread 1-52,text,true,,3964,340,32,32,https://www.saucedemo.com/,260,0,146
+1728067054188,261,login request-0,301,Moved Permanently,Login thread 1-52,text,true,,664,221,32,32,https://saucedemo.com/,260,0,146
+1728067054449,317,login request-1,200,OK,Login thread 1-52,text,true,,3300,119,32,32,https://www.saucedemo.com/,317,0,170
+1728067054209,557,login request,200,OK,Login thread 1-53,text,true,,3964,340,32,32,https://www.saucedemo.com/,262,0,150
+1728067054209,262,login request-0,301,Moved Permanently,Login thread 1-53,text,true,,664,221,32,32,https://saucedemo.com/,262,0,150
+1728067054471,295,login request-1,200,OK,Login thread 1-53,text,true,,3300,119,32,32,https://www.saucedemo.com/,295,0,161
+1728067054227,552,login request,200,OK,Login thread 1-54,text,true,,3964,340,31,31,https://www.saucedemo.com/,260,0,146
+1728067054227,260,login request-0,301,Moved Permanently,Login thread 1-54,text,true,,664,221,31,31,https://saucedemo.com/,260,0,146
+1728067054488,291,login request-1,200,OK,Login thread 1-54,text,true,,3300,119,31,31,https://www.saucedemo.com/,291,0,161
+1728067054246,585,login request,200,OK,Login thread 1-55,text,true,,3964,340,33,33,https://www.saucedemo.com/,262,0,152
+1728067054246,262,login request-0,301,Moved Permanently,Login thread 1-55,text,true,,664,221,33,33,https://saucedemo.com/,262,0,152
+1728067054509,322,login request-1,200,OK,Login thread 1-55,text,true,,3300,119,33,33,https://www.saucedemo.com/,322,0,178
+1728067054306,587,login request,200,OK,Login thread 1-58,text,true,,3964,340,35,35,https://www.saucedemo.com/,266,0,150
+1728067054306,267,login request-0,301,Moved Permanently,Login thread 1-58,text,true,,664,221,35,35,https://saucedemo.com/,266,0,150
+1728067054573,320,login request-1,200,OK,Login thread 1-58,text,true,,3300,119,35,35,https://www.saucedemo.com/,320,0,193
+1728067054270,624,login request,200,OK,Login thread 1-56,text,true,,3964,340,34,34,https://www.saucedemo.com/,268,0,152
+1728067054270,268,login request-0,301,Moved Permanently,Login thread 1-56,text,true,,664,221,34,34,https://saucedemo.com/,268,0,152
+1728067054539,355,login request-1,200,OK,Login thread 1-56,text,true,,3300,119,34,34,https://www.saucedemo.com/,355,0,227
+1728067054287,610,login request,200,OK,Login thread 1-57,text,true,,3964,340,33,33,https://www.saucedemo.com/,268,0,153
+1728067054287,268,login request-0,301,Moved Permanently,Login thread 1-57,text,true,,664,221,33,33,https://saucedemo.com/,268,0,153
+1728067054556,341,login request-1,200,OK,Login thread 1-57,text,true,,3300,119,33,33,https://www.saucedemo.com/,341,0,210
+1728067054327,571,login request,200,OK,Login thread 1-59,text,true,,3964,340,32,32,https://www.saucedemo.com/,261,0,148
+1728067054327,261,login request-0,301,Moved Permanently,Login thread 1-59,text,true,,664,221,32,32,https://saucedemo.com/,261,0,148
+1728067054588,310,login request-1,200,OK,Login thread 1-59,text,true,,3300,119,32,32,https://www.saucedemo.com/,310,0,179
+1728067054348,557,login request,200,OK,Login thread 1-60,text,true,,3964,340,32,32,https://www.saucedemo.com/,273,0,151
+1728067054348,273,login request-0,301,Moved Permanently,Login thread 1-60,text,true,,664,221,32,32,https://saucedemo.com/,273,0,151
+1728067054622,283,login request-1,200,OK,Login thread 1-60,text,true,,3300,119,32,32,https://www.saucedemo.com/,283,0,168
+1728067054367,590,login request,200,OK,Login thread 1-61,text,true,,3964,340,33,33,https://www.saucedemo.com/,287,0,153
+1728067054367,287,login request-0,301,Moved Permanently,Login thread 1-61,text,true,,664,221,33,33,https://saucedemo.com/,287,0,153
+1728067054654,303,login request-1,200,OK,Login thread 1-61,text,true,,3300,119,33,33,https://www.saucedemo.com/,303,0,184
+1728067054386,602,login request,200,OK,Login thread 1-62,text,true,,3964,340,34,34,https://www.saucedemo.com/,302,0,152
+1728067054386,302,login request-0,301,Moved Permanently,Login thread 1-62,text,true,,664,221,34,34,https://saucedemo.com/,302,0,152
+1728067054688,300,login request-1,200,OK,Login thread 1-62,text,true,,3300,119,34,34,https://www.saucedemo.com/,300,0,181
+1728067054407,586,login request,200,OK,Login thread 1-63,text,true,,3964,340,33,33,https://www.saucedemo.com/,288,0,149
+1728067054407,288,login request-0,301,Moved Permanently,Login thread 1-63,text,true,,664,221,33,33,https://saucedemo.com/,288,0,149
+1728067054696,297,login request-1,200,OK,Login thread 1-63,text,true,,3300,119,33,33,https://www.saucedemo.com/,297,0,176
+1728067054430,580,login request,200,OK,Login thread 1-64,text,true,,3964,340,33,33,https://www.saucedemo.com/,277,0,151
+1728067054430,277,login request-0,301,Moved Permanently,Login thread 1-64,text,true,,664,221,33,33,https://saucedemo.com/,277,0,151
+1728067054707,303,login request-1,200,OK,Login thread 1-64,text,true,,3300,119,33,33,https://www.saucedemo.com/,303,0,182
+1728067054447,608,login request,200,OK,Login thread 1-65,text,true,,3964,340,34,34,https://www.saucedemo.com/,318,0,170
+1728067054447,318,login request-0,301,Moved Permanently,Login thread 1-65,text,true,,664,221,34,34,https://saucedemo.com/,318,0,170
+1728067054766,289,login request-1,200,OK,Login thread 1-65,text,true,,3300,119,34,34,https://www.saucedemo.com/,289,0,162
+1728067054490,572,login request,200,OK,Login thread 1-67,text,true,,3964,340,34,34,https://www.saucedemo.com/,290,0,162
+1728067054490,290,login request-0,301,Moved Permanently,Login thread 1-67,text,true,,664,221,34,34,https://saucedemo.com/,290,0,162
+1728067054780,282,login request-1,200,OK,Login thread 1-67,text,true,,3300,119,34,34,https://www.saucedemo.com/,282,0,157
+1728067054468,599,login request,200,OK,Login thread 1-66,text,true,,3964,340,33,33,https://www.saucedemo.com/,298,0,160
+1728067054468,298,login request-0,301,Moved Permanently,Login thread 1-66,text,true,,664,221,33,33,https://saucedemo.com/,298,0,160
+1728067054766,301,login request-1,200,OK,Login thread 1-66,text,true,,3300,119,33,33,https://www.saucedemo.com/,301,0,165
+1728067054507,592,login request,200,OK,Login thread 1-68,text,true,,3964,340,33,33,https://www.saucedemo.com/,318,0,177
+1728067054507,318,login request-0,301,Moved Permanently,Login thread 1-68,text,true,,664,221,33,33,https://saucedemo.com/,318,0,177
+1728067054825,274,login request-1,200,OK,Login thread 1-68,text,true,,3300,119,33,33,https://www.saucedemo.com/,273,0,152
+1728067054526,581,login request,200,OK,Login thread 1-69,text,true,,3964,340,33,33,https://www.saucedemo.com/,312,0,169
+1728067054526,312,login request-0,301,Moved Permanently,Login thread 1-69,text,true,,664,221,33,33,https://saucedemo.com/,312,0,169
+1728067054838,269,login request-1,200,OK,Login thread 1-69,text,true,,3300,119,33,33,https://www.saucedemo.com/,269,0,157
+1728067054549,628,login request,200,OK,Login thread 1-70,text,true,,3964,340,35,35,https://www.saucedemo.com/,343,0,217
+1728067054549,343,login request-0,301,Moved Permanently,Login thread 1-70,text,true,,664,221,35,35,https://saucedemo.com/,343,0,217
+1728067054892,285,login request-1,200,OK,Login thread 1-70,text,true,,3300,119,35,35,https://www.saucedemo.com/,285,0,170
+1728067054587,595,login request,200,OK,Login thread 1-72,text,true,,3964,340,34,34,https://www.saucedemo.com/,310,0,180
+1728067054587,310,login request-0,301,Moved Permanently,Login thread 1-72,text,true,,664,221,34,34,https://saucedemo.com/,310,0,180
+1728067054897,285,login request-1,200,OK,Login thread 1-72,text,true,,3300,119,34,34,https://www.saucedemo.com/,285,0,167
+1728067054567,616,login request,200,OK,Login thread 1-71,text,true,,3964,340,33,33,https://www.saucedemo.com/,326,0,199
+1728067054567,326,login request-0,301,Moved Permanently,Login thread 1-71,text,true,,664,221,33,33,https://saucedemo.com/,326,0,199
+1728067054893,290,login request-1,200,OK,Login thread 1-71,text,true,,3300,119,33,33,https://www.saucedemo.com/,290,0,168
+1728067054606,578,login request,200,OK,Login thread 1-73,text,true,,3964,340,32,32,https://www.saucedemo.com/,291,0,169
+1728067054606,291,login request-0,301,Moved Permanently,Login thread 1-73,text,true,,664,221,32,32,https://saucedemo.com/,291,0,169
+1728067054897,287,login request-1,200,OK,Login thread 1-73,text,true,,3300,119,32,32,https://www.saucedemo.com/,287,0,169
+1728067054625,578,login request,200,OK,Login thread 1-74,text,true,,3964,340,32,32,https://www.saucedemo.com/,287,0,173
+1728067054625,287,login request-0,301,Moved Permanently,Login thread 1-74,text,true,,664,221,32,32,https://saucedemo.com/,287,0,173
+1728067054912,291,login request-1,200,OK,Login thread 1-74,text,true,,3300,119,32,32,https://www.saucedemo.com/,291,0,179
+1728067054666,589,login request,200,OK,Login thread 1-76,text,true,,3964,340,34,34,https://www.saucedemo.com/,310,0,182
+1728067054666,310,login request-0,301,Moved Permanently,Login thread 1-76,text,true,,664,221,34,34,https://saucedemo.com/,310,0,182
+1728067054976,279,login request-1,200,OK,Login thread 1-76,text,true,,3300,119,34,34,https://www.saucedemo.com/,279,0,166
+1728067054685,573,login request,200,OK,Login thread 1-77,text,true,,3964,340,33,33,https://www.saucedemo.com/,300,0,182
+1728067054685,300,login request-0,301,Moved Permanently,Login thread 1-77,text,true,,664,221,33,33,https://saucedemo.com/,300,0,182
+1728067054985,273,login request-1,200,OK,Login thread 1-77,text,true,,3300,119,33,33,https://www.saucedemo.com/,273,0,159
+1728067054706,560,login request,200,OK,Login thread 1-78,text,true,,3964,340,32,32,https://www.saucedemo.com/,294,0,176
+1728067054706,294,login request-0,301,Moved Permanently,Login thread 1-78,text,true,,664,221,32,32,https://saucedemo.com/,294,0,176
+1728067055000,266,login request-1,200,OK,Login thread 1-78,text,true,,3300,119,32,32,https://www.saucedemo.com/,266,0,151
+1728067054726,622,login request,200,OK,Login thread 1-79,text,true,,3964,340,35,35,https://www.saucedemo.com/,326,0,198
+1728067054726,326,login request-0,301,Moved Permanently,Login thread 1-79,text,true,,664,221,35,35,https://saucedemo.com/,326,0,198
+1728067055052,296,login request-1,200,OK,Login thread 1-79,text,true,,3300,119,35,35,https://www.saucedemo.com/,296,0,155
+1728067054789,567,login request,200,OK,Login thread 1-82,text,true,,3964,340,35,35,https://www.saucedemo.com/,276,0,151
+1728067054789,276,login request-0,301,Moved Permanently,Login thread 1-82,text,true,,664,221,35,35,https://saucedemo.com/,276,0,151
+1728067055065,291,login request-1,200,OK,Login thread 1-82,text,true,,3300,119,35,35,https://www.saucedemo.com/,291,0,152
+1728067054747,616,login request,200,OK,Login thread 1-80,text,true,,3964,340,34,34,https://www.saucedemo.com/,308,0,179
+1728067054747,308,login request-0,301,Moved Permanently,Login thread 1-80,text,true,,664,221,34,34,https://saucedemo.com/,308,0,179
+1728067055056,307,login request-1,200,OK,Login thread 1-80,text,true,,3300,119,34,34,https://www.saucedemo.com/,307,0,154
+1728067054805,559,login request,200,OK,Login thread 1-83,text,true,,3964,340,33,33,https://www.saucedemo.com/,289,0,171
+1728067054805,289,login request-0,301,Moved Permanently,Login thread 1-83,text,true,,664,221,33,33,https://saucedemo.com/,289,0,171
+1728067055095,269,login request-1,200,OK,Login thread 1-83,text,true,,3300,119,33,33,https://www.saucedemo.com/,269,0,147
+1728067054767,602,login request,200,OK,Login thread 1-81,text,true,,3964,340,33,33,https://www.saucedemo.com/,288,0,163
+1728067054767,288,login request-0,301,Moved Permanently,Login thread 1-81,text,true,,664,221,33,33,https://saucedemo.com/,288,0,163
+1728067055056,313,login request-1,200,OK,Login thread 1-81,text,true,,3300,119,33,33,https://www.saucedemo.com/,313,0,155
+1728067054825,548,login request,200,OK,Login thread 1-84,text,true,,3964,340,32,32,https://www.saucedemo.com/,274,0,156
+1728067054825,274,login request-0,301,Moved Permanently,Login thread 1-84,text,true,,664,221,32,32,https://saucedemo.com/,274,0,156
+1728067055099,274,login request-1,200,OK,Login thread 1-84,text,true,,3300,119,32,32,https://www.saucedemo.com/,274,0,160
+1728067054845,535,login request,200,OK,Login thread 1-85,text,true,,3964,340,31,31,https://www.saucedemo.com/,267,0,155
+1728067054845,267,login request-0,301,Moved Permanently,Login thread 1-85,text,true,,664,221,31,31,https://saucedemo.com/,267,0,155
+1728067055112,268,login request-1,200,OK,Login thread 1-85,text,true,,3300,119,31,31,https://www.saucedemo.com/,268,0,154
+1728067054885,564,login request,200,OK,Login thread 1-87,text,true,,3964,340,34,34,https://www.saucedemo.com/,288,0,171
+1728067054885,288,login request-0,301,Moved Permanently,Login thread 1-87,text,true,,664,221,34,34,https://saucedemo.com/,288,0,171
+1728067055174,275,login request-1,200,OK,Login thread 1-87,text,true,,3300,119,34,34,https://www.saucedemo.com/,275,0,165
+1728067054643,812,login request,200,OK,Login thread 1-75,text,true,,3964,340,33,33,https://www.saucedemo.com/,298,0,181
+1728067054643,298,login request-0,301,Moved Permanently,Login thread 1-75,text,true,,664,221,33,33,https://saucedemo.com/,298,0,181
+1728067054941,514,login request-1,200,OK,Login thread 1-75,text,true,,3300,119,33,33,https://www.saucedemo.com/,514,0,399
+1728067054905,556,login request,200,OK,Login thread 1-88,text,true,,3964,340,32,32,https://www.saucedemo.com/,286,0,169
+1728067054905,286,login request-0,301,Moved Permanently,Login thread 1-88,text,true,,664,221,32,32,https://saucedemo.com/,286,0,169
+1728067055191,270,login request-1,200,OK,Login thread 1-88,text,true,,3300,119,32,32,https://www.saucedemo.com/,269,0,157
+1728067054865,600,login request,200,OK,Login thread 1-86,text,true,,3964,340,31,31,https://www.saucedemo.com/,277,0,158
+1728067054865,277,login request-0,301,Moved Permanently,Login thread 1-86,text,true,,664,221,31,31,https://saucedemo.com/,277,0,158
+1728067055142,323,login request-1,200,OK,Login thread 1-86,text,true,,3300,119,31,31,https://www.saucedemo.com/,323,0,151
+1728067054925,564,login request,200,OK,Login thread 1-89,text,true,,3964,340,32,32,https://www.saucedemo.com/,275,0,163
+1728067054925,275,login request-0,301,Moved Permanently,Login thread 1-89,text,true,,664,221,32,32,https://saucedemo.com/,275,0,163
+1728067055200,289,login request-1,200,OK,Login thread 1-89,text,true,,3300,119,32,32,https://www.saucedemo.com/,289,0,176
+1728067054945,556,login request,200,OK,Login thread 1-90,text,true,,3964,340,31,31,https://www.saucedemo.com/,268,0,156
+1728067054945,268,login request-0,301,Moved Permanently,Login thread 1-90,text,true,,664,221,31,31,https://saucedemo.com/,268,0,156
+1728067055213,288,login request-1,200,OK,Login thread 1-90,text,true,,3300,119,31,31,https://www.saucedemo.com/,288,0,176
+1728067054965,549,login request,200,OK,Login thread 1-91,text,true,,3964,340,31,31,https://www.saucedemo.com/,287,0,177
+1728067054965,287,login request-0,301,Moved Permanently,Login thread 1-91,text,true,,664,221,31,31,https://saucedemo.com/,287,0,177
+1728067055253,261,login request-1,200,OK,Login thread 1-91,text,true,,3300,119,31,31,https://www.saucedemo.com/,261,0,148
+1728067054982,551,login request,200,OK,Login thread 1-92,text,true,,3964,340,32,32,https://www.saucedemo.com/,280,0,163
+1728067054982,280,login request-0,301,Moved Permanently,Login thread 1-92,text,true,,664,221,32,32,https://saucedemo.com/,280,0,163
+1728067055262,271,login request-1,200,OK,Login thread 1-92,text,true,,3300,119,32,32,https://www.saucedemo.com/,271,0,151
+1728067055005,526,login request,200,OK,Login thread 1-93,text,true,,3964,340,32,32,https://www.saucedemo.com/,261,0,149
+1728067055005,261,login request-0,301,Moved Permanently,Login thread 1-93,text,true,,664,221,32,32,https://saucedemo.com/,261,0,149
+1728067055266,265,login request-1,200,OK,Login thread 1-93,text,true,,3300,119,32,32,https://www.saucedemo.com/,265,0,148
+1728067055025,536,login request,200,OK,Login thread 1-94,text,true,,3964,340,30,30,https://www.saucedemo.com/,265,0,151
+1728067055025,265,login request-0,301,Moved Permanently,Login thread 1-94,text,true,,664,221,30,30,https://saucedemo.com/,265,0,151
+1728067055291,270,login request-1,200,OK,Login thread 1-94,text,true,,3300,119,30,30,https://www.saucedemo.com/,270,0,154
+1728067055045,521,login request,200,OK,Login thread 1-95,text,true,,3964,340,29,29,https://www.saucedemo.com/,255,0,146
+1728067055045,255,login request-0,301,Moved Permanently,Login thread 1-95,text,true,,664,221,29,29,https://saucedemo.com/,255,0,146
+1728067055301,265,login request-1,200,OK,Login thread 1-95,text,true,,3300,119,29,29,https://www.saucedemo.com/,265,0,153
+1728067055084,555,login request,200,OK,Login thread 1-97,text,true,,3964,340,32,32,https://www.saucedemo.com/,279,0,150
+1728067055084,279,login request-0,301,Moved Permanently,Login thread 1-97,text,true,,664,221,32,32,https://saucedemo.com/,279,0,150
+1728067055363,276,login request-1,200,OK,Login thread 1-97,text,true,,3300,119,32,32,https://www.saucedemo.com/,276,0,154
+1728067055104,535,login request,200,OK,Login thread 1-98,text,true,,3964,340,32,32,https://www.saucedemo.com/,269,0,153
+1728067055104,269,login request-0,301,Moved Permanently,Login thread 1-98,text,true,,664,221,32,32,https://saucedemo.com/,269,0,153
+1728067055373,266,login request-1,200,OK,Login thread 1-98,text,true,,3300,119,32,32,https://www.saucedemo.com/,266,0,151
+1728067055063,583,login request,200,OK,Login thread 1-96,text,true,,3964,340,31,31,https://www.saucedemo.com/,310,0,153
+1728067055063,310,login request-0,301,Moved Permanently,Login thread 1-96,text,true,,664,221,31,31,https://saucedemo.com/,310,0,153
+1728067055373,273,login request-1,200,OK,Login thread 1-96,text,true,,3300,119,31,31,https://www.saucedemo.com/,273,0,157
+1728067055124,524,login request,200,OK,Login thread 1-99,text,true,,3965,340,30,30,https://www.saucedemo.com/,260,0,144
+1728067055124,260,login request-0,301,Moved Permanently,Login thread 1-99,text,true,,664,221,30,30,https://saucedemo.com/,260,0,144
+1728067055384,264,login request-1,200,OK,Login thread 1-99,text,true,,3301,119,30,30,https://www.saucedemo.com/,264,0,149
+1728067055143,531,login request,200,OK,Login thread 1-100,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,148
+1728067055143,262,login request-0,301,Moved Permanently,Login thread 1-100,text,true,,664,221,30,30,https://saucedemo.com/,262,0,148
+1728067055405,269,login request-1,200,OK,Login thread 1-100,text,true,,3300,119,30,30,https://www.saucedemo.com/,269,0,151
+1728067055165,546,login request,200,OK,Login thread 1-101,text,true,,3964,340,31,31,https://www.saucedemo.com/,273,0,146
+1728067055165,273,login request-0,301,Moved Permanently,Login thread 1-101,text,true,,664,221,31,31,https://saucedemo.com/,273,0,146
+1728067055438,273,login request-1,200,OK,Login thread 1-101,text,true,,3300,119,31,31,https://www.saucedemo.com/,273,0,148
+1728067055187,550,login request,200,OK,Login thread 1-102,text,true,,3964,340,31,31,https://www.saucedemo.com/,270,0,159
+1728067055187,270,login request-0,301,Moved Permanently,Login thread 1-102,text,true,,664,221,31,31,https://saucedemo.com/,270,0,159
+1728067055457,280,login request-1,200,OK,Login thread 1-102,text,true,,3300,119,31,31,https://www.saucedemo.com/,280,0,150
+1728067055205,588,login request,200,OK,Login thread 1-103,text,true,,3964,340,33,33,https://www.saucedemo.com/,294,0,181
+1728067055205,294,login request-0,301,Moved Permanently,Login thread 1-103,text,true,,664,221,33,33,https://saucedemo.com/,294,0,181
+1728067055499,294,login request-1,200,OK,Login thread 1-103,text,true,,3300,119,33,33,https://www.saucedemo.com/,294,0,152
+1728067055245,549,login request,200,OK,Login thread 1-105,text,true,,3964,340,32,32,https://www.saucedemo.com/,264,0,150
+1728067055245,264,login request-0,301,Moved Permanently,Login thread 1-105,text,true,,664,221,32,32,https://saucedemo.com/,264,0,150
+1728067055510,284,login request-1,200,OK,Login thread 1-105,text,true,,3300,119,32,32,https://www.saucedemo.com/,284,0,149
+1728067055225,572,login request,200,OK,Login thread 1-104,text,true,,3964,340,31,31,https://www.saucedemo.com/,285,0,169
+1728067055225,285,login request-0,301,Moved Permanently,Login thread 1-104,text,true,,664,221,31,31,https://saucedemo.com/,285,0,169
+1728067055510,287,login request-1,200,OK,Login thread 1-104,text,true,,3300,119,31,31,https://www.saucedemo.com/,287,0,155
+1728067055271,573,login request,200,OK,Login thread 1-106,text,true,,3964,340,32,32,https://www.saucedemo.com/,280,0,168
+1728067055271,280,login request-0,301,Moved Permanently,Login thread 1-106,text,true,,664,221,32,32,https://saucedemo.com/,280,0,168
+1728067055551,293,login request-1,200,OK,Login thread 1-106,text,true,,3300,119,32,32,https://www.saucedemo.com/,292,0,159
+1728067055286,562,login request,200,OK,Login thread 1-107,text,true,,3964,340,32,32,https://www.saucedemo.com/,278,0,164
+1728067055286,278,login request-0,301,Moved Permanently,Login thread 1-107,text,true,,664,221,32,32,https://saucedemo.com/,278,0,164
+1728067055565,283,login request-1,200,OK,Login thread 1-107,text,true,,3300,119,32,32,https://www.saucedemo.com/,283,0,160
+1728067055306,553,login request,200,OK,Login thread 1-108,text,true,,3964,340,31,31,https://www.saucedemo.com/,263,0,151
+1728067055306,263,login request-0,301,Moved Permanently,Login thread 1-108,text,true,,664,221,31,31,https://saucedemo.com/,263,0,151
+1728067055569,290,login request-1,200,OK,Login thread 1-108,text,true,,3300,119,31,31,https://www.saucedemo.com/,290,0,163
+1728067055323,557,login request,200,OK,Login thread 1-109,text,true,,3964,340,31,31,https://www.saucedemo.com/,258,0,147
+1728067055323,258,login request-0,301,Moved Permanently,Login thread 1-109,text,true,,664,221,31,31,https://saucedemo.com/,258,0,147
+1728067055582,298,login request-1,200,OK,Login thread 1-109,text,true,,3300,119,31,31,https://www.saucedemo.com/,298,0,169
+1728067055351,592,login request,200,OK,Login thread 1-110,text,true,,3964,340,33,33,https://www.saucedemo.com/,262,0,149
+1728067055351,262,login request-0,301,Moved Permanently,Login thread 1-110,text,true,,664,221,33,33,https://saucedemo.com/,262,0,149
+1728067055614,329,login request-1,200,OK,Login thread 1-110,text,true,,3300,119,33,33,https://www.saucedemo.com/,329,0,177
+1728067055365,581,login request,200,OK,Login thread 1-111,text,true,,3965,340,32,32,https://www.saucedemo.com/,267,0,151
+1728067055365,267,login request-0,301,Moved Permanently,Login thread 1-111,text,true,,664,221,32,32,https://saucedemo.com/,267,0,151
+1728067055633,313,login request-1,200,OK,Login thread 1-111,text,true,,3301,119,32,32,https://www.saucedemo.com/,313,0,176
+1728067055385,598,login request,200,OK,Login thread 1-112,text,true,,3964,340,33,33,https://www.saucedemo.com/,266,0,151
+1728067055385,266,login request-0,301,Moved Permanently,Login thread 1-112,text,true,,664,221,33,33,https://saucedemo.com/,266,0,151
+1728067055651,332,login request-1,200,OK,Login thread 1-112,text,true,,3300,119,33,33,https://www.saucedemo.com/,332,0,187
+1728067055405,586,login request,200,OK,Login thread 1-113,text,true,,3964,340,33,33,https://www.saucedemo.com/,267,0,148
+1728067055405,267,login request-0,301,Moved Permanently,Login thread 1-113,text,true,,664,221,33,33,https://saucedemo.com/,267,0,148
+1728067055672,319,login request-1,200,OK,Login thread 1-113,text,true,,3300,119,33,33,https://www.saucedemo.com/,319,0,177
+1728067055425,589,login request,200,OK,Login thread 1-114,text,true,,3965,340,33,33,https://www.saucedemo.com/,267,0,148
+1728067055425,267,login request-0,301,Moved Permanently,Login thread 1-114,text,true,,664,221,33,33,https://saucedemo.com/,267,0,148
+1728067055692,322,login request-1,200,OK,Login thread 1-114,text,true,,3301,119,33,33,https://www.saucedemo.com/,322,0,183
+1728067055445,577,login request,200,OK,Login thread 1-115,text,true,,3964,340,32,32,https://www.saucedemo.com/,269,0,146
+1728067055445,269,login request-0,301,Moved Permanently,Login thread 1-115,text,true,,664,221,32,32,https://saucedemo.com/,269,0,146
+1728067055714,308,login request-1,200,OK,Login thread 1-115,text,true,,3300,119,32,32,https://www.saucedemo.com/,308,0,171
+1728067055465,584,login request,200,OK,Login thread 1-116,text,true,,3964,340,33,33,https://www.saucedemo.com/,280,0,152
+1728067055465,280,login request-0,301,Moved Permanently,Login thread 1-116,text,true,,664,221,33,33,https://saucedemo.com/,280,0,152
+1728067055745,304,login request-1,200,OK,Login thread 1-116,text,true,,3300,119,33,33,https://www.saucedemo.com/,304,0,173
+1728067055485,594,login request,200,OK,Login thread 1-117,text,true,,3964,340,33,33,https://www.saucedemo.com/,281,0,152
+1728067055485,281,login request-0,301,Moved Permanently,Login thread 1-117,text,true,,664,221,33,33,https://saucedemo.com/,281,0,152
+1728067055766,313,login request-1,200,OK,Login thread 1-117,text,true,,3300,119,33,33,https://www.saucedemo.com/,313,0,181
+1728067055505,603,login request,200,OK,Login thread 1-118,text,true,,3964,340,34,34,https://www.saucedemo.com/,287,0,151
+1728067055505,287,login request-0,301,Moved Permanently,Login thread 1-118,text,true,,664,221,34,34,https://saucedemo.com/,287,0,151
+1728067055792,316,login request-1,200,OK,Login thread 1-118,text,true,,3300,119,34,34,https://www.saucedemo.com/,316,0,191
+1728067055526,605,login request,200,OK,Login thread 1-119,text,true,,3964,340,33,33,https://www.saucedemo.com/,284,0,157
+1728067055526,284,login request-0,301,Moved Permanently,Login thread 1-119,text,true,,664,221,33,33,https://saucedemo.com/,284,0,157
+1728067055811,320,login request-1,200,OK,Login thread 1-119,text,true,,3300,119,33,33,https://www.saucedemo.com/,320,0,180
+1728067055545,607,login request,200,OK,Login thread 1-120,text,true,,3966,340,34,34,https://www.saucedemo.com/,294,0,160
+1728067055545,294,login request-0,301,Moved Permanently,Login thread 1-120,text,true,,665,221,34,34,https://saucedemo.com/,294,0,160
+1728067055840,312,login request-1,200,OK,Login thread 1-120,text,true,,3301,119,34,34,https://www.saucedemo.com/,312,0,184
+1728067055567,607,login request,200,OK,Login thread 1-121,text,true,,3964,340,34,34,https://www.saucedemo.com/,290,0,163
+1728067055567,290,login request-0,301,Moved Permanently,Login thread 1-121,text,true,,664,221,34,34,https://saucedemo.com/,290,0,163
+1728067055857,317,login request-1,200,OK,Login thread 1-121,text,true,,3300,119,34,34,https://www.saucedemo.com/,317,0,188
+1728067055591,595,login request,200,OK,Login thread 1-122,text,true,,3964,340,33,33,https://www.saucedemo.com/,302,0,174
+1728067055591,302,login request-0,301,Moved Permanently,Login thread 1-122,text,true,,664,221,33,33,https://saucedemo.com/,302,0,174
+1728067055894,292,login request-1,200,OK,Login thread 1-122,text,true,,3300,119,33,33,https://www.saucedemo.com/,292,0,171
+1728067055606,613,login request,200,OK,Login thread 1-123,text,true,,3964,340,34,34,https://www.saucedemo.com/,312,0,185
+1728067055606,312,login request-0,301,Moved Permanently,Login thread 1-123,text,true,,664,221,34,34,https://saucedemo.com/,312,0,185
+1728067055918,301,login request-1,200,OK,Login thread 1-123,text,true,,3300,119,34,34,https://www.saucedemo.com/,301,0,176
+1728067055626,623,login request,200,OK,Login thread 1-124,text,true,,3964,340,35,35,https://www.saucedemo.com/,318,0,178
+1728067055626,318,login request-0,301,Moved Permanently,Login thread 1-124,text,true,,664,221,35,35,https://saucedemo.com/,318,0,178
+1728067055945,304,login request-1,200,OK,Login thread 1-124,text,true,,3300,119,35,35,https://www.saucedemo.com/,304,0,174
+1728067055646,659,login request,200,OK,Login thread 1-125,text,true,,3965,340,36,36,https://www.saucedemo.com/,336,0,192
+1728067055646,336,login request-0,301,Moved Permanently,Login thread 1-125,text,true,,665,221,36,36,https://saucedemo.com/,336,0,192
+1728067055982,323,login request-1,200,OK,Login thread 1-125,text,true,,3300,119,36,36,https://www.saucedemo.com/,323,0,177
+1728067055667,644,login request,200,OK,Login thread 1-126,text,true,,3964,340,36,36,https://www.saucedemo.com/,322,0,181
+1728067055667,322,login request-0,301,Moved Permanently,Login thread 1-126,text,true,,664,221,36,36,https://saucedemo.com/,322,0,181
+1728067055989,322,login request-1,200,OK,Login thread 1-126,text,true,,3300,119,36,36,https://www.saucedemo.com/,322,0,176
+1728067055688,642,login request,200,OK,Login thread 1-127,text,true,,3964,340,35,35,https://www.saucedemo.com/,326,0,185
+1728067055688,326,login request-0,301,Moved Permanently,Login thread 1-127,text,true,,664,221,35,35,https://saucedemo.com/,326,0,185
+1728067056014,316,login request-1,200,OK,Login thread 1-127,text,true,,3300,119,35,35,https://www.saucedemo.com/,316,0,166
+1728067055708,627,login request,200,OK,Login thread 1-128,text,true,,3964,340,35,35,https://www.saucedemo.com/,314,0,175
+1728067055708,314,login request-0,301,Moved Permanently,Login thread 1-128,text,true,,664,221,35,35,https://saucedemo.com/,314,0,175
+1728067056022,313,login request-1,200,OK,Login thread 1-128,text,true,,3300,119,35,35,https://www.saucedemo.com/,313,0,163
+1728067055722,616,login request,200,OK,Login thread 1-129,text,true,,3964,340,34,34,https://www.saucedemo.com/,304,0,173
+1728067055722,304,login request-0,301,Moved Permanently,Login thread 1-129,text,true,,664,221,34,34,https://saucedemo.com/,304,0,173
+1728067056026,312,login request-1,200,OK,Login thread 1-129,text,true,,3300,119,34,34,https://www.saucedemo.com/,312,0,161
+1728067055749,614,login request,200,OK,Login thread 1-130,text,true,,3965,340,34,34,https://www.saucedemo.com/,309,0,183
+1728067055749,309,login request-0,301,Moved Permanently,Login thread 1-130,text,true,,664,221,34,34,https://saucedemo.com/,309,0,183
+1728067056059,304,login request-1,200,OK,Login thread 1-130,text,true,,3301,119,34,34,https://www.saucedemo.com/,304,0,167
+1728067055768,646,login request,200,OK,Login thread 1-131,text,true,,3964,340,36,36,https://www.saucedemo.com/,316,0,182
+1728067055768,316,login request-0,301,Moved Permanently,Login thread 1-131,text,true,,664,221,36,36,https://saucedemo.com/,316,0,182
+1728067056085,329,login request-1,200,OK,Login thread 1-131,text,true,,3300,119,36,36,https://www.saucedemo.com/,329,0,174
+1728067055783,640,login request,200,OK,Login thread 1-132,text,true,,3964,340,35,35,https://www.saucedemo.com/,315,0,191
+1728067055783,315,login request-0,301,Moved Permanently,Login thread 1-132,text,true,,664,221,35,35,https://saucedemo.com/,315,0,191
+1728067056098,325,login request-1,200,OK,Login thread 1-132,text,true,,3300,119,35,35,https://www.saucedemo.com/,325,0,194
+1728067055807,636,login request,200,OK,Login thread 1-133,text,true,,3964,340,35,35,https://www.saucedemo.com/,312,0,184
+1728067055807,312,login request-0,301,Moved Permanently,Login thread 1-133,text,true,,664,221,35,35,https://saucedemo.com/,312,0,184
+1728067056119,324,login request-1,200,OK,Login thread 1-133,text,true,,3300,119,35,35,https://www.saucedemo.com/,324,0,196
+1728067055827,646,login request,200,OK,Login thread 1-134,text,true,,3964,340,36,36,https://www.saucedemo.com/,319,0,196
+1728067055827,319,login request-0,301,Moved Permanently,Login thread 1-134,text,true,,664,221,36,36,https://saucedemo.com/,319,0,196
+1728067056146,327,login request-1,200,OK,Login thread 1-134,text,true,,3300,119,36,36,https://www.saucedemo.com/,327,0,195
+1728067055849,635,login request,200,OK,Login thread 1-135,text,true,,3964,340,35,35,https://www.saucedemo.com/,313,0,182
+1728067055849,313,login request-0,301,Moved Permanently,Login thread 1-135,text,true,,664,221,35,35,https://saucedemo.com/,313,0,182
+1728067056162,322,login request-1,200,OK,Login thread 1-135,text,true,,3300,119,35,35,https://www.saucedemo.com/,322,0,195
+1728067055868,631,login request,200,OK,Login thread 1-136,text,true,,3964,340,35,35,https://www.saucedemo.com/,311,0,185
+1728067055868,311,login request-0,301,Moved Permanently,Login thread 1-136,text,true,,664,221,35,35,https://saucedemo.com/,311,0,185
+1728067056179,320,login request-1,200,OK,Login thread 1-136,text,true,,3300,119,35,35,https://www.saucedemo.com/,320,0,195
+1728067055888,612,login request,200,OK,Login thread 1-137,text,true,,3964,340,34,34,https://www.saucedemo.com/,303,0,184
+1728067055888,303,login request-0,301,Moved Permanently,Login thread 1-137,text,true,,664,221,34,34,https://saucedemo.com/,303,0,184
+1728067056192,308,login request-1,200,OK,Login thread 1-137,text,true,,3300,119,34,34,https://www.saucedemo.com/,308,0,185
+1728067055908,622,login request,200,OK,Login thread 1-138,text,true,,3964,340,35,35,https://www.saucedemo.com/,297,0,176
+1728067055908,297,login request-0,301,Moved Permanently,Login thread 1-138,text,true,,664,221,35,35,https://saucedemo.com/,297,0,176
+1728067056206,324,login request-1,200,OK,Login thread 1-138,text,true,,3300,119,35,35,https://www.saucedemo.com/,324,0,206
+1728067055928,615,login request,200,OK,Login thread 1-139,text,true,,3964,340,34,34,https://www.saucedemo.com/,302,0,177
+1728067055928,302,login request-0,301,Moved Permanently,Login thread 1-139,text,true,,664,221,34,34,https://saucedemo.com/,302,0,177
+1728067056230,313,login request-1,200,OK,Login thread 1-139,text,true,,3300,119,34,34,https://www.saucedemo.com/,313,0,194
+1728067055948,609,login request,200,OK,Login thread 1-140,text,true,,3964,340,34,34,https://www.saucedemo.com/,304,0,175
+1728067055948,304,login request-0,301,Moved Permanently,Login thread 1-140,text,true,,664,221,34,34,https://saucedemo.com/,304,0,175
+1728067056253,304,login request-1,200,OK,Login thread 1-140,text,true,,3300,119,34,34,https://www.saucedemo.com/,304,0,175
+1728067055968,607,login request,200,OK,Login thread 1-141,text,true,,3964,340,34,34,https://www.saucedemo.com/,325,0,175
+1728067055968,325,login request-0,301,Moved Permanently,Login thread 1-141,text,true,,664,221,34,34,https://saucedemo.com/,325,0,175
+1728067056293,282,login request-1,200,OK,Login thread 1-141,text,true,,3300,119,34,34,https://www.saucedemo.com/,282,0,164
+1728067055987,616,login request,200,OK,Login thread 1-142,text,true,,3964,340,34,34,https://www.saucedemo.com/,319,0,174
+1728067055987,319,login request-0,301,Moved Permanently,Login thread 1-142,text,true,,664,221,34,34,https://saucedemo.com/,319,0,174
+1728067056307,296,login request-1,200,OK,Login thread 1-142,text,true,,3300,119,34,34,https://www.saucedemo.com/,296,0,176
+1728067056007,603,login request,200,OK,Login thread 1-143,text,true,,3964,340,34,34,https://www.saucedemo.com/,321,0,172
+1728067056007,321,login request-0,301,Moved Permanently,Login thread 1-143,text,true,,664,221,34,34,https://saucedemo.com/,321,0,172
+1728067056329,281,login request-1,200,OK,Login thread 1-143,text,true,,3300,119,34,34,https://www.saucedemo.com/,281,0,164
+1728067056027,603,login request,200,OK,Login thread 1-144,text,true,,3964,340,34,34,https://www.saucedemo.com/,311,0,164
+1728067056027,311,login request-0,301,Moved Permanently,Login thread 1-144,text,true,,664,221,34,34,https://saucedemo.com/,311,0,164
+1728067056338,292,login request-1,200,OK,Login thread 1-144,text,true,,3300,119,34,34,https://www.saucedemo.com/,292,0,174
+1728067056043,599,login request,200,OK,Login thread 1-145,text,true,,3965,340,33,33,https://www.saucedemo.com/,314,0,169
+1728067056043,314,login request-0,301,Moved Permanently,Login thread 1-145,text,true,,664,221,33,33,https://saucedemo.com/,314,0,169
+1728067056357,285,login request-1,200,OK,Login thread 1-145,text,true,,3301,119,33,33,https://www.saucedemo.com/,285,0,166
+1728067056068,588,login request,200,OK,Login thread 1-146,text,true,,3964,340,33,33,https://www.saucedemo.com/,301,0,168
+1728067056068,301,login request-0,301,Moved Permanently,Login thread 1-146,text,true,,664,221,33,33,https://saucedemo.com/,301,0,168
+1728067056369,287,login request-1,200,OK,Login thread 1-146,text,true,,3300,119,33,33,https://www.saucedemo.com/,287,0,168
+1728067056089,601,login request,200,OK,Login thread 1-147,text,true,,3964,340,34,34,https://www.saucedemo.com/,325,0,171
+1728067056089,325,login request-0,301,Moved Permanently,Login thread 1-147,text,true,,664,221,34,34,https://saucedemo.com/,325,0,171
+1728067056414,276,login request-1,200,OK,Login thread 1-147,text,true,,3300,119,34,34,https://www.saucedemo.com/,276,0,160
+1728067056109,604,login request,200,OK,Login thread 1-148,text,true,,3964,340,34,34,https://www.saucedemo.com/,314,0,190
+1728067056109,314,login request-0,301,Moved Permanently,Login thread 1-148,text,true,,664,221,34,34,https://saucedemo.com/,314,0,190
+1728067056423,290,login request-1,200,OK,Login thread 1-148,text,true,,3300,119,34,34,https://www.saucedemo.com/,290,0,171
+1728067056132,587,login request,200,OK,Login thread 1-149,text,true,,3964,340,33,33,https://www.saucedemo.com/,318,0,193
+1728067056132,318,login request-0,301,Moved Permanently,Login thread 1-149,text,true,,664,221,33,33,https://saucedemo.com/,318,0,193
+1728067056450,269,login request-1,200,OK,Login thread 1-149,text,true,,3300,119,33,33,https://www.saucedemo.com/,269,0,156
+1728067056148,597,login request,200,OK,Login thread 1-150,text,true,,3964,340,33,33,https://www.saucedemo.com/,317,0,193
+1728067056148,317,login request-0,301,Moved Permanently,Login thread 1-150,text,true,,664,221,33,33,https://saucedemo.com/,317,0,193
+1728067056465,280,login request-1,200,OK,Login thread 1-150,text,true,,3300,119,33,33,https://www.saucedemo.com/,280,0,161
+1728067056169,593,login request,200,OK,Login thread 1-151,text,true,,3964,340,33,33,https://www.saucedemo.com/,316,0,197
+1728067056169,316,login request-0,301,Moved Permanently,Login thread 1-151,text,true,,664,221,33,33,https://saucedemo.com/,316,0,197
+1728067056486,276,login request-1,200,OK,Login thread 1-151,text,true,,3300,119,33,33,https://www.saucedemo.com/,276,0,159
+1728067056189,590,login request,200,OK,Login thread 1-152,text,true,,3964,340,33,33,https://www.saucedemo.com/,322,0,189
+1728067056189,322,login request-0,301,Moved Permanently,Login thread 1-152,text,true,,664,221,33,33,https://saucedemo.com/,322,0,189
+1728067056512,267,login request-1,200,OK,Login thread 1-152,text,true,,3300,119,33,33,https://www.saucedemo.com/,267,0,154
+1728067056229,577,login request,200,OK,Login thread 1-154,text,true,,3964,340,33,33,https://www.saucedemo.com/,312,0,195
+1728067056229,312,login request-0,301,Moved Permanently,Login thread 1-154,text,true,,664,221,33,33,https://saucedemo.com/,312,0,195
+1728067056541,265,login request-1,200,OK,Login thread 1-154,text,true,,3300,119,33,33,https://www.saucedemo.com/,265,0,151
+1728067056208,600,login request,200,OK,Login thread 1-153,text,true,,3964,340,33,33,https://www.saucedemo.com/,330,0,209
+1728067056208,330,login request-0,301,Moved Permanently,Login thread 1-153,text,true,,664,221,33,33,https://saucedemo.com/,330,0,209
+1728067056538,270,login request-1,200,OK,Login thread 1-153,text,true,,3300,119,33,33,https://www.saucedemo.com/,270,0,155
+1728067056249,575,login request,200,OK,Login thread 1-155,text,true,,3964,340,32,32,https://www.saucedemo.com/,308,0,181
+1728067056249,308,login request-0,301,Moved Permanently,Login thread 1-155,text,true,,664,221,32,32,https://saucedemo.com/,308,0,181
+1728067056557,267,login request-1,200,OK,Login thread 1-155,text,true,,3300,119,32,32,https://www.saucedemo.com/,267,0,154
+1728067056269,576,login request,200,OK,Login thread 1-156,text,true,,3964,340,32,32,https://www.saucedemo.com/,297,0,176
+1728067056269,297,login request-0,301,Moved Permanently,Login thread 1-156,text,true,,664,221,32,32,https://saucedemo.com/,297,0,176
+1728067056566,279,login request-1,200,OK,Login thread 1-156,text,true,,3300,119,32,32,https://www.saucedemo.com/,279,0,154
+1728067056289,557,login request,200,OK,Login thread 1-157,text,true,,3964,340,31,31,https://www.saucedemo.com/,281,0,165
+1728067056289,281,login request-0,301,Moved Permanently,Login thread 1-157,text,true,,664,221,31,31,https://saucedemo.com/,281,0,165
+1728067056570,276,login request-1,200,OK,Login thread 1-157,text,true,,3300,119,31,31,https://www.saucedemo.com/,276,0,154
+1728067056307,566,login request,200,OK,Login thread 1-158,text,true,,3964,340,32,32,https://www.saucedemo.com/,291,0,175
+1728067056307,291,login request-0,301,Moved Permanently,Login thread 1-158,text,true,,664,221,32,32,https://saucedemo.com/,291,0,175
+1728067056598,275,login request-1,200,OK,Login thread 1-158,text,true,,3300,119,32,32,https://www.saucedemo.com/,275,0,159
+1728067056331,558,login request,200,OK,Login thread 1-159,text,true,,3965,340,31,31,https://www.saucedemo.com/,287,0,165
+1728067056331,287,login request-0,301,Moved Permanently,Login thread 1-159,text,true,,664,221,31,31,https://saucedemo.com/,287,0,165
+1728067056619,270,login request-1,200,OK,Login thread 1-159,text,true,,3301,119,31,31,https://www.saucedemo.com/,270,0,154
+1728067056348,552,login request,200,OK,Login thread 1-160,text,true,,3964,340,31,31,https://www.saucedemo.com/,283,0,168
+1728067056348,283,login request-0,301,Moved Permanently,Login thread 1-160,text,true,,664,221,31,31,https://saucedemo.com/,283,0,168
+1728067056631,269,login request-1,200,OK,Login thread 1-160,text,true,,3300,119,31,31,https://www.saucedemo.com/,269,0,154
+1728067056367,556,login request,200,OK,Login thread 1-161,text,true,,3964,340,31,31,https://www.saucedemo.com/,288,0,166
+1728067056367,288,login request-0,301,Moved Permanently,Login thread 1-161,text,true,,664,221,31,31,https://saucedemo.com/,288,0,166
+1728067056655,268,login request-1,200,OK,Login thread 1-161,text,true,,3300,119,31,31,https://www.saucedemo.com/,267,0,152
+1728067056387,553,login request,200,OK,Login thread 1-162,text,true,,3964,340,31,31,https://www.saucedemo.com/,276,0,159
+1728067056387,276,login request-0,301,Moved Permanently,Login thread 1-162,text,true,,664,221,31,31,https://saucedemo.com/,276,0,159
+1728067056663,277,login request-1,200,OK,Login thread 1-162,text,true,,3300,119,31,31,https://www.saucedemo.com/,277,0,160
+1728067056408,553,login request,200,OK,Login thread 1-163,text,true,,3964,340,31,31,https://www.saucedemo.com/,274,0,158
+1728067056408,274,login request-0,301,Moved Permanently,Login thread 1-163,text,true,,664,221,31,31,https://saucedemo.com/,274,0,158
+1728067056682,279,login request-1,200,OK,Login thread 1-163,text,true,,3300,119,31,31,https://www.saucedemo.com/,279,0,163
+1728067056428,539,login request,200,OK,Login thread 1-164,text,true,,3964,340,30,30,https://www.saucedemo.com/,279,0,164
+1728067056428,279,login request-0,301,Moved Permanently,Login thread 1-164,text,true,,664,221,30,30,https://saucedemo.com/,279,0,164
+1728067056707,260,login request-1,200,OK,Login thread 1-164,text,true,,3300,119,30,30,https://www.saucedemo.com/,260,0,148
+1728067056448,529,login request,200,OK,Login thread 1-165,text,true,,3964,340,30,30,https://www.saucedemo.com/,269,0,155
+1728067056448,269,login request-0,301,Moved Permanently,Login thread 1-165,text,true,,664,221,30,30,https://saucedemo.com/,269,0,155
+1728067056717,260,login request-1,200,OK,Login thread 1-165,text,true,,3300,119,30,30,https://www.saucedemo.com/,260,0,151
+1728067056467,539,login request,200,OK,Login thread 1-166,text,true,,3964,340,30,30,https://www.saucedemo.com/,278,0,161
+1728067056467,278,login request-0,301,Moved Permanently,Login thread 1-166,text,true,,664,221,30,30,https://saucedemo.com/,278,0,161
+1728067056745,261,login request-1,200,OK,Login thread 1-166,text,true,,3300,119,30,30,https://www.saucedemo.com/,261,0,150
+1728067056488,538,login request,200,OK,Login thread 1-167,text,true,,3964,340,30,30,https://www.saucedemo.com/,276,0,164
+1728067056488,276,login request-0,301,Moved Permanently,Login thread 1-167,text,true,,664,221,30,30,https://saucedemo.com/,276,0,164
+1728067056764,262,login request-1,200,OK,Login thread 1-167,text,true,,3300,119,30,30,https://www.saucedemo.com/,262,0,150
+1728067056507,533,login request,200,OK,Login thread 1-168,text,true,,3964,340,30,30,https://www.saucedemo.com/,267,0,155
+1728067056507,267,login request-0,301,Moved Permanently,Login thread 1-168,text,true,,664,221,30,30,https://saucedemo.com/,267,0,155
+1728067056774,266,login request-1,200,OK,Login thread 1-168,text,true,,3300,119,30,30,https://www.saucedemo.com/,266,0,156
+1728067056527,528,login request,200,OK,Login thread 1-169,text,true,,3964,340,30,30,https://www.saucedemo.com/,264,0,153
+1728067056527,264,login request-0,301,Moved Permanently,Login thread 1-169,text,true,,664,221,30,30,https://saucedemo.com/,264,0,153
+1728067056791,264,login request-1,200,OK,Login thread 1-169,text,true,,3300,119,30,30,https://www.saucedemo.com/,264,0,154
+1728067056547,529,login request,200,OK,Login thread 1-170,text,true,,3964,340,30,30,https://www.saucedemo.com/,263,0,149
+1728067056547,263,login request-0,301,Moved Permanently,Login thread 1-170,text,true,,664,221,30,30,https://saucedemo.com/,263,0,149
+1728067056810,266,login request-1,200,OK,Login thread 1-170,text,true,,3300,119,30,30,https://www.saucedemo.com/,266,0,153
+1728067056567,535,login request,200,OK,Login thread 1-171,text,true,,3964,340,30,30,https://www.saucedemo.com/,279,0,156
+1728067056567,279,login request-0,301,Moved Permanently,Login thread 1-171,text,true,,664,221,30,30,https://saucedemo.com/,279,0,156
+1728067056846,256,login request-1,200,OK,Login thread 1-171,text,true,,3300,119,30,30,https://www.saucedemo.com/,256,0,146
+1728067056587,524,login request,200,OK,Login thread 1-172,text,true,,3964,340,30,30,https://www.saucedemo.com/,270,0,156
+1728067056587,270,login request-0,301,Moved Permanently,Login thread 1-172,text,true,,664,221,30,30,https://saucedemo.com/,270,0,156
+1728067056858,253,login request-1,200,OK,Login thread 1-172,text,true,,3300,119,30,30,https://www.saucedemo.com/,253,0,142
+1728067056607,553,login request,200,OK,Login thread 1-173,text,true,,3964,340,31,31,https://www.saucedemo.com/,274,0,156
+1728067056607,274,login request-0,301,Moved Permanently,Login thread 1-173,text,true,,664,221,31,31,https://saucedemo.com/,274,0,156
+1728067056881,279,login request-1,200,OK,Login thread 1-173,text,true,,3300,119,31,31,https://www.saucedemo.com/,279,0,145
+1728067056626,540,login request,200,OK,Login thread 1-174,text,true,,3965,340,30,30,https://www.saucedemo.com/,263,0,152
+1728067056626,263,login request-0,301,Moved Permanently,Login thread 1-174,text,true,,665,221,30,30,https://saucedemo.com/,263,0,152
+1728067056889,277,login request-1,200,OK,Login thread 1-174,text,true,,3300,119,30,30,https://www.saucedemo.com/,277,0,145
+1728067056650,526,login request,200,OK,Login thread 1-175,text,true,,3964,340,30,30,https://www.saucedemo.com/,266,0,149
+1728067056650,266,login request-0,301,Moved Permanently,Login thread 1-175,text,true,,664,221,30,30,https://saucedemo.com/,266,0,149
+1728067056916,260,login request-1,200,OK,Login thread 1-175,text,true,,3300,119,30,30,https://www.saucedemo.com/,260,0,145
+1728067056669,532,login request,200,OK,Login thread 1-176,text,true,,3965,340,30,30,https://www.saucedemo.com/,272,0,154
+1728067056669,272,login request-0,301,Moved Permanently,Login thread 1-176,text,true,,665,221,30,30,https://saucedemo.com/,272,0,154
+1728067056942,259,login request-1,200,OK,Login thread 1-176,text,true,,3300,119,30,30,https://www.saucedemo.com/,259,0,144
+1728067056688,554,login request,200,OK,Login thread 1-177,text,true,,3964,340,31,31,https://www.saucedemo.com/,280,0,166
+1728067056688,280,login request-0,301,Moved Permanently,Login thread 1-177,text,true,,664,221,31,31,https://saucedemo.com/,280,0,166
+1728067056968,274,login request-1,200,OK,Login thread 1-177,text,true,,3300,119,31,31,https://www.saucedemo.com/,274,0,148
+1728067056707,540,login request,200,OK,Login thread 1-178,text,true,,3964,340,31,31,https://www.saucedemo.com/,263,0,151
+1728067056707,263,login request-0,301,Moved Permanently,Login thread 1-178,text,true,,664,221,31,31,https://saucedemo.com/,263,0,151
+1728067056970,277,login request-1,200,OK,Login thread 1-178,text,true,,3300,119,31,31,https://www.saucedemo.com/,277,0,151
+1728067056727,534,login request,200,OK,Login thread 1-179,text,true,,3964,340,30,30,https://www.saucedemo.com/,266,0,154
+1728067056727,266,login request-0,301,Moved Permanently,Login thread 1-179,text,true,,664,221,30,30,https://saucedemo.com/,266,0,154
+1728067056993,268,login request-1,200,OK,Login thread 1-179,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,143
+1728067056747,536,login request,200,OK,Login thread 1-180,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,149
+1728067056747,262,login request-0,301,Moved Permanently,Login thread 1-180,text,true,,664,221,30,30,https://saucedemo.com/,262,0,149
+1728067057009,274,login request-1,200,OK,Login thread 1-180,text,true,,3300,119,30,30,https://www.saucedemo.com/,274,0,160
+1728067056783,520,login request,200,OK,Login thread 1-182,text,true,,3964,340,30,30,https://www.saucedemo.com/,260,0,151
+1728067056783,260,login request-0,301,Moved Permanently,Login thread 1-182,text,true,,664,221,30,30,https://saucedemo.com/,260,0,151
+1728067057044,259,login request-1,200,OK,Login thread 1-182,text,true,,3300,119,30,30,https://www.saucedemo.com/,259,0,147
+1728067056808,521,login request,200,OK,Login thread 1-183,text,true,,3965,340,31,31,https://www.saucedemo.com/,259,0,151
+1728067056808,259,login request-0,301,Moved Permanently,Login thread 1-183,text,true,,665,221,31,31,https://saucedemo.com/,259,0,151
+1728067057068,261,login request-1,200,OK,Login thread 1-183,text,true,,3300,119,31,31,https://www.saucedemo.com/,261,0,145
+1728067056770,587,login request,200,OK,Login thread 1-181,text,true,,3964,340,31,31,https://www.saucedemo.com/,269,0,155
+1728067056770,269,login request-0,301,Moved Permanently,Login thread 1-181,text,true,,664,221,31,31,https://saucedemo.com/,269,0,155
+1728067057039,318,login request-1,200,OK,Login thread 1-181,text,true,,3300,119,31,31,https://www.saucedemo.com/,318,0,176
+1728067056828,533,login request,200,OK,Login thread 1-184,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,150
+1728067056828,262,login request-0,301,Moved Permanently,Login thread 1-184,text,true,,664,221,30,30,https://saucedemo.com/,262,0,150
+1728067057090,271,login request-1,200,OK,Login thread 1-184,text,true,,3300,119,30,30,https://www.saucedemo.com/,271,0,159
+1728067056848,532,login request,200,OK,Login thread 1-185,text,true,,3964,340,30,30,https://www.saucedemo.com/,258,0,147
+1728067056848,258,login request-0,301,Moved Permanently,Login thread 1-185,text,true,,664,221,30,30,https://saucedemo.com/,258,0,147
+1728067057106,274,login request-1,200,OK,Login thread 1-185,text,true,,3300,119,30,30,https://www.saucedemo.com/,274,0,162
+1728067056868,545,login request,200,OK,Login thread 1-186,text,true,,3964,340,31,31,https://www.saucedemo.com/,265,0,152
+1728067056868,265,login request-0,301,Moved Permanently,Login thread 1-186,text,true,,664,221,31,31,https://saucedemo.com/,265,0,152
+1728067057133,280,login request-1,200,OK,Login thread 1-186,text,true,,3300,119,31,31,https://www.saucedemo.com/,280,0,167
+1728067056890,548,login request,200,OK,Login thread 1-187,text,true,,3964,340,31,31,https://www.saucedemo.com/,276,0,150
+1728067056890,276,login request-0,301,Moved Permanently,Login thread 1-187,text,true,,664,221,31,31,https://saucedemo.com/,276,0,150
+1728067057167,271,login request-1,200,OK,Login thread 1-187,text,true,,3300,119,31,31,https://www.saucedemo.com/,271,0,159
+1728067056906,542,login request,200,OK,Login thread 1-188,text,true,,3965,340,31,31,https://www.saucedemo.com/,267,0,146
+1728067056906,267,login request-0,301,Moved Permanently,Login thread 1-188,text,true,,664,221,31,31,https://saucedemo.com/,267,0,146
+1728067057174,274,login request-1,200,OK,Login thread 1-188,text,true,,3301,119,31,31,https://www.saucedemo.com/,274,0,155
+1728067056927,533,login request,200,OK,Login thread 1-189,text,true,,3964,340,30,30,https://www.saucedemo.com/,264,0,153
+1728067056927,264,login request-0,301,Moved Permanently,Login thread 1-189,text,true,,664,221,30,30,https://saucedemo.com/,264,0,153
+1728067057191,269,login request-1,200,OK,Login thread 1-189,text,true,,3300,119,30,30,https://www.saucedemo.com/,269,0,157
+1728067056947,530,login request,200,OK,Login thread 1-190,text,true,,3964,340,30,30,https://www.saucedemo.com/,261,0,147
+1728067056947,261,login request-0,301,Moved Permanently,Login thread 1-190,text,true,,664,221,30,30,https://saucedemo.com/,261,0,147
+1728067057208,269,login request-1,200,OK,Login thread 1-190,text,true,,3300,119,30,30,https://www.saucedemo.com/,269,0,151
+1728067056984,524,login request,200,OK,Login thread 1-192,text,true,,3965,340,31,31,https://www.saucedemo.com/,264,0,142
+1728067056984,264,login request-0,301,Moved Permanently,Login thread 1-192,text,true,,664,221,31,31,https://saucedemo.com/,264,0,142
+1728067057249,259,login request-1,200,OK,Login thread 1-192,text,true,,3301,119,31,31,https://www.saucedemo.com/,259,0,148
+1728067056968,543,login request,200,OK,Login thread 1-191,text,true,,3964,340,30,30,https://www.saucedemo.com/,282,0,156
+1728067056968,282,login request-0,301,Moved Permanently,Login thread 1-191,text,true,,664,221,30,30,https://saucedemo.com/,282,0,156
+1728067057251,260,login request-1,200,OK,Login thread 1-191,text,true,,3300,119,30,30,https://www.saucedemo.com/,260,0,148
+1728067057008,559,login request,200,OK,Login thread 1-193,text,true,,3964,340,32,32,https://www.saucedemo.com/,293,0,163
+1728067057008,293,login request-0,301,Moved Permanently,Login thread 1-193,text,true,,664,221,32,32,https://saucedemo.com/,293,0,163
+1728067057301,266,login request-1,200,OK,Login thread 1-193,text,true,,3300,119,32,32,https://www.saucedemo.com/,266,0,151
+1728067057028,562,login request,200,OK,Login thread 1-194,text,true,,3964,340,32,32,https://www.saucedemo.com/,291,0,159
+1728067057028,291,login request-0,301,Moved Permanently,Login thread 1-194,text,true,,664,221,32,32,https://saucedemo.com/,291,0,159
+1728067057319,271,login request-1,200,OK,Login thread 1-194,text,true,,3300,119,32,32,https://www.saucedemo.com/,271,0,157
+1728067057047,556,login request,200,OK,Login thread 1-195,text,true,,3964,340,31,31,https://www.saucedemo.com/,264,0,150
+1728067057047,264,login request-0,301,Moved Permanently,Login thread 1-195,text,true,,664,221,31,31,https://saucedemo.com/,264,0,150
+1728067057312,291,login request-1,200,OK,Login thread 1-195,text,true,,3300,119,31,31,https://www.saucedemo.com/,291,0,165
+1728067057070,561,login request,200,OK,Login thread 1-196,text,true,,3965,340,32,32,https://www.saucedemo.com/,271,0,153
+1728067057070,271,login request-0,301,Moved Permanently,Login thread 1-196,text,true,,665,221,32,32,https://saucedemo.com/,271,0,153
+1728067057341,290,login request-1,200,OK,Login thread 1-196,text,true,,3300,119,32,32,https://www.saucedemo.com/,290,0,152
+1728067057087,577,login request,200,OK,Login thread 1-197,text,true,,3965,340,32,32,https://www.saucedemo.com/,282,0,171
+1728067057087,282,login request-0,301,Moved Permanently,Login thread 1-197,text,true,,664,221,32,32,https://saucedemo.com/,282,0,171
+1728067057370,294,login request-1,200,OK,Login thread 1-197,text,true,,3301,119,32,32,https://www.saucedemo.com/,294,0,147
+1728067057127,546,login request,200,OK,Login thread 1-199,text,true,,3964,340,32,32,https://www.saucedemo.com/,255,0,146
+1728067057127,255,login request-0,301,Moved Permanently,Login thread 1-199,text,true,,664,221,32,32,https://saucedemo.com/,255,0,146
+1728067057382,291,login request-1,200,OK,Login thread 1-199,text,true,,3300,119,32,32,https://www.saucedemo.com/,291,0,149
+1728067057107,575,login request,200,OK,Login thread 1-198,text,true,,3964,340,31,31,https://www.saucedemo.com/,274,0,162
+1728067057107,274,login request-0,301,Moved Permanently,Login thread 1-198,text,true,,664,221,31,31,https://saucedemo.com/,274,0,162
+1728067057382,300,login request-1,200,OK,Login thread 1-198,text,true,,3300,119,31,31,https://www.saucedemo.com/,300,0,153
+1728067057147,561,login request,200,OK,Login thread 1-200,text,true,,3964,340,32,32,https://www.saucedemo.com/,265,0,155
+1728067057147,265,login request-0,301,Moved Permanently,Login thread 1-200,text,true,,664,221,32,32,https://saucedemo.com/,265,0,155
+1728067057412,296,login request-1,200,OK,Login thread 1-200,text,true,,3300,119,32,32,https://www.saucedemo.com/,296,0,150
+1728067057167,564,login request,200,OK,Login thread 1-201,text,true,,3964,340,32,32,https://www.saucedemo.com/,273,0,159
+1728067057167,273,login request-0,301,Moved Permanently,Login thread 1-201,text,true,,664,221,32,32,https://saucedemo.com/,273,0,159
+1728067057440,291,login request-1,200,OK,Login thread 1-201,text,true,,3300,119,32,32,https://www.saucedemo.com/,291,0,147
+1728067057187,589,login request,200,OK,Login thread 1-202,text,true,,3965,340,33,33,https://www.saucedemo.com/,263,0,150
+1728067057187,263,login request-0,301,Moved Permanently,Login thread 1-202,text,true,,664,221,33,33,https://saucedemo.com/,263,0,150
+1728067057450,326,login request-1,200,OK,Login thread 1-202,text,true,,3301,119,33,33,https://www.saucedemo.com/,326,0,179
+1728067057206,596,login request,200,OK,Login thread 1-203,text,true,,3964,340,33,33,https://www.saucedemo.com/,269,0,148
+1728067057206,269,login request-0,301,Moved Permanently,Login thread 1-203,text,true,,664,221,33,33,https://saucedemo.com/,269,0,148
+1728067057475,327,login request-1,200,OK,Login thread 1-203,text,true,,3300,119,33,33,https://www.saucedemo.com/,327,0,170
+1728067057226,597,login request,200,OK,Login thread 1-204,text,true,,3965,340,33,33,https://www.saucedemo.com/,261,0,149
+1728067057226,261,login request-0,301,Moved Permanently,Login thread 1-204,text,true,,665,221,33,33,https://saucedemo.com/,261,0,149
+1728067057487,336,login request-1,200,OK,Login thread 1-204,text,true,,3300,119,33,33,https://www.saucedemo.com/,336,0,187
+1728067057243,613,login request,200,OK,Login thread 1-205,text,true,,3964,340,34,34,https://www.saucedemo.com/,264,0,150
+1728067057243,264,login request-0,301,Moved Permanently,Login thread 1-205,text,true,,664,221,34,34,https://saucedemo.com/,264,0,150
+1728067057507,349,login request-1,200,OK,Login thread 1-205,text,true,,3300,119,34,34,https://www.saucedemo.com/,349,0,200
+1728067057266,598,login request,200,OK,Login thread 1-206,text,true,,3964,340,34,34,https://www.saucedemo.com/,264,0,150
+1728067057266,264,login request-0,301,Moved Permanently,Login thread 1-206,text,true,,664,221,34,34,https://saucedemo.com/,264,0,150
+1728067057530,334,login request-1,200,OK,Login thread 1-206,text,true,,3300,119,34,34,https://www.saucedemo.com/,334,0,197
+1728067057286,608,login request,200,OK,Login thread 1-207,text,true,,3964,340,34,34,https://www.saucedemo.com/,265,0,154
+1728067057286,265,login request-0,301,Moved Permanently,Login thread 1-207,text,true,,664,221,34,34,https://saucedemo.com/,265,0,154
+1728067057551,343,login request-1,200,OK,Login thread 1-207,text,true,,3300,119,34,34,https://www.saucedemo.com/,343,0,199
+1728067057306,641,login request,200,OK,Login thread 1-208,text,true,,3964,340,36,36,https://www.saucedemo.com/,280,0,168
+1728067057306,280,login request-0,301,Moved Permanently,Login thread 1-208,text,true,,664,221,36,36,https://saucedemo.com/,280,0,168
+1728067057586,361,login request-1,200,OK,Login thread 1-208,text,true,,3300,119,36,36,https://www.saucedemo.com/,361,0,197
+1728067057326,633,login request,200,OK,Login thread 1-209,text,true,,3965,340,35,35,https://www.saucedemo.com/,277,0,153
+1728067057326,277,login request-0,301,Moved Permanently,Login thread 1-209,text,true,,665,221,35,35,https://saucedemo.com/,277,0,153
+1728067057603,356,login request-1,200,OK,Login thread 1-209,text,true,,3300,119,35,35,https://www.saucedemo.com/,356,0,210
+1728067057347,630,login request,200,OK,Login thread 1-210,text,true,,3964,340,35,35,https://www.saucedemo.com/,285,0,149
+1728067057347,285,login request-0,301,Moved Permanently,Login thread 1-210,text,true,,664,221,35,35,https://saucedemo.com/,285,0,149
+1728067057632,345,login request-1,200,OK,Login thread 1-210,text,true,,3300,119,35,35,https://www.saucedemo.com/,345,0,208
+1728067057366,628,login request,200,OK,Login thread 1-211,text,true,,3964,340,35,35,https://www.saucedemo.com/,291,0,147
+1728067057366,291,login request-0,301,Moved Permanently,Login thread 1-211,text,true,,664,221,35,35,https://saucedemo.com/,291,0,147
+1728067057658,336,login request-1,200,OK,Login thread 1-211,text,true,,3300,119,35,35,https://www.saucedemo.com/,336,0,202
+1728067057384,619,login request,200,OK,Login thread 1-212,text,true,,3964,340,34,34,https://www.saucedemo.com/,292,0,149
+1728067057384,292,login request-0,301,Moved Permanently,Login thread 1-212,text,true,,664,221,34,34,https://saucedemo.com/,292,0,149
+1728067057676,327,login request-1,200,OK,Login thread 1-212,text,true,,3300,119,34,34,https://www.saucedemo.com/,327,0,194
+1728067057404,623,login request,200,OK,Login thread 1-213,text,true,,3964,340,35,35,https://www.saucedemo.com/,284,0,146
+1728067057404,284,login request-0,301,Moved Permanently,Login thread 1-213,text,true,,664,221,35,35,https://saucedemo.com/,284,0,146
+1728067057689,338,login request-1,200,OK,Login thread 1-213,text,true,,3300,119,35,35,https://www.saucedemo.com/,338,0,204
+1728067057423,616,login request,200,OK,Login thread 1-214,text,true,,3964,340,34,34,https://www.saucedemo.com/,290,0,146
+1728067057423,290,login request-0,301,Moved Permanently,Login thread 1-214,text,true,,664,221,34,34,https://saucedemo.com/,290,0,146
+1728067057714,325,login request-1,200,OK,Login thread 1-214,text,true,,3300,119,34,34,https://www.saucedemo.com/,325,0,189
+1728067057445,658,login request,200,OK,Login thread 1-215,text,true,,3965,340,36,36,https://www.saucedemo.com/,332,0,184
+1728067057445,332,login request-0,301,Moved Permanently,Login thread 1-215,text,true,,664,221,36,36,https://saucedemo.com/,332,0,184
+1728067057777,326,login request-1,200,OK,Login thread 1-215,text,true,,3301,119,36,36,https://www.saucedemo.com/,326,0,192
+1728067057464,652,login request,200,OK,Login thread 1-216,text,true,,3964,340,36,36,https://www.saucedemo.com/,321,0,169
+1728067057464,321,login request-0,301,Moved Permanently,Login thread 1-216,text,true,,664,221,36,36,https://saucedemo.com/,321,0,169
+1728067057785,331,login request-1,200,OK,Login thread 1-216,text,true,,3300,119,36,36,https://www.saucedemo.com/,331,0,193
+1728067057485,652,login request,200,OK,Login thread 1-217,text,true,,3964,340,36,36,https://www.saucedemo.com/,333,0,185
+1728067057485,333,login request-0,301,Moved Permanently,Login thread 1-217,text,true,,664,221,36,36,https://saucedemo.com/,333,0,185
+1728067057819,318,login request-1,200,OK,Login thread 1-217,text,true,,3300,119,36,36,https://www.saucedemo.com/,318,0,184
+1728067057504,666,login request,200,OK,Login thread 1-218,text,true,,3964,340,37,37,https://www.saucedemo.com/,354,0,206
+1728067057504,354,login request-0,301,Moved Permanently,Login thread 1-218,text,true,,664,221,37,37,https://saucedemo.com/,354,0,206
+1728067057858,312,login request-1,200,OK,Login thread 1-218,text,true,,3300,119,37,37,https://www.saucedemo.com/,312,0,189
+1728067057528,647,login request,200,OK,Login thread 1-219,text,true,,3964,340,36,36,https://www.saucedemo.com/,340,0,202
+1728067057528,340,login request-0,301,Moved Permanently,Login thread 1-219,text,true,,664,221,36,36,https://saucedemo.com/,340,0,202
+1728067057869,306,login request-1,200,OK,Login thread 1-219,text,true,,3300,119,36,36,https://www.saucedemo.com/,306,0,183
+1728067057546,639,login request,200,OK,Login thread 1-220,text,true,,3964,340,36,36,https://www.saucedemo.com/,343,0,202
+1728067057546,343,login request-0,301,Moved Permanently,Login thread 1-220,text,true,,664,221,36,36,https://saucedemo.com/,343,0,202
+1728067057889,296,login request-1,200,OK,Login thread 1-220,text,true,,3300,119,36,36,https://www.saucedemo.com/,296,0,173
+1728067057566,635,login request,200,OK,Login thread 1-221,text,true,,3964,340,35,35,https://www.saucedemo.com/,343,0,201
+1728067057566,343,login request-0,301,Moved Permanently,Login thread 1-221,text,true,,664,221,35,35,https://saucedemo.com/,343,0,201
+1728067057910,291,login request-1,200,OK,Login thread 1-221,text,true,,3300,119,35,35,https://www.saucedemo.com/,291,0,170
+1728067057582,672,login request,200,OK,Login thread 1-222,text,true,,3964,340,37,37,https://www.saucedemo.com/,358,0,197
+1728067057582,358,login request-0,301,Moved Permanently,Login thread 1-222,text,true,,664,221,37,37,https://saucedemo.com/,358,0,197
+1728067057941,313,login request-1,200,OK,Login thread 1-222,text,true,,3300,119,37,37,https://www.saucedemo.com/,313,0,176
+1728067057605,673,login request,200,OK,Login thread 1-223,text,true,,3964,340,37,37,https://www.saucedemo.com/,357,0,210
+1728067057605,357,login request-0,301,Moved Permanently,Login thread 1-223,text,true,,664,221,37,37,https://saucedemo.com/,357,0,210
+1728067057962,316,login request-1,200,OK,Login thread 1-223,text,true,,3300,119,37,37,https://www.saucedemo.com/,316,0,181
+1728067057625,656,login request,200,OK,Login thread 1-224,text,true,,3964,340,36,36,https://www.saucedemo.com/,342,0,201
+1728067057625,342,login request-0,301,Moved Permanently,Login thread 1-224,text,true,,664,221,36,36,https://saucedemo.com/,342,0,201
+1728067057967,314,login request-1,200,OK,Login thread 1-224,text,true,,3300,119,36,36,https://www.saucedemo.com/,314,0,176
+1728067057645,653,login request,200,OK,Login thread 1-225,text,true,,3964,340,36,36,https://www.saucedemo.com/,341,0,207
+1728067057645,341,login request-0,301,Moved Permanently,Login thread 1-225,text,true,,664,221,36,36,https://saucedemo.com/,341,0,207
+1728067057986,312,login request-1,200,OK,Login thread 1-225,text,true,,3300,119,36,36,https://www.saucedemo.com/,312,0,170
+1728067057665,655,login request,200,OK,Login thread 1-226,text,true,,3964,340,36,36,https://www.saucedemo.com/,332,0,197
+1728067057665,332,login request-0,301,Moved Permanently,Login thread 1-226,text,true,,664,221,36,36,https://saucedemo.com/,332,0,197
+1728067057997,323,login request-1,200,OK,Login thread 1-226,text,true,,3300,119,36,36,https://www.saucedemo.com/,323,0,179
+1728067057685,643,login request,200,OK,Login thread 1-227,text,true,,3965,340,36,36,https://www.saucedemo.com/,333,0,203
+1728067057685,333,login request-0,301,Moved Permanently,Login thread 1-227,text,true,,665,221,36,36,https://saucedemo.com/,333,0,203
+1728067058018,310,login request-1,200,OK,Login thread 1-227,text,true,,3300,119,36,36,https://www.saucedemo.com/,310,0,168
+1728067057724,618,login request,200,OK,Login thread 1-229,text,true,,3964,340,35,35,https://www.saucedemo.com/,344,0,217
+1728067057704,633,login request,200,OK,Login thread 1-228,text,true,,3964,340,35,35,https://www.saucedemo.com/,335,0,200
+1728067057724,344,login request-0,301,Moved Permanently,Login thread 1-229,text,true,,664,221,35,35,https://saucedemo.com/,344,0,217
+1728067057704,335,login request-0,301,Moved Permanently,Login thread 1-228,text,true,,664,221,35,35,https://saucedemo.com/,335,0,200
+1728067058068,274,login request-1,200,OK,Login thread 1-229,text,true,,3300,119,35,35,https://www.saucedemo.com/,274,0,156
+1728067058040,297,login request-1,200,OK,Login thread 1-228,text,true,,3300,119,35,35,https://www.saucedemo.com/,297,0,169
+1728067057744,637,login request,200,OK,Login thread 1-230,text,true,,3964,340,35,35,https://www.saucedemo.com/,337,0,205
+1728067057744,337,login request-0,301,Moved Permanently,Login thread 1-230,text,true,,664,221,35,35,https://saucedemo.com/,337,0,205
+1728067058081,300,login request-1,200,OK,Login thread 1-230,text,true,,3300,119,35,35,https://www.saucedemo.com/,300,0,178
+1728067057762,622,login request,200,OK,Login thread 1-231,text,true,,3964,340,35,35,https://www.saucedemo.com/,329,0,189
+1728067057762,329,login request-0,301,Moved Permanently,Login thread 1-231,text,true,,664,221,35,35,https://saucedemo.com/,329,0,189
+1728067058092,292,login request-1,200,OK,Login thread 1-231,text,true,,3300,119,35,35,https://www.saucedemo.com/,292,0,175
+1728067057804,627,login request,200,OK,Login thread 1-233,text,true,,3964,340,36,36,https://www.saucedemo.com/,321,0,189
+1728067057804,321,login request-0,301,Moved Permanently,Login thread 1-233,text,true,,664,221,36,36,https://saucedemo.com/,321,0,189
+1728067058125,306,login request-1,200,OK,Login thread 1-233,text,true,,3300,119,36,36,https://www.saucedemo.com/,306,0,177
+1728067057784,647,login request,200,OK,Login thread 1-232,text,true,,3964,340,36,36,https://www.saucedemo.com/,322,0,189
+1728067057784,322,login request-0,301,Moved Permanently,Login thread 1-232,text,true,,664,221,36,36,https://saucedemo.com/,322,0,189
+1728067058106,325,login request-1,200,OK,Login thread 1-232,text,true,,3300,119,36,36,https://www.saucedemo.com/,325,0,185
+1728067057824,617,login request,200,OK,Login thread 1-234,text,true,,3964,340,34,34,https://www.saucedemo.com/,320,0,195
+1728067057824,320,login request-0,301,Moved Permanently,Login thread 1-234,text,true,,664,221,34,34,https://saucedemo.com/,320,0,195
+1728067058145,296,login request-1,200,OK,Login thread 1-234,text,true,,3300,119,34,34,https://www.saucedemo.com/,296,0,181
+1728067057844,607,login request,200,OK,Login thread 1-235,text,true,,3965,340,34,34,https://www.saucedemo.com/,310,0,193
+1728067057844,310,login request-0,301,Moved Permanently,Login thread 1-235,text,true,,665,221,34,34,https://saucedemo.com/,310,0,193
+1728067058155,296,login request-1,200,OK,Login thread 1-235,text,true,,3300,119,34,34,https://www.saucedemo.com/,296,0,181
+1728067057864,597,login request,200,OK,Login thread 1-236,text,true,,3964,340,33,33,https://www.saucedemo.com/,305,0,183
+1728067057864,305,login request-0,301,Moved Permanently,Login thread 1-236,text,true,,664,221,33,33,https://saucedemo.com/,305,0,183
+1728067058170,291,login request-1,200,OK,Login thread 1-236,text,true,,3300,119,33,33,https://www.saucedemo.com/,291,0,180
+1728067057885,585,login request,200,OK,Login thread 1-237,text,true,,3964,340,33,33,https://www.saucedemo.com/,290,0,168
+1728067057885,290,login request-0,301,Moved Permanently,Login thread 1-237,text,true,,664,221,33,33,https://saucedemo.com/,290,0,168
+1728067058175,295,login request-1,200,OK,Login thread 1-237,text,true,,3300,119,33,33,https://www.saucedemo.com/,295,0,182
+1728067057905,569,login request,200,OK,Login thread 1-238,text,true,,3964,340,32,32,https://www.saucedemo.com/,288,0,171
+1728067057905,288,login request-0,301,Moved Permanently,Login thread 1-238,text,true,,664,221,32,32,https://saucedemo.com/,288,0,171
+1728067058193,281,login request-1,200,OK,Login thread 1-238,text,true,,3300,119,32,32,https://www.saucedemo.com/,281,0,170
+1728067057925,567,login request,200,OK,Login thread 1-239,text,true,,3965,340,32,32,https://www.saucedemo.com/,288,0,166
+1728067057925,288,login request-0,301,Moved Permanently,Login thread 1-239,text,true,,665,221,32,32,https://saucedemo.com/,288,0,166
+1728067058213,279,login request-1,200,OK,Login thread 1-239,text,true,,3300,119,32,32,https://www.saucedemo.com/,279,0,165
+1728067057945,585,login request,200,OK,Login thread 1-240,text,true,,3964,340,33,33,https://www.saucedemo.com/,316,0,181
+1728067057945,316,login request-0,301,Moved Permanently,Login thread 1-240,text,true,,664,221,33,33,https://saucedemo.com/,316,0,181
+1728067058262,268,login request-1,200,OK,Login thread 1-240,text,true,,3300,119,33,33,https://www.saucedemo.com/,268,0,155
+1728067057963,577,login request,200,OK,Login thread 1-241,text,true,,3964,340,32,32,https://www.saucedemo.com/,312,0,178
+1728067057963,312,login request-0,301,Moved Permanently,Login thread 1-241,text,true,,664,221,32,32,https://saucedemo.com/,312,0,178
+1728067058275,265,login request-1,200,OK,Login thread 1-241,text,true,,3300,119,32,32,https://www.saucedemo.com/,265,0,153
+1728067057984,581,login request,200,OK,Login thread 1-242,text,true,,3964,340,33,33,https://www.saucedemo.com/,311,0,170
+1728067057984,311,login request-0,301,Moved Permanently,Login thread 1-242,text,true,,664,221,33,33,https://saucedemo.com/,311,0,170
+1728067058295,270,login request-1,200,OK,Login thread 1-242,text,true,,3300,119,33,33,https://www.saucedemo.com/,270,0,159
+1728067058003,580,login request,200,OK,Login thread 1-243,text,true,,3964,340,33,33,https://www.saucedemo.com/,313,0,170
+1728067058003,313,login request-0,301,Moved Permanently,Login thread 1-243,text,true,,664,221,33,33,https://saucedemo.com/,313,0,170
+1728067058317,266,login request-1,200,OK,Login thread 1-243,text,true,,3300,119,33,33,https://www.saucedemo.com/,266,0,152
+1728067058023,567,login request,200,OK,Login thread 1-244,text,true,,3964,340,32,32,https://www.saucedemo.com/,302,0,166
+1728067058023,302,login request-0,301,Moved Permanently,Login thread 1-244,text,true,,664,221,32,32,https://saucedemo.com/,302,0,166
+1728067058326,264,login request-1,200,OK,Login thread 1-244,text,true,,3300,119,32,32,https://www.saucedemo.com/,264,0,151
+1728067058064,545,login request,200,OK,Login thread 1-246,text,true,,3964,340,32,32,https://www.saucedemo.com/,273,0,156
+1728067058064,273,login request-0,301,Moved Permanently,Login thread 1-246,text,true,,664,221,32,32,https://saucedemo.com/,273,0,156
+1728067058337,272,login request-1,200,OK,Login thread 1-246,text,true,,3300,119,32,32,https://www.saucedemo.com/,272,0,155
+1728067058043,568,login request,200,OK,Login thread 1-245,text,true,,3964,340,31,31,https://www.saucedemo.com/,293,0,169
+1728067058043,293,login request-0,301,Moved Permanently,Login thread 1-245,text,true,,664,221,31,31,https://saucedemo.com/,293,0,169
+1728067058336,275,login request-1,200,OK,Login thread 1-245,text,true,,3300,119,31,31,https://www.saucedemo.com/,275,0,156
+1728067058083,560,login request,200,OK,Login thread 1-247,text,true,,3965,340,31,31,https://www.saucedemo.com/,298,0,181
+1728067058083,298,login request-0,301,Moved Permanently,Login thread 1-247,text,true,,664,221,31,31,https://saucedemo.com/,298,0,181
+1728067058381,262,login request-1,200,OK,Login thread 1-247,text,true,,3301,119,31,31,https://www.saucedemo.com/,262,0,148
+1728067058104,568,login request,200,OK,Login thread 1-248,text,true,,3965,340,32,32,https://www.saucedemo.com/,299,0,181
+1728067058104,299,login request-0,301,Moved Permanently,Login thread 1-248,text,true,,664,221,32,32,https://saucedemo.com/,299,0,181
+1728067058403,269,login request-1,200,OK,Login thread 1-248,text,true,,3301,119,32,32,https://www.saucedemo.com/,269,0,155
+1728067058123,568,login request,200,OK,Login thread 1-249,text,true,,3964,340,32,32,https://www.saucedemo.com/,310,0,181
+1728067058123,310,login request-0,301,Moved Permanently,Login thread 1-249,text,true,,664,221,32,32,https://saucedemo.com/,310,0,181
+1728067058433,258,login request-1,200,OK,Login thread 1-249,text,true,,3300,119,32,32,https://www.saucedemo.com/,258,0,147
+1728067058143,563,login request,200,OK,Login thread 1-250,text,true,,3965,340,32,32,https://www.saucedemo.com/,296,0,180
+1728067058143,296,login request-0,301,Moved Permanently,Login thread 1-250,text,true,,664,221,32,32,https://saucedemo.com/,296,0,180
+1728067058440,266,login request-1,200,OK,Login thread 1-250,text,true,,3301,119,32,32,https://www.saucedemo.com/,266,0,150
+1728067058163,567,login request,200,OK,Login thread 1-251,text,true,,3964,340,32,32,https://www.saucedemo.com/,298,0,185
+1728067058163,298,login request-0,301,Moved Permanently,Login thread 1-251,text,true,,664,221,32,32,https://saucedemo.com/,298,0,185
+1728067058461,269,login request-1,200,OK,Login thread 1-251,text,true,,3300,119,32,32,https://www.saucedemo.com/,269,0,151
+1728067058185,555,login request,200,OK,Login thread 1-252,text,true,,3965,340,31,31,https://www.saucedemo.com/,292,0,180
+1728067058185,292,login request-0,301,Moved Permanently,Login thread 1-252,text,true,,664,221,31,31,https://saucedemo.com/,292,0,180
+1728067058478,262,login request-1,200,OK,Login thread 1-252,text,true,,3301,119,31,31,https://www.saucedemo.com/,262,0,148
+1728067058204,546,login request,200,OK,Login thread 1-253,text,true,,3964,340,31,31,https://www.saucedemo.com/,277,0,165
+1728067058204,277,login request-0,301,Moved Permanently,Login thread 1-253,text,true,,664,221,31,31,https://saucedemo.com/,277,0,165
+1728067058482,268,login request-1,200,OK,Login thread 1-253,text,true,,3300,119,31,31,https://www.saucedemo.com/,268,0,147
+1728067058225,535,login request,200,OK,Login thread 1-254,text,true,,3965,340,30,30,https://www.saucedemo.com/,268,0,155
+1728067058225,268,login request-0,301,Moved Permanently,Login thread 1-254,text,true,,665,221,30,30,https://saucedemo.com/,268,0,155
+1728067058493,267,login request-1,200,OK,Login thread 1-254,text,true,,3300,119,30,30,https://www.saucedemo.com/,267,0,152
+1728067058243,540,login request,200,OK,Login thread 1-255,text,true,,3965,340,30,30,https://www.saucedemo.com/,277,0,164
+1728067058243,277,login request-0,301,Moved Permanently,Login thread 1-255,text,true,,665,221,30,30,https://saucedemo.com/,277,0,164
+1728067058520,263,login request-1,200,OK,Login thread 1-255,text,true,,3300,119,30,30,https://www.saucedemo.com/,263,0,151
+1728067058263,538,login request,200,OK,Login thread 1-256,text,true,,3964,340,30,30,https://www.saucedemo.com/,270,0,156
+1728067058263,270,login request-0,301,Moved Permanently,Login thread 1-256,text,true,,664,221,30,30,https://saucedemo.com/,270,0,156
+1728067058534,267,login request-1,200,OK,Login thread 1-256,text,true,,3300,119,30,30,https://www.saucedemo.com/,267,0,157
+1728067058303,528,login request,200,OK,Login thread 1-258,text,true,,3964,340,31,31,https://www.saucedemo.com/,265,0,156
+1728067058283,543,login request,200,OK,Login thread 1-257,text,true,,3964,340,31,31,https://www.saucedemo.com/,277,0,167
+1728067058303,265,login request-0,301,Moved Permanently,Login thread 1-258,text,true,,664,221,31,31,https://saucedemo.com/,265,0,156
+1728067058283,277,login request-0,301,Moved Permanently,Login thread 1-257,text,true,,664,221,31,31,https://saucedemo.com/,277,0,167
+1728067058569,262,login request-1,200,OK,Login thread 1-258,text,true,,3300,119,31,31,https://www.saucedemo.com/,262,0,146
+1728067058560,266,login request-1,200,OK,Login thread 1-257,text,true,,3300,119,31,31,https://www.saucedemo.com/,265,0,151
+1728067058323,529,login request,200,OK,Login thread 1-259,text,true,,3965,340,30,30,https://www.saucedemo.com/,269,0,154
+1728067058323,269,login request-0,301,Moved Permanently,Login thread 1-259,text,true,,664,221,30,30,https://saucedemo.com/,269,0,154
+1728067058592,260,login request-1,200,OK,Login thread 1-259,text,true,,3301,119,30,30,https://www.saucedemo.com/,260,0,146
+1728067058343,539,login request,200,OK,Login thread 1-260,text,true,,3964,340,30,30,https://www.saucedemo.com/,269,0,155
+1728067058343,269,login request-0,301,Moved Permanently,Login thread 1-260,text,true,,664,221,30,30,https://saucedemo.com/,269,0,155
+1728067058612,270,login request-1,200,OK,Login thread 1-260,text,true,,3300,119,30,30,https://www.saucedemo.com/,270,0,151
+1728067058363,528,login request,200,OK,Login thread 1-261,text,true,,3964,340,30,30,https://www.saucedemo.com/,259,0,148
+1728067058363,259,login request-0,301,Moved Permanently,Login thread 1-261,text,true,,664,221,30,30,https://saucedemo.com/,259,0,148
+1728067058623,268,login request-1,200,OK,Login thread 1-261,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,152
+1728067058403,525,login request,200,OK,Login thread 1-263,text,true,,3964,340,31,31,https://www.saucedemo.com/,267,0,152
+1728067058403,267,login request-0,301,Moved Permanently,Login thread 1-263,text,true,,664,221,31,31,https://saucedemo.com/,267,0,152
+1728067058671,257,login request-1,200,OK,Login thread 1-263,text,true,,3300,119,31,31,https://www.saucedemo.com/,257,0,143
+1728067058423,518,login request,200,OK,Login thread 1-264,text,true,,3964,340,30,30,https://www.saucedemo.com/,257,0,146
+1728067058423,257,login request-0,301,Moved Permanently,Login thread 1-264,text,true,,664,221,30,30,https://saucedemo.com/,257,0,146
+1728067058680,261,login request-1,200,OK,Login thread 1-264,text,true,,3300,119,30,30,https://www.saucedemo.com/,261,0,149
+1728067058443,522,login request,200,OK,Login thread 1-265,text,true,,3964,340,31,31,https://www.saucedemo.com/,264,0,149
+1728067058443,264,login request-0,301,Moved Permanently,Login thread 1-265,text,true,,664,221,31,31,https://saucedemo.com/,264,0,149
+1728067058707,258,login request-1,200,OK,Login thread 1-265,text,true,,3300,119,31,31,https://www.saucedemo.com/,258,0,145
+1728067058463,522,login request,200,OK,Login thread 1-266,text,true,,3964,340,31,31,https://www.saucedemo.com/,260,0,148
+1728067058463,260,login request-0,301,Moved Permanently,Login thread 1-266,text,true,,664,221,31,31,https://saucedemo.com/,260,0,148
+1728067058724,261,login request-1,200,OK,Login thread 1-266,text,true,,3300,119,31,31,https://www.saucedemo.com/,261,0,147
+1728067058483,529,login request,200,OK,Login thread 1-267,text,true,,3964,340,31,31,https://www.saucedemo.com/,268,0,150
+1728067058483,268,login request-0,301,Moved Permanently,Login thread 1-267,text,true,,664,221,31,31,https://saucedemo.com/,268,0,150
+1728067058751,261,login request-1,200,OK,Login thread 1-267,text,true,,3300,119,31,31,https://www.saucedemo.com/,261,0,148
+1728067058383,638,login request,200,OK,Login thread 1-262,text,true,,3965,340,30,30,https://www.saucedemo.com/,380,0,265
+1728067058383,380,login request-0,301,Moved Permanently,Login thread 1-262,text,true,,664,221,30,30,https://saucedemo.com/,380,0,265
+1728067058763,258,login request-1,200,OK,Login thread 1-262,text,true,,3301,119,30,30,https://www.saucedemo.com/,258,0,147
+1728067058503,523,login request,200,OK,Login thread 1-268,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,150
+1728067058503,262,login request-0,301,Moved Permanently,Login thread 1-268,text,true,,664,221,30,30,https://saucedemo.com/,262,0,150
+1728067058766,260,login request-1,200,OK,Login thread 1-268,text,true,,3300,119,30,30,https://www.saucedemo.com/,260,0,148
+1728067058525,527,login request,200,OK,Login thread 1-269,text,true,,3965,340,30,30,https://www.saucedemo.com/,267,0,157
+1728067058525,267,login request-0,301,Moved Permanently,Login thread 1-269,text,true,,665,221,30,30,https://saucedemo.com/,267,0,157
+1728067058792,260,login request-1,200,OK,Login thread 1-269,text,true,,3300,119,30,30,https://www.saucedemo.com/,260,0,148
+1728067058543,521,login request,200,OK,Login thread 1-270,text,true,,3964,340,30,30,https://www.saucedemo.com/,257,0,148
+1728067058543,257,login request-0,301,Moved Permanently,Login thread 1-270,text,true,,664,221,30,30,https://saucedemo.com/,257,0,148
+1728067058801,263,login request-1,200,OK,Login thread 1-270,text,true,,3300,119,30,30,https://www.saucedemo.com/,263,0,151
+1728067058564,528,login request,200,OK,Login thread 1-271,text,true,,3964,340,30,30,https://www.saucedemo.com/,264,0,151
+1728067058564,264,login request-0,301,Moved Permanently,Login thread 1-271,text,true,,664,221,30,30,https://saucedemo.com/,264,0,151
+1728067058828,264,login request-1,200,OK,Login thread 1-271,text,true,,3300,119,30,30,https://www.saucedemo.com/,264,0,147
+1728067058582,528,login request,200,OK,Login thread 1-272,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,148
+1728067058582,262,login request-0,301,Moved Permanently,Login thread 1-272,text,true,,664,221,30,30,https://saucedemo.com/,262,0,148
+1728067058845,265,login request-1,200,OK,Login thread 1-272,text,true,,3300,119,30,30,https://www.saucedemo.com/,265,0,148
+1728067058602,527,login request,200,OK,Login thread 1-273,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,151
+1728067058602,262,login request-0,301,Moved Permanently,Login thread 1-273,text,true,,664,221,30,30,https://saucedemo.com/,262,0,151
+1728067058864,265,login request-1,200,OK,Login thread 1-273,text,true,,3300,119,30,30,https://www.saucedemo.com/,265,0,149
+1728067058624,542,login request,200,OK,Login thread 1-274,text,true,,3964,340,31,31,https://www.saucedemo.com/,276,0,160
+1728067058624,276,login request-0,301,Moved Permanently,Login thread 1-274,text,true,,664,221,31,31,https://saucedemo.com/,276,0,160
+1728067058900,266,login request-1,200,OK,Login thread 1-274,text,true,,3300,119,31,31,https://www.saucedemo.com/,266,0,149
+1728067058644,525,login request,200,OK,Login thread 1-275,text,true,,3964,340,30,30,https://www.saucedemo.com/,256,0,145
+1728067058644,256,login request-0,301,Moved Permanently,Login thread 1-275,text,true,,664,221,30,30,https://saucedemo.com/,256,0,145
+1728067058901,268,login request-1,200,OK,Login thread 1-275,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,150
+1728067058664,527,login request,200,OK,Login thread 1-276,text,true,,3964,340,30,30,https://www.saucedemo.com/,260,0,145
+1728067058664,260,login request-0,301,Moved Permanently,Login thread 1-276,text,true,,664,221,30,30,https://saucedemo.com/,260,0,145
+1728067058924,267,login request-1,200,OK,Login thread 1-276,text,true,,3300,119,30,30,https://www.saucedemo.com/,267,0,153
+1728067058684,541,login request,200,OK,Login thread 1-277,text,true,,3965,340,31,31,https://www.saucedemo.com/,263,0,152
+1728067058684,263,login request-0,301,Moved Permanently,Login thread 1-277,text,true,,664,221,31,31,https://saucedemo.com/,263,0,152
+1728067058947,278,login request-1,200,OK,Login thread 1-277,text,true,,3301,119,31,31,https://www.saucedemo.com/,278,0,163
+1728067058704,538,login request,200,OK,Login thread 1-278,text,true,,3964,340,30,30,https://www.saucedemo.com/,270,0,159
+1728067058704,270,login request-0,301,Moved Permanently,Login thread 1-278,text,true,,664,221,30,30,https://saucedemo.com/,270,0,159
+1728067058974,268,login request-1,200,OK,Login thread 1-278,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,148
+1728067058723,537,login request,200,OK,Login thread 1-279,text,true,,3965,340,30,30,https://www.saucedemo.com/,262,0,146
+1728067058723,262,login request-0,301,Moved Permanently,Login thread 1-279,text,true,,664,221,30,30,https://saucedemo.com/,262,0,146
+1728067058985,275,login request-1,200,OK,Login thread 1-279,text,true,,3301,119,30,30,https://www.saucedemo.com/,274,0,151
+1728067058744,519,login request,200,OK,Login thread 1-280,text,true,,3965,340,30,30,https://www.saucedemo.com/,256,0,145
+1728067058744,256,login request-0,301,Moved Permanently,Login thread 1-280,text,true,,664,221,30,30,https://saucedemo.com/,256,0,145
+1728067059000,263,login request-1,200,OK,Login thread 1-280,text,true,,3301,119,30,30,https://www.saucedemo.com/,263,0,148
+1728067058765,534,login request,200,OK,Login thread 1-281,text,true,,3964,340,30,30,https://www.saucedemo.com/,271,0,160
+1728067058765,271,login request-0,301,Moved Permanently,Login thread 1-281,text,true,,664,221,30,30,https://saucedemo.com/,271,0,160
+1728067059036,263,login request-1,200,OK,Login thread 1-281,text,true,,3300,119,30,30,https://www.saucedemo.com/,263,0,145
+1728067058785,534,login request,200,OK,Login thread 1-282,text,true,,3964,340,30,30,https://www.saucedemo.com/,265,0,153
+1728067058785,265,login request-0,301,Moved Permanently,Login thread 1-282,text,true,,664,221,30,30,https://saucedemo.com/,265,0,153
+1728067059050,269,login request-1,200,OK,Login thread 1-282,text,true,,3300,119,30,30,https://www.saucedemo.com/,269,0,151
+1728067058804,530,login request,200,OK,Login thread 1-283,text,true,,3964,340,30,30,https://www.saucedemo.com/,261,0,149
+1728067058804,261,login request-0,301,Moved Permanently,Login thread 1-283,text,true,,664,221,30,30,https://saucedemo.com/,261,0,149
+1728067059065,269,login request-1,200,OK,Login thread 1-283,text,true,,3300,119,30,30,https://www.saucedemo.com/,269,0,147
+1728067058824,527,login request,200,OK,Login thread 1-284,text,true,,3964,340,30,30,https://www.saucedemo.com/,259,0,148
+1728067058824,259,login request-0,301,Moved Permanently,Login thread 1-284,text,true,,664,221,30,30,https://saucedemo.com/,259,0,148
+1728067059083,268,login request-1,200,OK,Login thread 1-284,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,149
+1728067058844,536,login request,200,OK,Login thread 1-285,text,true,,3964,340,30,30,https://www.saucedemo.com/,266,0,145
+1728067058844,266,login request-0,301,Moved Permanently,Login thread 1-285,text,true,,664,221,30,30,https://saucedemo.com/,266,0,145
+1728067059110,270,login request-1,200,OK,Login thread 1-285,text,true,,3300,119,30,30,https://www.saucedemo.com/,270,0,152
+1728067058864,541,login request,200,OK,Login thread 1-286,text,true,,3965,340,31,31,https://www.saucedemo.com/,264,0,150
+1728067058864,264,login request-0,301,Moved Permanently,Login thread 1-286,text,true,,665,221,31,31,https://saucedemo.com/,264,0,150
+1728067059128,277,login request-1,200,OK,Login thread 1-286,text,true,,3300,119,31,31,https://www.saucedemo.com/,277,0,162
+1728067058885,541,login request,200,OK,Login thread 1-287,text,true,,3965,340,31,31,https://www.saucedemo.com/,260,0,150
+1728067058885,260,login request-0,301,Moved Permanently,Login thread 1-287,text,true,,665,221,31,31,https://saucedemo.com/,260,0,150
+1728067059146,280,login request-1,200,OK,Login thread 1-287,text,true,,3300,119,31,31,https://www.saucedemo.com/,280,0,170
+1728067058903,538,login request,200,OK,Login thread 1-288,text,true,,3964,340,30,30,https://www.saucedemo.com/,266,0,148
+1728067058903,266,login request-0,301,Moved Permanently,Login thread 1-288,text,true,,664,221,30,30,https://saucedemo.com/,266,0,148
+1728067059170,271,login request-1,200,OK,Login thread 1-288,text,true,,3300,119,30,30,https://www.saucedemo.com/,271,0,157
+1728067058923,542,login request,200,OK,Login thread 1-289,text,true,,3964,340,31,31,https://www.saucedemo.com/,266,0,152
+1728067058923,266,login request-0,301,Moved Permanently,Login thread 1-289,text,true,,664,221,31,31,https://saucedemo.com/,266,0,152
+1728067059190,275,login request-1,200,OK,Login thread 1-289,text,true,,3300,119,31,31,https://www.saucedemo.com/,275,0,163
+1728067058943,536,login request,200,OK,Login thread 1-290,text,true,,3964,340,30,30,https://www.saucedemo.com/,270,0,159
+1728067058943,270,login request-0,301,Moved Permanently,Login thread 1-290,text,true,,664,221,30,30,https://saucedemo.com/,270,0,159
+1728067059213,266,login request-1,200,OK,Login thread 1-290,text,true,,3300,119,30,30,https://www.saucedemo.com/,266,0,152
+1728067058965,525,login request,200,OK,Login thread 1-291,text,true,,3964,340,30,30,https://www.saucedemo.com/,265,0,151
+1728067058965,265,login request-0,301,Moved Permanently,Login thread 1-291,text,true,,664,221,30,30,https://saucedemo.com/,265,0,151
+1728067059231,259,login request-1,200,OK,Login thread 1-291,text,true,,3300,119,30,30,https://www.saucedemo.com/,259,0,149
+1728067058984,541,login request,200,OK,Login thread 1-292,text,true,,3964,340,31,31,https://www.saucedemo.com/,273,0,150
+1728067058984,273,login request-0,301,Moved Permanently,Login thread 1-292,text,true,,664,221,31,31,https://saucedemo.com/,273,0,150
+1728067059257,268,login request-1,200,OK,Login thread 1-292,text,true,,3300,119,31,31,https://www.saucedemo.com/,268,0,155
+1728067059003,543,login request,200,OK,Login thread 1-293,text,true,,3965,340,31,31,https://www.saucedemo.com/,266,0,149
+1728067059003,266,login request-0,301,Moved Permanently,Login thread 1-293,text,true,,664,221,31,31,https://saucedemo.com/,266,0,149
+1728067059269,277,login request-1,200,OK,Login thread 1-293,text,true,,3301,119,31,31,https://www.saucedemo.com/,277,0,149
+1728067059023,549,login request,200,OK,Login thread 1-294,text,true,,3964,340,31,31,https://www.saucedemo.com/,273,0,152
+1728067059023,273,login request-0,301,Moved Permanently,Login thread 1-294,text,true,,664,221,31,31,https://saucedemo.com/,273,0,152
+1728067059296,276,login request-1,200,OK,Login thread 1-294,text,true,,3300,119,31,31,https://www.saucedemo.com/,276,0,149
+1728067059043,539,login request,200,OK,Login thread 1-295,text,true,,3965,340,31,31,https://www.saucedemo.com/,273,0,153
+1728067059043,273,login request-0,301,Moved Permanently,Login thread 1-295,text,true,,664,221,31,31,https://saucedemo.com/,273,0,153
+1728067059316,266,login request-1,200,OK,Login thread 1-295,text,true,,3301,119,31,31,https://www.saucedemo.com/,266,0,151
+1728067059063,537,login request,200,OK,Login thread 1-296,text,true,,3964,340,30,30,https://www.saucedemo.com/,268,0,147
+1728067059063,268,login request-0,301,Moved Permanently,Login thread 1-296,text,true,,664,221,30,30,https://saucedemo.com/,268,0,147
+1728067059332,268,login request-1,200,OK,Login thread 1-296,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,151
+1728067059084,544,login request,200,OK,Login thread 1-297,text,true,,3964,340,31,31,https://www.saucedemo.com/,269,0,153
+1728067059084,269,login request-0,301,Moved Permanently,Login thread 1-297,text,true,,664,221,31,31,https://saucedemo.com/,269,0,153
+1728067059353,275,login request-1,200,OK,Login thread 1-297,text,true,,3300,119,31,31,https://www.saucedemo.com/,275,0,151
+1728067059103,544,login request,200,OK,Login thread 1-298,text,true,,3966,340,31,31,https://www.saucedemo.com/,274,0,157
+1728067059103,274,login request-0,301,Moved Permanently,Login thread 1-298,text,true,,665,221,31,31,https://saucedemo.com/,274,0,157
+1728067059377,270,login request-1,200,OK,Login thread 1-298,text,true,,3301,119,31,31,https://www.saucedemo.com/,270,0,151
+1728067059123,590,login request,200,OK,Login thread 1-299,text,true,,3964,340,33,33,https://www.saucedemo.com/,286,0,169
+1728067059123,286,login request-0,301,Moved Permanently,Login thread 1-299,text,true,,664,221,33,33,https://saucedemo.com/,286,0,169
+1728067059409,304,login request-1,200,OK,Login thread 1-299,text,true,,3300,119,33,33,https://www.saucedemo.com/,304,0,160
+1728067059163,602,login request,200,OK,Login thread 1-301,text,true,,3964,340,35,35,https://www.saucedemo.com/,272,0,158
+1728067059163,272,login request-0,301,Moved Permanently,Login thread 1-301,text,true,,664,221,35,35,https://saucedemo.com/,272,0,158
+1728067059435,330,login request-1,200,OK,Login thread 1-301,text,true,,3300,119,35,35,https://www.saucedemo.com/,330,0,153
+1728067059144,642,login request,200,OK,Login thread 1-300,text,true,,3964,340,35,35,https://www.saucedemo.com/,287,0,171
+1728067059144,287,login request-0,301,Moved Permanently,Login thread 1-300,text,true,,664,221,35,35,https://saucedemo.com/,287,0,171
+1728067059432,354,login request-1,200,OK,Login thread 1-300,text,true,,3300,119,35,35,https://www.saucedemo.com/,354,0,168
+1728067059182,609,login request,200,OK,Login thread 1-302,text,true,,3964,340,34,34,https://www.saucedemo.com/,274,0,162
+1728067059182,274,login request-0,301,Moved Permanently,Login thread 1-302,text,true,,664,221,34,34,https://saucedemo.com/,274,0,162
+1728067059456,335,login request-1,200,OK,Login thread 1-302,text,true,,3300,119,34,34,https://www.saucedemo.com/,335,0,149
+1728067059202,601,login request,200,OK,Login thread 1-303,text,true,,3964,340,34,34,https://www.saucedemo.com/,272,0,159
+1728067059202,272,login request-0,301,Moved Permanently,Login thread 1-303,text,true,,664,221,34,34,https://saucedemo.com/,272,0,159
+1728067059474,329,login request-1,200,OK,Login thread 1-303,text,true,,3300,119,34,34,https://www.saucedemo.com/,329,0,155
+1728067059222,593,login request,200,OK,Login thread 1-304,text,true,,3964,340,33,33,https://www.saucedemo.com/,270,0,160
+1728067059222,270,login request-0,301,Moved Permanently,Login thread 1-304,text,true,,664,221,33,33,https://saucedemo.com/,270,0,160
+1728067059492,323,login request-1,200,OK,Login thread 1-304,text,true,,3300,119,33,33,https://www.saucedemo.com/,323,0,158
+1728067059243,573,login request,200,OK,Login thread 1-305,text,true,,3964,340,32,32,https://www.saucedemo.com/,258,0,148
+1728067059243,258,login request-0,301,Moved Permanently,Login thread 1-305,text,true,,664,221,32,32,https://saucedemo.com/,258,0,148
+1728067059501,315,login request-1,200,OK,Login thread 1-305,text,true,,3300,119,32,32,https://www.saucedemo.com/,315,0,162
+1728067059263,585,login request,200,OK,Login thread 1-306,text,true,,3964,340,33,33,https://www.saucedemo.com/,283,0,154
+1728067059263,283,login request-0,301,Moved Permanently,Login thread 1-306,text,true,,664,221,33,33,https://saucedemo.com/,283,0,154
+1728067059546,302,login request-1,200,OK,Login thread 1-306,text,true,,3300,119,33,33,https://www.saucedemo.com/,302,0,158
+1728067059303,588,login request,200,OK,Login thread 1-308,text,true,,3964,340,34,34,https://www.saucedemo.com/,273,0,162
+1728067059303,273,login request-0,301,Moved Permanently,Login thread 1-308,text,true,,664,221,34,34,https://saucedemo.com/,273,0,162
+1728067059577,314,login request-1,200,OK,Login thread 1-308,text,true,,3300,119,34,34,https://www.saucedemo.com/,314,0,200
+1728067059324,605,login request,200,OK,Login thread 1-309,text,true,,3965,340,35,35,https://www.saucedemo.com/,265,0,150
+1728067059324,265,login request-0,301,Moved Permanently,Login thread 1-309,text,true,,665,221,35,35,https://saucedemo.com/,265,0,150
+1728067059589,340,login request-1,200,OK,Login thread 1-309,text,true,,3300,119,35,35,https://www.saucedemo.com/,340,0,226
+1728067059343,608,login request,200,OK,Login thread 1-310,text,true,,3964,340,35,35,https://www.saucedemo.com/,269,0,149
+1728067059343,269,login request-0,301,Moved Permanently,Login thread 1-310,text,true,,664,221,35,35,https://saucedemo.com/,269,0,149
+1728067059613,338,login request-1,200,OK,Login thread 1-310,text,true,,3300,119,35,35,https://www.saucedemo.com/,338,0,217
+1728067059362,597,login request,200,OK,Login thread 1-311,text,true,,3964,340,34,34,https://www.saucedemo.com/,268,0,148
+1728067059362,268,login request-0,301,Moved Permanently,Login thread 1-311,text,true,,664,221,34,34,https://saucedemo.com/,268,0,148
+1728067059630,329,login request-1,200,OK,Login thread 1-311,text,true,,3300,119,34,34,https://www.saucedemo.com/,329,0,207
+1728067059382,619,login request,200,OK,Login thread 1-312,text,true,,3965,340,35,35,https://www.saucedemo.com/,285,0,165
+1728067059382,285,login request-0,301,Moved Permanently,Login thread 1-312,text,true,,664,221,35,35,https://saucedemo.com/,285,0,165
+1728067059667,334,login request-1,200,OK,Login thread 1-312,text,true,,3301,119,35,35,https://www.saucedemo.com/,334,0,207
+1728067059402,606,login request,200,OK,Login thread 1-313,text,true,,3965,340,35,35,https://www.saucedemo.com/,268,0,152
+1728067059402,268,login request-0,301,Moved Permanently,Login thread 1-313,text,true,,664,221,35,35,https://saucedemo.com/,268,0,152
+1728067059670,338,login request-1,200,OK,Login thread 1-313,text,true,,3301,119,35,35,https://www.saucedemo.com/,338,0,211
+1728067059423,589,login request,200,OK,Login thread 1-314,text,true,,3965,340,34,34,https://www.saucedemo.com/,306,0,151
+1728067059423,306,login request-0,301,Moved Permanently,Login thread 1-314,text,true,,664,221,34,34,https://saucedemo.com/,306,0,151
+1728067059729,283,login request-1,200,OK,Login thread 1-314,text,true,,3301,119,34,34,https://www.saucedemo.com/,283,0,156
+1728067059443,590,login request,200,OK,Login thread 1-315,text,true,,3965,340,34,34,https://www.saucedemo.com/,327,0,151
+1728067059443,327,login request-0,301,Moved Permanently,Login thread 1-315,text,true,,664,221,34,34,https://saucedemo.com/,327,0,151
+1728067059771,262,login request-1,200,OK,Login thread 1-315,text,true,,3301,119,34,34,https://www.saucedemo.com/,262,0,151
+1728067059283,758,login request,200,OK,Login thread 1-307,text,true,,3965,340,33,33,https://www.saucedemo.com/,264,0,151
+1728067059283,264,login request-0,301,Moved Permanently,Login thread 1-307,text,true,,664,221,33,33,https://saucedemo.com/,264,0,151
+1728067059547,494,login request-1,200,OK,Login thread 1-307,text,true,,3301,119,33,33,https://www.saucedemo.com/,494,0,379
+1728067059463,617,login request,200,OK,Login thread 1-316,text,true,,3964,340,34,34,https://www.saucedemo.com/,336,0,155
+1728067059463,336,login request-0,301,Moved Permanently,Login thread 1-316,text,true,,664,221,34,34,https://saucedemo.com/,336,0,155
+1728067059800,280,login request-1,200,OK,Login thread 1-316,text,true,,3300,119,34,34,https://www.saucedemo.com/,280,0,162
+1728067059483,604,login request,200,OK,Login thread 1-317,text,true,,3964,340,34,34,https://www.saucedemo.com/,327,0,156
+1728067059483,327,login request-0,301,Moved Permanently,Login thread 1-317,text,true,,664,221,34,34,https://saucedemo.com/,327,0,156
+1728067059811,276,login request-1,200,OK,Login thread 1-317,text,true,,3300,119,34,34,https://www.saucedemo.com/,276,0,164
+1728067059503,591,login request,200,OK,Login thread 1-318,text,true,,3964,340,33,33,https://www.saucedemo.com/,313,0,162
+1728067059503,313,login request-0,301,Moved Permanently,Login thread 1-318,text,true,,664,221,33,33,https://saucedemo.com/,313,0,162
+1728067059817,277,login request-1,200,OK,Login thread 1-318,text,true,,3300,119,33,33,https://www.saucedemo.com/,277,0,164
+1728067059524,584,login request,200,OK,Login thread 1-319,text,true,,3965,340,33,33,https://www.saucedemo.com/,305,0,157
+1728067059524,305,login request-0,301,Moved Permanently,Login thread 1-319,text,true,,664,221,33,33,https://saucedemo.com/,305,0,157
+1728067059830,278,login request-1,200,OK,Login thread 1-319,text,true,,3301,119,33,33,https://www.saucedemo.com/,278,0,161
+1728067059544,585,login request,200,OK,Login thread 1-320,text,true,,3964,340,33,33,https://www.saucedemo.com/,301,0,154
+1728067059544,301,login request-0,301,Moved Permanently,Login thread 1-320,text,true,,664,221,33,33,https://saucedemo.com/,301,0,154
+1728067059845,284,login request-1,200,OK,Login thread 1-320,text,true,,3300,119,33,33,https://www.saucedemo.com/,284,0,168
+1728067059563,598,login request,200,OK,Login thread 1-321,text,true,,3964,340,33,33,https://www.saucedemo.com/,321,0,191
+1728067059563,321,login request-0,301,Moved Permanently,Login thread 1-321,text,true,,664,221,33,33,https://saucedemo.com/,321,0,191
+1728067059885,276,login request-1,200,OK,Login thread 1-321,text,true,,3300,119,33,33,https://www.saucedemo.com/,275,0,159
+1728067059582,588,login request,200,OK,Login thread 1-322,text,true,,3965,340,33,33,https://www.saucedemo.com/,321,0,211
+1728067059582,321,login request-0,301,Moved Permanently,Login thread 1-322,text,true,,665,221,33,33,https://saucedemo.com/,321,0,211
+1728067059903,267,login request-1,200,OK,Login thread 1-322,text,true,,3300,119,33,33,https://www.saucedemo.com/,267,0,150
+1728067059602,609,login request,200,OK,Login thread 1-323,text,true,,3964,340,34,34,https://www.saucedemo.com/,345,0,225
+1728067059602,345,login request-0,301,Moved Permanently,Login thread 1-323,text,true,,664,221,34,34,https://saucedemo.com/,345,0,225
+1728067059947,264,login request-1,200,OK,Login thread 1-323,text,true,,3300,119,34,34,https://www.saucedemo.com/,264,0,151
+1728067059622,598,login request,200,OK,Login thread 1-324,text,true,,3965,340,33,33,https://www.saucedemo.com/,338,0,216
+1728067059622,338,login request-0,301,Moved Permanently,Login thread 1-324,text,true,,664,221,33,33,https://saucedemo.com/,338,0,216
+1728067059960,260,login request-1,200,OK,Login thread 1-324,text,true,,3301,119,33,33,https://www.saucedemo.com/,260,0,151
+1728067059642,608,login request,200,OK,Login thread 1-325,text,true,,3966,340,34,34,https://www.saucedemo.com/,322,0,201
+1728067059642,322,login request-0,301,Moved Permanently,Login thread 1-325,text,true,,665,221,34,34,https://saucedemo.com/,322,0,201
+1728067059965,285,login request-1,200,OK,Login thread 1-325,text,true,,3301,119,34,34,https://www.saucedemo.com/,285,0,161
+1728067059664,604,login request,200,OK,Login thread 1-326,text,true,,3965,340,34,34,https://www.saucedemo.com/,335,0,208
+1728067059664,335,login request-0,301,Moved Permanently,Login thread 1-326,text,true,,664,221,34,34,https://saucedemo.com/,335,0,208
+1728067059999,269,login request-1,200,OK,Login thread 1-326,text,true,,3301,119,34,34,https://www.saucedemo.com/,269,0,153
+1728067059704,567,login request,200,OK,Login thread 1-328,text,true,,3964,340,33,33,https://www.saucedemo.com/,298,0,171
+1728067059704,298,login request-0,301,Moved Permanently,Login thread 1-328,text,true,,664,221,33,33,https://saucedemo.com/,298,0,171
+1728067060002,269,login request-1,200,OK,Login thread 1-328,text,true,,3300,119,33,33,https://www.saucedemo.com/,269,0,157
+1728067059743,539,login request,200,OK,Login thread 1-330,text,true,,3965,340,32,32,https://www.saucedemo.com/,269,0,150
+1728067059743,269,login request-0,301,Moved Permanently,Login thread 1-330,text,true,,665,221,32,32,https://saucedemo.com/,269,0,150
+1728067060012,270,login request-1,200,OK,Login thread 1-330,text,true,,3300,119,32,32,https://www.saucedemo.com/,270,0,156
+1728067059683,600,login request,200,OK,Login thread 1-327,text,true,,3964,340,32,32,https://www.saucedemo.com/,322,0,199
+1728067059683,322,login request-0,301,Moved Permanently,Login thread 1-327,text,true,,664,221,32,32,https://saucedemo.com/,322,0,199
+1728067060005,278,login request-1,200,OK,Login thread 1-327,text,true,,3300,119,32,32,https://www.saucedemo.com/,278,0,165
+1728067059723,563,login request,200,OK,Login thread 1-329,text,true,,3965,340,31,31,https://www.saucedemo.com/,285,0,162
+1728067059723,285,login request-0,301,Moved Permanently,Login thread 1-329,text,true,,664,221,31,31,https://saucedemo.com/,285,0,162
+1728067060009,277,login request-1,200,OK,Login thread 1-329,text,true,,3301,119,31,31,https://www.saucedemo.com/,277,0,162
+1728067059762,541,login request,200,OK,Login thread 1-331,text,true,,3965,340,31,31,https://www.saucedemo.com/,266,0,153
+1728067059762,266,login request-0,301,Moved Permanently,Login thread 1-331,text,true,,665,221,31,31,https://saucedemo.com/,266,0,153
+1728067060028,275,login request-1,200,OK,Login thread 1-331,text,true,,3300,119,31,31,https://www.saucedemo.com/,275,0,155
+1728067059782,527,login request,200,OK,Login thread 1-332,text,true,,3965,340,30,30,https://www.saucedemo.com/,261,0,146
+1728067059782,261,login request-0,301,Moved Permanently,Login thread 1-332,text,true,,664,221,30,30,https://saucedemo.com/,261,0,146
+1728067060044,265,login request-1,200,OK,Login thread 1-332,text,true,,3301,119,30,30,https://www.saucedemo.com/,265,0,151
+1728067059803,533,login request,200,OK,Login thread 1-333,text,true,,3964,340,30,30,https://www.saucedemo.com/,277,0,163
+1728067059803,277,login request-0,301,Moved Permanently,Login thread 1-333,text,true,,664,221,30,30,https://saucedemo.com/,277,0,163
+1728067060080,256,login request-1,200,OK,Login thread 1-333,text,true,,3300,119,30,30,https://www.saucedemo.com/,256,0,146
+1728067059824,551,login request,200,OK,Login thread 1-334,text,true,,3964,340,31,31,https://www.saucedemo.com/,272,0,159
+1728067059824,272,login request-0,301,Moved Permanently,Login thread 1-334,text,true,,664,221,31,31,https://saucedemo.com/,272,0,159
+1728067060097,278,login request-1,200,OK,Login thread 1-334,text,true,,3300,119,31,31,https://www.saucedemo.com/,278,0,158
+1728067059843,555,login request,200,OK,Login thread 1-335,text,true,,3965,340,31,31,https://www.saucedemo.com/,291,0,170
+1728067059843,291,login request-0,301,Moved Permanently,Login thread 1-335,text,true,,664,221,31,31,https://saucedemo.com/,291,0,170
+1728067060135,263,login request-1,200,OK,Login thread 1-335,text,true,,3301,119,31,31,https://www.saucedemo.com/,263,0,146
+1728067059863,551,login request,200,OK,Login thread 1-336,text,true,,3964,340,31,31,https://www.saucedemo.com/,278,0,159
+1728067059863,278,login request-0,301,Moved Permanently,Login thread 1-336,text,true,,664,221,31,31,https://saucedemo.com/,278,0,159
+1728067060141,273,login request-1,200,OK,Login thread 1-336,text,true,,3300,119,31,31,https://www.saucedemo.com/,273,0,152
+1728067059883,544,login request,200,OK,Login thread 1-337,text,true,,3965,340,31,31,https://www.saucedemo.com/,278,0,161
+1728067059883,278,login request-0,301,Moved Permanently,Login thread 1-337,text,true,,664,221,31,31,https://saucedemo.com/,278,0,161
+1728067060162,265,login request-1,200,OK,Login thread 1-337,text,true,,3301,119,31,31,https://www.saucedemo.com/,265,0,150
+1728067059903,536,login request,200,OK,Login thread 1-338,text,true,,3964,340,30,30,https://www.saucedemo.com/,275,0,158
+1728067059903,275,login request-0,301,Moved Permanently,Login thread 1-338,text,true,,664,221,30,30,https://saucedemo.com/,275,0,158
+1728067060178,261,login request-1,200,OK,Login thread 1-338,text,true,,3300,119,30,30,https://www.saucedemo.com/,261,0,148
+1728067059922,528,login request,200,OK,Login thread 1-339,text,true,,3964,340,30,30,https://www.saucedemo.com/,268,0,155
+1728067059922,268,login request-0,301,Moved Permanently,Login thread 1-339,text,true,,664,221,30,30,https://saucedemo.com/,268,0,155
+1728067060190,260,login request-1,200,OK,Login thread 1-339,text,true,,3300,119,30,30,https://www.saucedemo.com/,260,0,149
+1728067059943,533,login request,200,OK,Login thread 1-340,text,true,,3965,340,30,30,https://www.saucedemo.com/,266,0,154
+1728067059943,266,login request-0,301,Moved Permanently,Login thread 1-340,text,true,,664,221,30,30,https://saucedemo.com/,266,0,154
+1728067060209,267,login request-1,200,OK,Login thread 1-340,text,true,,3301,119,30,30,https://www.saucedemo.com/,267,0,155
+1728067059963,556,login request,200,OK,Login thread 1-341,text,true,,3964,340,31,31,https://www.saucedemo.com/,288,0,163
+1728067059963,288,login request-0,301,Moved Permanently,Login thread 1-341,text,true,,664,221,31,31,https://saucedemo.com/,288,0,163
+1728067060251,268,login request-1,200,OK,Login thread 1-341,text,true,,3300,119,31,31,https://www.saucedemo.com/,268,0,154
+1728067059982,540,login request,200,OK,Login thread 1-342,text,true,,3964,340,30,30,https://www.saucedemo.com/,264,0,153
+1728067059982,264,login request-0,301,Moved Permanently,Login thread 1-342,text,true,,664,221,30,30,https://saucedemo.com/,264,0,153
+1728067060247,275,login request-1,200,OK,Login thread 1-342,text,true,,3300,119,30,30,https://www.saucedemo.com/,275,0,162
+1728067060003,534,login request,200,OK,Login thread 1-343,text,true,,3965,340,30,30,https://www.saucedemo.com/,272,0,156
+1728067060003,272,login request-0,301,Moved Permanently,Login thread 1-343,text,true,,664,221,30,30,https://saucedemo.com/,272,0,156
+1728067060275,262,login request-1,200,OK,Login thread 1-343,text,true,,3301,119,30,30,https://www.saucedemo.com/,262,0,153
+1728067060024,531,login request,200,OK,Login thread 1-344,text,true,,3965,340,30,30,https://www.saucedemo.com/,263,0,153
+1728067060024,263,login request-0,301,Moved Permanently,Login thread 1-344,text,true,,665,221,30,30,https://saucedemo.com/,263,0,153
+1728067060287,268,login request-1,200,OK,Login thread 1-344,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,155
+1728067060044,536,login request,200,OK,Login thread 1-345,text,true,,3964,340,30,30,https://www.saucedemo.com/,267,0,154
+1728067060044,267,login request-0,301,Moved Permanently,Login thread 1-345,text,true,,664,221,30,30,https://saucedemo.com/,267,0,154
+1728067060311,269,login request-1,200,OK,Login thread 1-345,text,true,,3300,119,30,30,https://www.saucedemo.com/,269,0,153
+1728067060062,534,login request,200,OK,Login thread 1-346,text,true,,3965,340,30,30,https://www.saucedemo.com/,268,0,152
+1728067060062,268,login request-0,301,Moved Permanently,Login thread 1-346,text,true,,664,221,30,30,https://saucedemo.com/,268,0,152
+1728067060330,266,login request-1,200,OK,Login thread 1-346,text,true,,3301,119,30,30,https://www.saucedemo.com/,266,0,146
+1728067060083,526,login request,200,OK,Login thread 1-347,text,true,,3966,340,30,30,https://www.saucedemo.com/,263,0,147
+1728067060083,263,login request-0,301,Moved Permanently,Login thread 1-347,text,true,,664,221,30,30,https://saucedemo.com/,263,0,147
+1728067060347,262,login request-1,200,OK,Login thread 1-347,text,true,,3302,119,30,30,https://www.saucedemo.com/,262,0,150
+1728067060103,538,login request,200,OK,Login thread 1-348,text,true,,3964,340,30,30,https://www.saucedemo.com/,266,0,151
+1728067060103,266,login request-0,301,Moved Permanently,Login thread 1-348,text,true,,664,221,30,30,https://saucedemo.com/,266,0,151
+1728067060369,272,login request-1,200,OK,Login thread 1-348,text,true,,3300,119,30,30,https://www.saucedemo.com/,272,0,157
+1728067060123,525,login request,200,OK,Login thread 1-349,text,true,,3964,340,30,30,https://www.saucedemo.com/,269,0,151
+1728067060123,269,login request-0,301,Moved Permanently,Login thread 1-349,text,true,,664,221,30,30,https://saucedemo.com/,269,0,151
+1728067060392,256,login request-1,200,OK,Login thread 1-349,text,true,,3300,119,30,30,https://www.saucedemo.com/,256,0,143
+1728067060142,527,login request,200,OK,Login thread 1-350,text,true,,3964,340,30,30,https://www.saucedemo.com/,270,0,152
+1728067060142,270,login request-0,301,Moved Permanently,Login thread 1-350,text,true,,664,221,30,30,https://saucedemo.com/,270,0,152
+1728067060412,257,login request-1,200,OK,Login thread 1-350,text,true,,3300,119,30,30,https://www.saucedemo.com/,257,0,148
+1728067060163,533,login request,200,OK,Login thread 1-351,text,true,,3965,340,30,30,https://www.saucedemo.com/,270,0,154
+1728067060163,270,login request-0,301,Moved Permanently,Login thread 1-351,text,true,,664,221,30,30,https://saucedemo.com/,270,0,154
+1728067060434,262,login request-1,200,OK,Login thread 1-351,text,true,,3301,119,30,30,https://www.saucedemo.com/,262,0,148
+1728067060184,518,login request,200,OK,Login thread 1-352,text,true,,3964,340,29,29,https://www.saucedemo.com/,259,0,147
+1728067060184,259,login request-0,301,Moved Permanently,Login thread 1-352,text,true,,664,221,29,29,https://saucedemo.com/,259,0,147
+1728067060443,259,login request-1,200,OK,Login thread 1-352,text,true,,3300,119,29,29,https://www.saucedemo.com/,259,0,149
+1728067060203,531,login request,200,OK,Login thread 1-353,text,true,,3964,340,30,30,https://www.saucedemo.com/,263,0,150
+1728067060203,263,login request-0,301,Moved Permanently,Login thread 1-353,text,true,,664,221,30,30,https://saucedemo.com/,263,0,150
+1728067060467,267,login request-1,200,OK,Login thread 1-353,text,true,,3300,119,30,30,https://www.saucedemo.com/,267,0,151
+1728067060223,538,login request,200,OK,Login thread 1-354,text,true,,3964,340,30,30,https://www.saucedemo.com/,271,0,153
+1728067060223,271,login request-0,301,Moved Permanently,Login thread 1-354,text,true,,664,221,30,30,https://saucedemo.com/,271,0,153
+1728067060494,267,login request-1,200,OK,Login thread 1-354,text,true,,3300,119,30,30,https://www.saucedemo.com/,267,0,149
+1728067060243,529,login request,200,OK,Login thread 1-355,text,true,,3965,340,30,30,https://www.saucedemo.com/,271,0,159
+1728067060243,271,login request-0,301,Moved Permanently,Login thread 1-355,text,true,,664,221,30,30,https://saucedemo.com/,271,0,159
+1728067060515,257,login request-1,200,OK,Login thread 1-355,text,true,,3301,119,30,30,https://www.saucedemo.com/,257,0,146
+1728067060262,529,login request,200,OK,Login thread 1-356,text,true,,3964,340,30,30,https://www.saucedemo.com/,264,0,149
+1728067060262,264,login request-0,301,Moved Permanently,Login thread 1-356,text,true,,664,221,30,30,https://saucedemo.com/,264,0,149
+1728067060527,264,login request-1,200,OK,Login thread 1-356,text,true,,3300,119,30,30,https://www.saucedemo.com/,264,0,151
+1728067060282,534,login request,200,OK,Login thread 1-357,text,true,,3964,340,30,30,https://www.saucedemo.com/,263,0,152
+1728067060282,263,login request-0,301,Moved Permanently,Login thread 1-357,text,true,,664,221,30,30,https://saucedemo.com/,263,0,152
+1728067060545,271,login request-1,200,OK,Login thread 1-357,text,true,,3300,119,30,30,https://www.saucedemo.com/,271,0,152
+1728067060322,525,login request,200,OK,Login thread 1-359,text,true,,3966,340,31,31,https://www.saucedemo.com/,255,0,148
+1728067060302,541,login request,200,OK,Login thread 1-358,text,true,,3965,340,30,30,https://www.saucedemo.com/,265,0,153
+1728067060322,255,login request-0,301,Moved Permanently,Login thread 1-359,text,true,,665,221,31,31,https://saucedemo.com/,255,0,148
+1728067060302,265,login request-0,301,Moved Permanently,Login thread 1-358,text,true,,664,221,30,30,https://saucedemo.com/,265,0,153
+1728067060578,269,login request-1,200,OK,Login thread 1-359,text,true,,3301,119,31,31,https://www.saucedemo.com/,269,0,154
+1728067060567,276,login request-1,200,OK,Login thread 1-358,text,true,,3301,119,30,30,https://www.saucedemo.com/,276,0,162
+1728067060343,532,login request,200,OK,Login thread 1-360,text,true,,3964,340,30,30,https://www.saucedemo.com/,263,0,152
+1728067060343,263,login request-0,301,Moved Permanently,Login thread 1-360,text,true,,664,221,30,30,https://saucedemo.com/,263,0,152
+1728067060607,268,login request-1,200,OK,Login thread 1-360,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,153
+1728067060364,523,login request,200,OK,Login thread 1-361,text,true,,3965,340,30,30,https://www.saucedemo.com/,261,0,147
+1728067060364,261,login request-0,301,Moved Permanently,Login thread 1-361,text,true,,664,221,30,30,https://saucedemo.com/,261,0,147
+1728067060625,262,login request-1,200,OK,Login thread 1-361,text,true,,3301,119,30,30,https://www.saucedemo.com/,262,0,151
+1728067060382,533,login request,200,OK,Login thread 1-362,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,147
+1728067060382,262,login request-0,301,Moved Permanently,Login thread 1-362,text,true,,664,221,30,30,https://saucedemo.com/,262,0,147
+1728067060644,271,login request-1,200,OK,Login thread 1-362,text,true,,3300,119,30,30,https://www.saucedemo.com/,271,0,152
+1728067060402,522,login request,200,OK,Login thread 1-363,text,true,,3964,340,30,30,https://www.saucedemo.com/,261,0,148
+1728067060402,261,login request-0,301,Moved Permanently,Login thread 1-363,text,true,,664,221,30,30,https://saucedemo.com/,261,0,148
+1728067060663,261,login request-1,200,OK,Login thread 1-363,text,true,,3300,119,30,30,https://www.saucedemo.com/,261,0,150
+1728067060422,530,login request,200,OK,Login thread 1-364,text,true,,3964,340,30,30,https://www.saucedemo.com/,266,0,153
+1728067060422,266,login request-0,301,Moved Permanently,Login thread 1-364,text,true,,664,221,30,30,https://saucedemo.com/,266,0,153
+1728067060688,264,login request-1,200,OK,Login thread 1-364,text,true,,3300,119,30,30,https://www.saucedemo.com/,264,0,154
+1728067060442,546,login request,200,OK,Login thread 1-365,text,true,,3964,340,31,31,https://www.saucedemo.com/,286,0,155
+1728067060442,286,login request-0,301,Moved Permanently,Login thread 1-365,text,true,,664,221,31,31,https://saucedemo.com/,286,0,155
+1728067060729,259,login request-1,200,OK,Login thread 1-365,text,true,,3300,119,31,31,https://www.saucedemo.com/,259,0,149
+1728067060462,536,login request,200,OK,Login thread 1-366,text,true,,3964,340,30,30,https://www.saucedemo.com/,273,0,156
+1728067060462,273,login request-0,301,Moved Permanently,Login thread 1-366,text,true,,664,221,30,30,https://saucedemo.com/,273,0,156
+1728067060735,263,login request-1,200,OK,Login thread 1-366,text,true,,3300,119,30,30,https://www.saucedemo.com/,263,0,150
+1728067060482,527,login request,200,OK,Login thread 1-367,text,true,,3965,340,30,30,https://www.saucedemo.com/,259,0,149
+1728067060482,259,login request-0,301,Moved Permanently,Login thread 1-367,text,true,,665,221,30,30,https://saucedemo.com/,259,0,149
+1728067060742,267,login request-1,200,OK,Login thread 1-367,text,true,,3300,119,30,30,https://www.saucedemo.com/,267,0,155
+1728067060502,527,login request,200,OK,Login thread 1-368,text,true,,3964,340,30,30,https://www.saucedemo.com/,265,0,152
+1728067060502,265,login request-0,301,Moved Permanently,Login thread 1-368,text,true,,664,221,30,30,https://saucedemo.com/,265,0,152
+1728067060767,262,login request-1,200,OK,Login thread 1-368,text,true,,3300,119,30,30,https://www.saucedemo.com/,262,0,154
+1728067060524,519,login request,200,OK,Login thread 1-369,text,true,,3964,340,30,30,https://www.saucedemo.com/,259,0,149
+1728067060524,259,login request-0,301,Moved Permanently,Login thread 1-369,text,true,,664,221,30,30,https://saucedemo.com/,259,0,149
+1728067060784,259,login request-1,200,OK,Login thread 1-369,text,true,,3300,119,30,30,https://www.saucedemo.com/,259,0,145
+1728067060543,526,login request,200,OK,Login thread 1-370,text,true,,3965,340,30,30,https://www.saucedemo.com/,265,0,149
+1728067060543,265,login request-0,301,Moved Permanently,Login thread 1-370,text,true,,664,221,30,30,https://saucedemo.com/,265,0,149
+1728067060809,260,login request-1,200,OK,Login thread 1-370,text,true,,3301,119,30,30,https://www.saucedemo.com/,260,0,148
+1728067060562,520,login request,200,OK,Login thread 1-371,text,true,,3964,340,30,30,https://www.saucedemo.com/,266,0,151
+1728067060562,266,login request-0,301,Moved Permanently,Login thread 1-371,text,true,,664,221,30,30,https://saucedemo.com/,266,0,151
+1728067060829,253,login request-1,200,OK,Login thread 1-371,text,true,,3300,119,30,30,https://www.saucedemo.com/,253,0,142
+1728067060583,527,login request,200,OK,Login thread 1-372,text,true,,3964,340,30,30,https://www.saucedemo.com/,265,0,150
+1728067060583,265,login request-0,301,Moved Permanently,Login thread 1-372,text,true,,664,221,30,30,https://saucedemo.com/,265,0,150
+1728067060848,262,login request-1,200,OK,Login thread 1-372,text,true,,3300,119,30,30,https://www.saucedemo.com/,262,0,147
+1728067060602,529,login request,200,OK,Login thread 1-373,text,true,,3965,340,30,30,https://www.saucedemo.com/,265,0,149
+1728067060602,265,login request-0,301,Moved Permanently,Login thread 1-373,text,true,,664,221,30,30,https://saucedemo.com/,265,0,149
+1728067060867,264,login request-1,200,OK,Login thread 1-373,text,true,,3301,119,30,30,https://www.saucedemo.com/,264,0,145
+1728067060622,521,login request,200,OK,Login thread 1-374,text,true,,3965,340,30,30,https://www.saucedemo.com/,257,0,147
+1728067060622,257,login request-0,301,Moved Permanently,Login thread 1-374,text,true,,664,221,30,30,https://saucedemo.com/,257,0,147
+1728067060879,264,login request-1,200,OK,Login thread 1-374,text,true,,3301,119,30,30,https://www.saucedemo.com/,264,0,148
+1728067060642,526,login request,200,OK,Login thread 1-375,text,true,,3965,340,30,30,https://www.saucedemo.com/,261,0,151
+1728067060642,261,login request-0,301,Moved Permanently,Login thread 1-375,text,true,,665,221,30,30,https://saucedemo.com/,261,0,151
+1728067060903,265,login request-1,200,OK,Login thread 1-375,text,true,,3300,119,30,30,https://www.saucedemo.com/,265,0,146
+1728067060662,524,login request,200,OK,Login thread 1-376,text,true,,3964,340,30,30,https://www.saucedemo.com/,259,0,149
+1728067060662,259,login request-0,301,Moved Permanently,Login thread 1-376,text,true,,664,221,30,30,https://saucedemo.com/,259,0,149
+1728067060921,265,login request-1,200,OK,Login thread 1-376,text,true,,3300,119,30,30,https://www.saucedemo.com/,265,0,147
+1728067060684,535,login request,200,OK,Login thread 1-377,text,true,,3965,340,30,30,https://www.saucedemo.com/,262,0,151
+1728067060684,262,login request-0,301,Moved Permanently,Login thread 1-377,text,true,,664,221,30,30,https://saucedemo.com/,262,0,151
+1728067060947,272,login request-1,200,OK,Login thread 1-377,text,true,,3301,119,30,30,https://www.saucedemo.com/,272,0,148
+1728067060703,543,login request,200,OK,Login thread 1-378,text,true,,3965,340,31,31,https://www.saucedemo.com/,262,0,149
+1728067060703,262,login request-0,301,Moved Permanently,Login thread 1-378,text,true,,664,221,31,31,https://saucedemo.com/,262,0,149
+1728067060966,280,login request-1,200,OK,Login thread 1-378,text,true,,3301,119,31,31,https://www.saucedemo.com/,280,0,146
+1728067060722,534,login request,200,OK,Login thread 1-379,text,true,,3965,340,30,30,https://www.saucedemo.com/,262,0,151
+1728067060722,262,login request-0,301,Moved Permanently,Login thread 1-379,text,true,,664,221,30,30,https://saucedemo.com/,262,0,151
+1728067060984,272,login request-1,200,OK,Login thread 1-379,text,true,,3301,119,30,30,https://www.saucedemo.com/,269,0,147
+1728067060742,534,login request,200,OK,Login thread 1-380,text,true,,3964,340,30,30,https://www.saucedemo.com/,260,0,150
+1728067060742,260,login request-0,301,Moved Permanently,Login thread 1-380,text,true,,664,221,30,30,https://saucedemo.com/,260,0,150
+1728067061002,274,login request-1,200,OK,Login thread 1-380,text,true,,3300,119,30,30,https://www.saucedemo.com/,274,0,156
+1728067060762,526,login request,200,OK,Login thread 1-381,text,true,,3965,340,30,30,https://www.saucedemo.com/,258,0,149
+1728067060762,258,login request-0,301,Moved Permanently,Login thread 1-381,text,true,,664,221,30,30,https://saucedemo.com/,258,0,149
+1728067061021,267,login request-1,200,OK,Login thread 1-381,text,true,,3301,119,30,30,https://www.saucedemo.com/,267,0,151
+1728067060782,540,login request,200,OK,Login thread 1-382,text,true,,3965,340,31,31,https://www.saucedemo.com/,265,0,153
+1728067060782,265,login request-0,301,Moved Permanently,Login thread 1-382,text,true,,664,221,31,31,https://saucedemo.com/,265,0,153
+1728067061047,275,login request-1,200,OK,Login thread 1-382,text,true,,3301,119,31,31,https://www.saucedemo.com/,275,0,160
+1728067060802,537,login request,200,OK,Login thread 1-383,text,true,,3964,340,30,30,https://www.saucedemo.com/,259,0,147
+1728067060802,259,login request-0,301,Moved Permanently,Login thread 1-383,text,true,,664,221,30,30,https://saucedemo.com/,259,0,147
+1728067061061,278,login request-1,200,OK,Login thread 1-383,text,true,,3300,119,30,30,https://www.saucedemo.com/,278,0,160
+1728067060823,543,login request,200,OK,Login thread 1-384,text,true,,3964,340,31,31,https://www.saucedemo.com/,264,0,152
+1728067060823,264,login request-0,301,Moved Permanently,Login thread 1-384,text,true,,664,221,31,31,https://saucedemo.com/,264,0,152
+1728067061087,279,login request-1,200,OK,Login thread 1-384,text,true,,3300,119,31,31,https://www.saucedemo.com/,279,0,166
+1728067060844,534,login request,200,OK,Login thread 1-385,text,true,,3964,340,30,30,https://www.saucedemo.com/,261,0,146
+1728067060844,261,login request-0,301,Moved Permanently,Login thread 1-385,text,true,,664,221,30,30,https://saucedemo.com/,261,0,146
+1728067061106,272,login request-1,200,OK,Login thread 1-385,text,true,,3300,119,30,30,https://www.saucedemo.com/,272,0,162
+1728067060863,533,login request,200,OK,Login thread 1-386,text,true,,3964,340,30,30,https://www.saucedemo.com/,265,0,148
+1728067060863,265,login request-0,301,Moved Permanently,Login thread 1-386,text,true,,664,221,30,30,https://saucedemo.com/,265,0,148
+1728067061129,267,login request-1,200,OK,Login thread 1-386,text,true,,3300,119,30,30,https://www.saucedemo.com/,267,0,158
+1728067060883,525,login request,200,OK,Login thread 1-387,text,true,,3965,340,30,30,https://www.saucedemo.com/,255,0,144
+1728067060883,255,login request-0,301,Moved Permanently,Login thread 1-387,text,true,,665,221,30,30,https://saucedemo.com/,255,0,144
+1728067061138,270,login request-1,200,OK,Login thread 1-387,text,true,,3300,119,30,30,https://www.saucedemo.com/,270,0,158
+1728067060903,533,login request,200,OK,Login thread 1-388,text,true,,3964,340,30,30,https://www.saucedemo.com/,263,0,146
+1728067060903,264,login request-0,301,Moved Permanently,Login thread 1-388,text,true,,664,221,30,30,https://saucedemo.com/,263,0,146
+1728067061167,269,login request-1,200,OK,Login thread 1-388,text,true,,3300,119,30,30,https://www.saucedemo.com/,269,0,149
+1728067060922,534,login request,200,OK,Login thread 1-389,text,true,,3964,340,30,30,https://www.saucedemo.com/,270,0,151
+1728067060922,270,login request-0,301,Moved Permanently,Login thread 1-389,text,true,,664,221,30,30,https://saucedemo.com/,270,0,151
+1728067061192,264,login request-1,200,OK,Login thread 1-389,text,true,,3300,119,30,30,https://www.saucedemo.com/,264,0,150
+1728067060942,537,login request,200,OK,Login thread 1-390,text,true,,3964,340,30,30,https://www.saucedemo.com/,279,0,150
+1728067060942,279,login request-0,301,Moved Permanently,Login thread 1-390,text,true,,664,221,30,30,https://saucedemo.com/,279,0,150
+1728067061221,258,login request-1,200,OK,Login thread 1-390,text,true,,3300,119,30,30,https://www.saucedemo.com/,258,0,146
+1728067060962,549,login request,200,OK,Login thread 1-391,text,true,,3964,340,31,31,https://www.saucedemo.com/,284,0,153
+1728067060962,284,login request-0,301,Moved Permanently,Login thread 1-391,text,true,,664,221,31,31,https://saucedemo.com/,284,0,153
+1728067061246,265,login request-1,200,OK,Login thread 1-391,text,true,,3300,119,31,31,https://www.saucedemo.com/,265,0,153
+1728067060982,535,login request,200,OK,Login thread 1-392,text,true,,3964,340,30,30,https://www.saucedemo.com/,277,0,151
+1728067060982,277,login request-0,301,Moved Permanently,Login thread 1-392,text,true,,664,221,30,30,https://saucedemo.com/,277,0,151
+1728067061259,258,login request-1,200,OK,Login thread 1-392,text,true,,3300,119,30,30,https://www.saucedemo.com/,258,0,147
+1728067061024,532,login request,200,OK,Login thread 1-394,text,true,,3964,340,31,31,https://www.saucedemo.com/,268,0,156
+1728067061024,268,login request-0,301,Moved Permanently,Login thread 1-394,text,true,,664,221,31,31,https://saucedemo.com/,268,0,156
+1728067061293,263,login request-1,200,OK,Login thread 1-394,text,true,,3300,119,31,31,https://www.saucedemo.com/,263,0,152
+1728067061003,571,login request,200,OK,Login thread 1-393,text,true,,3964,340,31,31,https://www.saucedemo.com/,304,0,191
+1728067061003,304,login request-0,301,Moved Permanently,Login thread 1-393,text,true,,664,221,31,31,https://saucedemo.com/,304,0,191
+1728067061307,267,login request-1,200,OK,Login thread 1-393,text,true,,3300,119,31,31,https://www.saucedemo.com/,267,0,153
+1728067061042,549,login request,200,OK,Login thread 1-395,text,true,,3964,340,31,31,https://www.saucedemo.com/,280,0,163
+1728067061042,280,login request-0,301,Moved Permanently,Login thread 1-395,text,true,,664,221,31,31,https://saucedemo.com/,280,0,163
+1728067061322,269,login request-1,200,OK,Login thread 1-395,text,true,,3300,119,31,31,https://www.saucedemo.com/,269,0,152
+1728067061062,533,login request,200,OK,Login thread 1-396,text,true,,3964,340,30,30,https://www.saucedemo.com/,273,0,158
+1728067061062,273,login request-0,301,Moved Permanently,Login thread 1-396,text,true,,664,221,30,30,https://saucedemo.com/,273,0,158
+1728067061335,260,login request-1,200,OK,Login thread 1-396,text,true,,3300,119,30,30,https://www.saucedemo.com/,260,0,148
+1728067061082,567,login request,200,OK,Login thread 1-397,text,true,,3965,340,32,32,https://www.saucedemo.com/,280,0,169
+1728067061082,280,login request-0,301,Moved Permanently,Login thread 1-397,text,true,,664,221,32,32,https://saucedemo.com/,280,0,169
+1728067061362,287,login request-1,200,OK,Login thread 1-397,text,true,,3301,119,32,32,https://www.saucedemo.com/,287,0,154
+1728067061102,560,login request,200,OK,Login thread 1-398,text,true,,3964,340,31,31,https://www.saucedemo.com/,280,0,168
+1728067061102,280,login request-0,301,Moved Permanently,Login thread 1-398,text,true,,664,221,31,31,https://saucedemo.com/,280,0,168
+1728067061383,279,login request-1,200,OK,Login thread 1-398,text,true,,3300,119,31,31,https://www.saucedemo.com/,279,0,155
+1728067061122,541,login request,200,OK,Login thread 1-399,text,true,,3964,340,31,31,https://www.saucedemo.com/,266,0,157
+1728067061122,266,login request-0,301,Moved Permanently,Login thread 1-399,text,true,,664,221,31,31,https://saucedemo.com/,266,0,157
+1728067061389,274,login request-1,200,OK,Login thread 1-399,text,true,,3300,119,31,31,https://www.saucedemo.com/,274,0,150
+1728067061143,548,login request,200,OK,Login thread 1-400,text,true,,3964,340,31,31,https://www.saucedemo.com/,273,0,162
+1728067061143,273,login request-0,301,Moved Permanently,Login thread 1-400,text,true,,664,221,31,31,https://saucedemo.com/,273,0,162
+1728067061416,275,login request-1,200,OK,Login thread 1-400,text,true,,3300,119,31,31,https://www.saucedemo.com/,275,0,145
+1728067061163,536,login request,200,OK,Login thread 1-401,text,true,,3964,340,30,30,https://www.saucedemo.com/,268,0,153
+1728067061163,268,login request-0,301,Moved Permanently,Login thread 1-401,text,true,,664,221,30,30,https://saucedemo.com/,268,0,153
+1728067061432,267,login request-1,200,OK,Login thread 1-401,text,true,,3300,119,30,30,https://www.saucedemo.com/,265,0,145
+1728067061184,538,login request,200,OK,Login thread 1-402,text,true,,3965,340,30,30,https://www.saucedemo.com/,264,0,151
+1728067061184,264,login request-0,301,Moved Permanently,Login thread 1-402,text,true,,664,221,30,30,https://saucedemo.com/,264,0,151
+1728067061449,273,login request-1,200,OK,Login thread 1-402,text,true,,3301,119,30,30,https://www.saucedemo.com/,273,0,149
+1728067061204,540,login request,200,OK,Login thread 1-403,text,true,,3965,340,31,31,https://www.saucedemo.com/,260,0,147
+1728067061204,260,login request-0,301,Moved Permanently,Login thread 1-403,text,true,,664,221,31,31,https://saucedemo.com/,260,0,147
+1728067061465,279,login request-1,200,OK,Login thread 1-403,text,true,,3301,119,31,31,https://www.saucedemo.com/,279,0,157
+1728067061224,536,login request,200,OK,Login thread 1-404,text,true,,3964,340,30,30,https://www.saucedemo.com/,256,0,146
+1728067061224,256,login request-0,301,Moved Permanently,Login thread 1-404,text,true,,664,221,30,30,https://saucedemo.com/,256,0,146
+1728067061480,280,login request-1,200,OK,Login thread 1-404,text,true,,3300,119,30,30,https://www.saucedemo.com/,280,0,156
+1728067061244,550,login request,200,OK,Login thread 1-405,text,true,,3965,340,31,31,https://www.saucedemo.com/,260,0,149
+1728067061244,260,login request-0,301,Moved Permanently,Login thread 1-405,text,true,,665,221,31,31,https://saucedemo.com/,260,0,149
+1728067061505,289,login request-1,200,OK,Login thread 1-405,text,true,,3300,119,31,31,https://www.saucedemo.com/,289,0,160
+1728067061264,543,login request,200,OK,Login thread 1-406,text,true,,3966,340,31,31,https://www.saucedemo.com/,258,0,146
+1728067061264,258,login request-0,301,Moved Permanently,Login thread 1-406,text,true,,665,221,31,31,https://saucedemo.com/,258,0,146
+1728067061522,285,login request-1,200,OK,Login thread 1-406,text,true,,3301,119,31,31,https://www.saucedemo.com/,285,0,167
+1728067061282,538,login request,200,OK,Login thread 1-407,text,true,,3966,340,30,30,https://www.saucedemo.com/,257,0,147
+1728067061282,258,login request-0,301,Moved Permanently,Login thread 1-407,text,true,,665,221,30,30,https://saucedemo.com/,257,0,147
+1728067061540,280,login request-1,200,OK,Login thread 1-407,text,true,,3301,119,30,30,https://www.saucedemo.com/,280,0,165
+1728067061303,548,login request,200,OK,Login thread 1-408,text,true,,3965,340,31,31,https://www.saucedemo.com/,269,0,157
+1728067061303,269,login request-0,301,Moved Permanently,Login thread 1-408,text,true,,664,221,31,31,https://saucedemo.com/,269,0,157
+1728067061572,279,login request-1,200,OK,Login thread 1-408,text,true,,3301,119,31,31,https://www.saucedemo.com/,279,0,164
+1728067061322,547,login request,200,OK,Login thread 1-409,text,true,,3964,340,31,31,https://www.saucedemo.com/,263,0,150
+1728067061322,263,login request-0,301,Moved Permanently,Login thread 1-409,text,true,,664,221,31,31,https://saucedemo.com/,263,0,150
+1728067061585,284,login request-1,200,OK,Login thread 1-409,text,true,,3300,119,31,31,https://www.saucedemo.com/,284,0,165
+1728067061343,545,login request,200,OK,Login thread 1-410,text,true,,3965,340,31,31,https://www.saucedemo.com/,270,0,151
+1728067061343,270,login request-0,301,Moved Permanently,Login thread 1-410,text,true,,664,221,31,31,https://saucedemo.com/,270,0,151
+1728067061613,275,login request-1,200,OK,Login thread 1-410,text,true,,3301,119,31,31,https://www.saucedemo.com/,275,0,164
+1728067061363,554,login request,200,OK,Login thread 1-411,text,true,,3964,340,31,31,https://www.saucedemo.com/,277,0,152
+1728067061363,277,login request-0,301,Moved Permanently,Login thread 1-411,text,true,,664,221,31,31,https://saucedemo.com/,277,0,152
+1728067061640,277,login request-1,200,OK,Login thread 1-411,text,true,,3300,119,31,31,https://www.saucedemo.com/,277,0,166
+1728067061384,540,login request,200,OK,Login thread 1-412,text,true,,3964,340,31,31,https://www.saucedemo.com/,271,0,144
+1728067061384,271,login request-0,301,Moved Permanently,Login thread 1-412,text,true,,664,221,31,31,https://saucedemo.com/,271,0,144
+1728067061655,269,login request-1,200,OK,Login thread 1-412,text,true,,3300,119,31,31,https://www.saucedemo.com/,268,0,159
+1728067061404,539,login request,200,OK,Login thread 1-413,text,true,,3964,340,31,31,https://www.saucedemo.com/,277,0,152
+1728067061404,277,login request-0,301,Moved Permanently,Login thread 1-413,text,true,,664,221,31,31,https://saucedemo.com/,277,0,152
+1728067061681,262,login request-1,200,OK,Login thread 1-413,text,true,,3300,119,31,31,https://www.saucedemo.com/,262,0,151
+1728067061424,532,login request,200,OK,Login thread 1-414,text,true,,3964,340,30,30,https://www.saucedemo.com/,272,0,150
+1728067061424,272,login request-0,301,Moved Permanently,Login thread 1-414,text,true,,664,221,30,30,https://saucedemo.com/,272,0,150
+1728067061697,259,login request-1,200,OK,Login thread 1-414,text,true,,3300,119,30,30,https://www.saucedemo.com/,259,0,147
+1728067061443,550,login request,200,OK,Login thread 1-415,text,true,,3965,340,31,31,https://www.saucedemo.com/,271,0,150
+1728067061443,271,login request-0,301,Moved Permanently,Login thread 1-415,text,true,,665,221,31,31,https://saucedemo.com/,271,0,150
+1728067061714,279,login request-1,200,OK,Login thread 1-415,text,true,,3300,119,31,31,https://www.saucedemo.com/,279,0,155
+1728067061463,548,login request,200,OK,Login thread 1-416,text,true,,3964,340,31,31,https://www.saucedemo.com/,287,0,164
+1728067061463,287,login request-0,301,Moved Permanently,Login thread 1-416,text,true,,664,221,31,31,https://saucedemo.com/,287,0,164
+1728067061751,260,login request-1,200,OK,Login thread 1-416,text,true,,3300,119,31,31,https://www.saucedemo.com/,260,0,146
+1728067061484,555,login request,200,OK,Login thread 1-417,text,true,,3964,340,31,31,https://www.saucedemo.com/,292,0,166
+1728067061484,292,login request-0,301,Moved Permanently,Login thread 1-417,text,true,,664,221,31,31,https://saucedemo.com/,292,0,166
+1728067061776,263,login request-1,200,OK,Login thread 1-417,text,true,,3300,119,31,31,https://www.saucedemo.com/,263,0,153
+1728067061504,549,login request,200,OK,Login thread 1-418,text,true,,3964,340,31,31,https://www.saucedemo.com/,285,0,161
+1728067061504,285,login request-0,301,Moved Permanently,Login thread 1-418,text,true,,664,221,31,31,https://saucedemo.com/,285,0,161
+1728067061790,263,login request-1,200,OK,Login thread 1-418,text,true,,3300,119,31,31,https://www.saucedemo.com/,263,0,149
+1728067061524,551,login request,200,OK,Login thread 1-419,text,true,,3964,340,31,31,https://www.saucedemo.com/,289,0,169
+1728067061524,289,login request-0,301,Moved Permanently,Login thread 1-419,text,true,,664,221,31,31,https://saucedemo.com/,289,0,169
+1728067061814,261,login request-1,200,OK,Login thread 1-419,text,true,,3300,119,31,31,https://www.saucedemo.com/,261,0,147
+1728067061543,551,login request,200,OK,Login thread 1-420,text,true,,3965,340,31,31,https://www.saucedemo.com/,284,0,168
+1728067061543,284,login request-0,301,Moved Permanently,Login thread 1-420,text,true,,664,221,31,31,https://saucedemo.com/,284,0,168
+1728067061827,267,login request-1,200,OK,Login thread 1-420,text,true,,3301,119,31,31,https://www.saucedemo.com/,267,0,153
+1728067061584,533,login request,200,OK,Login thread 1-422,text,true,,3964,340,31,31,https://www.saucedemo.com/,272,0,161
+1728067061584,272,login request-0,301,Moved Permanently,Login thread 1-422,text,true,,664,221,31,31,https://saucedemo.com/,272,0,161
+1728067061856,261,login request-1,200,OK,Login thread 1-422,text,true,,3300,119,31,31,https://www.saucedemo.com/,261,0,150
+1728067061563,556,login request,200,OK,Login thread 1-421,text,true,,3964,340,30,30,https://www.saucedemo.com/,280,0,167
+1728067061563,280,login request-0,301,Moved Permanently,Login thread 1-421,text,true,,664,221,30,30,https://saucedemo.com/,280,0,167
+1728067061843,276,login request-1,200,OK,Login thread 1-421,text,true,,3300,119,30,30,https://www.saucedemo.com/,276,0,156
+1728067061603,537,login request,200,OK,Login thread 1-423,text,true,,3965,340,30,30,https://www.saucedemo.com/,275,0,161
+1728067061603,275,login request-0,301,Moved Permanently,Login thread 1-423,text,true,,665,221,30,30,https://saucedemo.com/,275,0,161
+1728067061878,262,login request-1,200,OK,Login thread 1-423,text,true,,3300,119,30,30,https://www.saucedemo.com/,262,0,150
+1728067061623,531,login request,200,OK,Login thread 1-424,text,true,,3964,340,30,30,https://www.saucedemo.com/,275,0,164
+1728067061623,275,login request-0,301,Moved Permanently,Login thread 1-424,text,true,,664,221,30,30,https://saucedemo.com/,275,0,164
+1728067061898,256,login request-1,200,OK,Login thread 1-424,text,true,,3300,119,30,30,https://www.saucedemo.com/,256,0,146
+1728067061642,528,login request,200,OK,Login thread 1-425,text,true,,3964,340,30,30,https://www.saucedemo.com/,273,0,163
+1728067061642,273,login request-0,301,Moved Permanently,Login thread 1-425,text,true,,664,221,30,30,https://saucedemo.com/,273,0,163
+1728067061915,255,login request-1,200,OK,Login thread 1-425,text,true,,3300,119,30,30,https://www.saucedemo.com/,255,0,147
+1728067061663,537,login request,200,OK,Login thread 1-426,text,true,,3964,340,30,30,https://www.saucedemo.com/,269,0,160
+1728067061663,269,login request-0,301,Moved Permanently,Login thread 1-426,text,true,,664,221,30,30,https://saucedemo.com/,269,0,160
+1728067061932,268,login request-1,200,OK,Login thread 1-426,text,true,,3300,119,30,30,https://www.saucedemo.com/,268,0,151
+1728067061682,529,login request,200,OK,Login thread 1-427,text,true,,3965,340,30,30,https://www.saucedemo.com/,267,0,155
+1728067061682,267,login request-0,301,Moved Permanently,Login thread 1-427,text,true,,664,221,30,30,https://saucedemo.com/,267,0,155
+1728067061949,262,login request-1,200,OK,Login thread 1-427,text,true,,3301,119,30,30,https://www.saucedemo.com/,262,0,150
+1728067061702,536,login request,200,OK,Login thread 1-428,text,true,,3965,340,30,30,https://www.saucedemo.com/,271,0,159
+1728067061702,271,login request-0,301,Moved Permanently,Login thread 1-428,text,true,,665,221,30,30,https://saucedemo.com/,271,0,159
+1728067061973,265,login request-1,200,OK,Login thread 1-428,text,true,,3300,119,30,30,https://www.saucedemo.com/,265,0,147
+1728067061723,529,login request,200,OK,Login thread 1-429,text,true,,3964,340,30,30,https://www.saucedemo.com/,264,0,151
+1728067061723,264,login request-0,301,Moved Permanently,Login thread 1-429,text,true,,664,221,30,30,https://saucedemo.com/,264,0,151
+1728067061987,265,login request-1,200,OK,Login thread 1-429,text,true,,3300,119,30,30,https://www.saucedemo.com/,265,0,149
+1728067061742,526,login request,200,OK,Login thread 1-430,text,true,,3964,340,30,30,https://www.saucedemo.com/,263,0,151
+1728067061742,263,login request-0,301,Moved Permanently,Login thread 1-430,text,true,,664,221,30,30,https://saucedemo.com/,263,0,151
+1728067062005,263,login request-1,200,OK,Login thread 1-430,text,true,,3300,119,30,30,https://www.saucedemo.com/,263,0,152
+1728067061763,519,login request,200,OK,Login thread 1-431,text,true,,3964,340,29,29,https://www.saucedemo.com/,260,0,149
+1728067061763,260,login request-0,301,Moved Permanently,Login thread 1-431,text,true,,664,221,29,29,https://saucedemo.com/,260,0,149
+1728067062023,259,login request-1,200,OK,Login thread 1-431,text,true,,3300,119,29,29,https://www.saucedemo.com/,259,0,149
+1728067061783,519,login request,200,OK,Login thread 1-432,text,true,,3964,340,30,30,https://www.saucedemo.com/,261,0,147
+1728067061783,261,login request-0,301,Moved Permanently,Login thread 1-432,text,true,,664,221,30,30,https://saucedemo.com/,261,0,147
+1728067062044,258,login request-1,200,OK,Login thread 1-432,text,true,,3300,119,30,30,https://www.saucedemo.com/,258,0,148
+1728067061802,526,login request,200,OK,Login thread 1-433,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,150
+1728067061802,262,login request-0,301,Moved Permanently,Login thread 1-433,text,true,,664,221,30,30,https://saucedemo.com/,262,0,150
+1728067062064,264,login request-1,200,OK,Login thread 1-433,text,true,,3300,119,30,30,https://www.saucedemo.com/,264,0,153
+1728067061822,518,login request,200,OK,Login thread 1-434,text,true,,3964,340,29,29,https://www.saucedemo.com/,261,0,150
+1728067061822,261,login request-0,301,Moved Permanently,Login thread 1-434,text,true,,664,221,29,29,https://saucedemo.com/,261,0,150
+1728067062083,257,login request-1,200,OK,Login thread 1-434,text,true,,3300,119,29,29,https://www.saucedemo.com/,257,0,145
+1728067061843,540,login request,200,OK,Login thread 1-435,text,true,,3964,340,30,30,https://www.saucedemo.com/,266,0,153
+1728067061843,266,login request-0,301,Moved Permanently,Login thread 1-435,text,true,,664,221,30,30,https://saucedemo.com/,266,0,153
+1728067062109,274,login request-1,200,OK,Login thread 1-435,text,true,,3300,119,30,30,https://www.saucedemo.com/,274,0,149
+1728067061862,531,login request,200,OK,Login thread 1-436,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,150
+1728067061862,262,login request-0,301,Moved Permanently,Login thread 1-436,text,true,,664,221,30,30,https://saucedemo.com/,262,0,150
+1728067062124,269,login request-1,200,OK,Login thread 1-436,text,true,,3300,119,30,30,https://www.saucedemo.com/,269,0,156
+1728067061882,522,login request,200,OK,Login thread 1-437,text,true,,3965,340,30,30,https://www.saucedemo.com/,265,0,150
+1728067061882,265,login request-0,301,Moved Permanently,Login thread 1-437,text,true,,665,221,30,30,https://saucedemo.com/,265,0,150
+1728067062147,257,login request-1,200,OK,Login thread 1-437,text,true,,3300,119,30,30,https://www.saucedemo.com/,257,0,146
+1728067061904,531,login request,200,OK,Login thread 1-438,text,true,,3965,340,30,30,https://www.saucedemo.com/,257,0,149
+1728067061904,257,login request-0,301,Moved Permanently,Login thread 1-438,text,true,,664,221,30,30,https://saucedemo.com/,257,0,149
+1728067062162,273,login request-1,200,OK,Login thread 1-438,text,true,,3301,119,30,30,https://www.saucedemo.com/,273,0,158
+1728067061943,528,login request,200,OK,Login thread 1-440,text,true,,3964,340,31,31,https://www.saucedemo.com/,260,0,151
+1728067061943,260,login request-0,301,Moved Permanently,Login thread 1-440,text,true,,664,221,31,31,https://saucedemo.com/,260,0,151
+1728067062203,268,login request-1,200,OK,Login thread 1-440,text,true,,3300,119,31,31,https://www.saucedemo.com/,268,0,158
+1728067061962,534,login request,200,OK,Login thread 1-441,text,true,,3965,340,31,31,https://www.saucedemo.com/,268,0,152
+1728067061962,268,login request-0,301,Moved Permanently,Login thread 1-441,text,true,,664,221,31,31,https://saucedemo.com/,268,0,152
+1728067062230,266,login request-1,200,OK,Login thread 1-441,text,true,,3301,119,31,31,https://www.saucedemo.com/,266,0,153
+1728067061983,532,login request,200,OK,Login thread 1-442,text,true,,3965,340,31,31,https://www.saucedemo.com/,264,0,146
+1728067061983,264,login request-0,301,Moved Permanently,Login thread 1-442,text,true,,664,221,31,31,https://saucedemo.com/,264,0,146
+1728067062247,268,login request-1,200,OK,Login thread 1-442,text,true,,3301,119,31,31,https://www.saucedemo.com/,268,0,156
+1728067062003,526,login request,200,OK,Login thread 1-443,text,true,,3964,340,31,31,https://www.saucedemo.com/,269,0,157
+1728067062003,269,login request-0,301,Moved Permanently,Login thread 1-443,text,true,,664,221,31,31,https://saucedemo.com/,269,0,157
+1728067062272,257,login request-1,200,OK,Login thread 1-443,text,true,,3300,119,31,31,https://www.saucedemo.com/,257,0,146
+1728067061924,611,login request,200,OK,Login thread 1-439,text,true,,3965,340,30,30,https://www.saucedemo.com/,266,0,155
+1728067061924,267,login request-0,301,Moved Permanently,Login thread 1-439,text,true,,665,221,30,30,https://saucedemo.com/,266,0,155
+1728067062191,344,login request-1,200,OK,Login thread 1-439,text,true,,3300,119,30,30,https://www.saucedemo.com/,344,0,232
+1728067062024,526,login request,200,OK,Login thread 1-444,text,true,,3965,340,30,30,https://www.saucedemo.com/,260,0,149
+1728067062024,260,login request-0,301,Moved Permanently,Login thread 1-444,text,true,,665,221,30,30,https://saucedemo.com/,260,0,149
+1728067062284,266,login request-1,200,OK,Login thread 1-444,text,true,,3300,119,30,30,https://www.saucedemo.com/,266,0,147
+1728067062042,527,login request,200,OK,Login thread 1-445,text,true,,3965,340,30,30,https://www.saucedemo.com/,258,0,147
+1728067062042,258,login request-0,301,Moved Permanently,Login thread 1-445,text,true,,664,221,30,30,https://saucedemo.com/,258,0,147
+1728067062300,269,login request-1,200,OK,Login thread 1-445,text,true,,3301,119,30,30,https://www.saucedemo.com/,269,0,155
+1728067062063,530,login request,200,OK,Login thread 1-446,text,true,,3965,340,30,30,https://www.saucedemo.com/,271,0,158
+1728067062063,271,login request-0,301,Moved Permanently,Login thread 1-446,text,true,,665,221,30,30,https://saucedemo.com/,271,0,158
+1728067062335,258,login request-1,200,OK,Login thread 1-446,text,true,,3300,119,30,30,https://www.saucedemo.com/,258,0,146
+1728067062083,518,login request,200,OK,Login thread 1-447,text,true,,3966,340,29,29,https://www.saucedemo.com/,257,0,148
+1728067062083,257,login request-0,301,Moved Permanently,Login thread 1-447,text,true,,665,221,29,29,https://saucedemo.com/,257,0,148
+1728067062340,261,login request-1,200,OK,Login thread 1-447,text,true,,3301,119,29,29,https://www.saucedemo.com/,261,0,150
+1728067062103,533,login request,200,OK,Login thread 1-448,text,true,,3964,340,30,30,https://www.saucedemo.com/,262,0,150
+1728067062103,263,login request-0,301,Moved Permanently,Login thread 1-448,text,true,,664,221,30,30,https://saucedemo.com/,262,0,150
+1728067062366,270,login request-1,200,OK,Login thread 1-448,text,true,,3300,119,30,30,https://www.saucedemo.com/,270,0,149
+1728067062123,550,login request,200,OK,Login thread 1-449,text,true,,3964,340,31,31,https://www.saucedemo.com/,267,0,151
+1728067062123,267,login request-0,301,Moved Permanently,Login thread 1-449,text,true,,664,221,31,31,https://saucedemo.com/,267,0,151
+1728067062391,282,login request-1,200,OK,Login thread 1-449,text,true,,3300,119,31,31,https://www.saucedemo.com/,282,0,152
+1728067062142,554,login request,200,OK,Login thread 1-450,text,true,,3966,340,31,31,https://www.saucedemo.com/,261,0,148
+1728067062142,261,login request-0,301,Moved Permanently,Login thread 1-450,text,true,,665,221,31,31,https://saucedemo.com/,261,0,148
+1728067062403,293,login request-1,200,OK,Login thread 1-450,text,true,,3301,119,31,31,https://www.saucedemo.com/,293,0,149
+1728067062162,558,login request,200,OK,Login thread 1-451,text,true,,3964,340,31,31,https://www.saucedemo.com/,271,0,158
+1728067062162,271,login request-0,301,Moved Permanently,Login thread 1-451,text,true,,664,221,31,31,https://saucedemo.com/,271,0,158
+1728067062434,286,login request-1,200,OK,Login thread 1-451,text,true,,3300,119,31,31,https://www.saucedemo.com/,286,0,145
+1728067062183,541,login request,200,OK,Login thread 1-452,text,true,,3964,340,31,31,https://www.saucedemo.com/,266,0,153
+1728067062183,266,login request-0,301,Moved Permanently,Login thread 1-452,text,true,,664,221,31,31,https://saucedemo.com/,266,0,153
+1728067062450,274,login request-1,200,OK,Login thread 1-452,text,true,,3300,119,31,31,https://www.saucedemo.com/,274,0,145
+1728067062203,545,login request,200,OK,Login thread 1-453,text,true,,3965,340,31,31,https://www.saucedemo.com/,263,0,153
+1728067062203,263,login request-0,301,Moved Permanently,Login thread 1-453,text,true,,665,221,31,31,https://saucedemo.com/,263,0,153
+1728067062466,282,login request-1,200,OK,Login thread 1-453,text,true,,3300,119,31,31,https://www.saucedemo.com/,282,0,148
+1728067062223,572,login request,200,OK,Login thread 1-454,text,true,,3964,340,32,32,https://www.saucedemo.com/,268,0,151
+1728067062223,268,login request-0,301,Moved Permanently,Login thread 1-454,text,true,,664,221,32,32,https://saucedemo.com/,268,0,151
+1728067062491,304,login request-1,200,OK,Login thread 1-454,text,true,,3300,119,32,32,https://www.saucedemo.com/,304,0,177
+1728067062263,561,login request,200,OK,Login thread 1-456,text,true,,3964,340,33,33,https://www.saucedemo.com/,262,0,149
+1728067062263,262,login request-0,301,Moved Permanently,Login thread 1-456,text,true,,664,221,33,33,https://saucedemo.com/,262,0,149
+1728067062525,299,login request-1,200,OK,Login thread 1-456,text,true,,3300,119,33,33,https://www.saucedemo.com/,299,0,174
+1728067062283,565,login request,200,OK,Login thread 1-457,text,true,,3964,340,33,33,https://www.saucedemo.com/,262,0,147
+1728067062283,262,login request-0,301,Moved Permanently,Login thread 1-457,text,true,,664,221,33,33,https://saucedemo.com/,262,0,147
+1728067062545,303,login request-1,200,OK,Login thread 1-457,text,true,,3300,119,33,33,https://www.saucedemo.com/,303,0,178
+1728067062303,564,login request,200,OK,Login thread 1-458,text,true,,3964,340,33,33,https://www.saucedemo.com/,268,0,158
+1728067062303,268,login request-0,301,Moved Permanently,Login thread 1-458,text,true,,664,221,33,33,https://saucedemo.com/,268,0,158
+1728067062571,296,login request-1,200,OK,Login thread 1-458,text,true,,3300,119,33,33,https://www.saucedemo.com/,296,0,177
+1728067062323,564,login request,200,OK,Login thread 1-459,text,true,,3964,340,33,33,https://www.saucedemo.com/,258,0,147
+1728067062323,258,login request-0,301,Moved Permanently,Login thread 1-459,text,true,,664,221,33,33,https://saucedemo.com/,258,0,147
+1728067062582,305,login request-1,200,OK,Login thread 1-459,text,true,,3300,119,33,33,https://www.saucedemo.com/,305,0,190
+1728067062242,653,login request,200,OK,Login thread 1-455,text,true,,3965,340,32,32,https://www.saucedemo.com/,263,0,154
+1728067062242,263,login request-0,301,Moved Permanently,Login thread 1-455,text,true,,664,221,32,32,https://saucedemo.com/,263,0,154
+1728067062506,389,login request-1,200,OK,Login thread 1-455,text,true,,3301,119,32,32,https://www.saucedemo.com/,389,0,166
+1728067062343,558,login request,200,OK,Login thread 1-460,text,true,,3965,340,31,31,https://www.saucedemo.com/,281,0,146
+1728067062343,281,login request-0,301,Moved Permanently,Login thread 1-460,text,true,,664,221,31,31,https://saucedemo.com/,281,0,146
+1728067062624,277,login request-1,200,OK,Login thread 1-460,text,true,,3301,119,31,31,https://www.saucedemo.com/,277,0,163
+1728067062364,543,login request,200,OK,Login thread 1-461,text,true,,3965,340,31,31,https://www.saucedemo.com/,264,0,145
+1728067062364,264,login request-0,301,Moved Permanently,Login thread 1-461,text,true,,665,221,31,31,https://saucedemo.com/,264,0,145
+1728067062628,279,login request-1,200,OK,Login thread 1-461,text,true,,3300,119,31,31,https://www.saucedemo.com/,279,0,166
+1728067062384,566,login request,200,OK,Login thread 1-462,text,true,,3964,340,32,32,https://www.saucedemo.com/,286,0,149
+1728067062384,286,login request-0,301,Moved Permanently,Login thread 1-462,text,true,,664,221,32,32,https://saucedemo.com/,286,0,149
+1728067062670,280,login request-1,200,OK,Login thread 1-462,text,true,,3300,119,32,32,https://www.saucedemo.com/,280,0,168
+1728067062402,581,login request,200,OK,Login thread 1-463,text,true,,3964,340,32,32,https://www.saucedemo.com/,293,0,151
+1728067062402,293,login request-0,301,Moved Permanently,Login thread 1-463,text,true,,664,221,32,32,https://saucedemo.com/,293,0,151
+1728067062695,288,login request-1,200,OK,Login thread 1-463,text,true,,3300,119,32,32,https://www.saucedemo.com/,288,0,164
+1728067062422,562,login request,200,OK,Login thread 1-464,text,true,,3965,340,32,32,https://www.saucedemo.com/,276,0,144
+1728067062422,276,login request-0,301,Moved Permanently,Login thread 1-464,text,true,,664,221,32,32,https://saucedemo.com/,276,0,144
+1728067062698,286,login request-1,200,OK,Login thread 1-464,text,true,,3301,119,32,32,https://www.saucedemo.com/,286,0,164
+1728067062443,571,login request,200,OK,Login thread 1-465,text,true,,3965,340,32,32,https://www.saucedemo.com/,280,0,147
+1728067062443,280,login request-0,301,Moved Permanently,Login thread 1-465,text,true,,665,221,32,32,https://saucedemo.com/,280,0,147
+1728067062723,291,login request-1,200,OK,Login thread 1-465,text,true,,3300,119,32,32,https://www.saucedemo.com/,291,0,158
+1728067062482,559,login request,200,OK,Login thread 1-467,text,true,,3965,340,32,32,https://www.saucedemo.com/,292,0,142
+1728067062463,571,login request,200,OK,Login thread 1-466,text,true,,3964,340,32,32,https://www.saucedemo.com/,309,0,153
+1728067062482,292,login request-0,301,Moved Permanently,Login thread 1-467,text,true,,665,221,32,32,https://saucedemo.com/,292,0,142
+1728067062463,309,login request-0,301,Moved Permanently,Login thread 1-466,text,true,,664,221,32,32,https://saucedemo.com/,309,0,153
+1728067062775,266,login request-1,200,OK,Login thread 1-467,text,true,,3300,119,32,32,https://www.saucedemo.com/,266,0,155
+1728067062772,262,login request-1,200,OK,Login thread 1-466,text,true,,3300,119,32,32,https://www.saucedemo.com/,262,0,152
+1728067062504,578,login request,200,OK,Login thread 1-468,text,true,,3965,340,32,32,https://www.saucedemo.com/,292,0,168
+1728067062504,292,login request-0,301,Moved Permanently,Login thread 1-468,text,true,,665,221,32,32,https://saucedemo.com/,292,0,168
+1728067062797,285,login request-1,200,OK,Login thread 1-468,text,true,,3300,119,32,32,https://www.saucedemo.com/,285,0,152
+1728067062523,586,login request,200,OK,Login thread 1-469,text,true,,3964,340,33,33,https://www.saucedemo.com/,297,0,175
+1728067062523,297,login request-0,301,Moved Permanently,Login thread 1-469,text,true,,664,221,33,33,https://saucedemo.com/,297,0,175
+1728067062820,289,login request-1,200,OK,Login thread 1-469,text,true,,3300,119,33,33,https://www.saucedemo.com/,289,0,166
+1728067062542,575,login request,200,OK,Login thread 1-470,text,true,,3966,340,32,32,https://www.saucedemo.com/,302,0,180
+1728067062542,302,login request-0,301,Moved Permanently,Login thread 1-470,text,true,,664,221,32,32,https://saucedemo.com/,302,0,180
+1728067062844,273,login request-1,200,OK,Login thread 1-470,text,true,,3302,119,32,32,https://www.saucedemo.com/,273,0,146
+1728067062562,557,login request,200,OK,Login thread 1-471,text,true,,3965,340,31,31,https://www.saucedemo.com/,288,0,167
+1728067062562,288,login request-0,301,Moved Permanently,Login thread 1-471,text,true,,664,221,31,31,https://saucedemo.com/,288,0,167
+1728067062850,269,login request-1,200,OK,Login thread 1-471,text,true,,3301,119,31,31,https://www.saucedemo.com/,269,0,150
+1728067062603,555,login request,200,OK,Login thread 1-473,text,true,,3965,340,32,32,https://www.saucedemo.com/,292,0,176
+1728067062603,292,login request-0,301,Moved Permanently,Login thread 1-473,text,true,,664,221,32,32,https://saucedemo.com/,292,0,176
+1728067062896,262,login request-1,200,OK,Login thread 1-473,text,true,,3301,119,32,32,https://www.saucedemo.com/,262,0,149
+1728067062622,541,login request,200,OK,Login thread 1-474,text,true,,3965,340,31,31,https://www.saucedemo.com/,274,0,160
+1728067062622,274,login request-0,301,Moved Permanently,Login thread 1-474,text,true,,664,221,31,31,https://saucedemo.com/,274,0,160
+1728067062896,267,login request-1,200,OK,Login thread 1-474,text,true,,3301,119,31,31,https://www.saucedemo.com/,267,0,150
+1728067062583,613,login request,200,OK,Login thread 1-472,text,true,,3965,340,30,30,https://www.saucedemo.com/,329,0,193
+1728067062583,329,login request-0,301,Moved Permanently,Login thread 1-472,text,true,,664,221,30,30,https://saucedemo.com/,329,0,193
+1728067062912,284,login request-1,200,OK,Login thread 1-472,text,true,,3301,119,30,30,https://www.saucedemo.com/,284,0,169
+1728067062643,554,login request,200,OK,Login thread 1-475,text,true,,3964,340,29,29,https://www.saucedemo.com/,276,0,161
+1728067062643,276,login request-0,301,Moved Permanently,Login thread 1-475,text,true,,664,221,29,29,https://saucedemo.com/,276,0,161
+1728067062919,278,login request-1,200,OK,Login thread 1-475,text,true,,3300,119,29,29,https://www.saucedemo.com/,278,0,163
+1728067062663,556,login request,200,OK,Login thread 1-476,text,true,,3964,340,28,28,https://www.saucedemo.com/,282,0,166
+1728067062663,282,login request-0,301,Moved Permanently,Login thread 1-476,text,true,,664,221,28,28,https://saucedemo.com/,282,0,166
+1728067062945,274,login request-1,200,OK,Login thread 1-476,text,true,,3300,119,28,28,https://www.saucedemo.com/,274,0,146
+1728067062683,541,login request,200,OK,Login thread 1-477,text,true,,3965,340,27,27,https://www.saucedemo.com/,273,0,162
+1728067062683,273,login request-0,301,Moved Permanently,Login thread 1-477,text,true,,665,221,27,27,https://saucedemo.com/,273,0,162
+1728067062956,268,login request-1,200,OK,Login thread 1-477,text,true,,3300,119,27,27,https://www.saucedemo.com/,268,0,144
+1728067062702,549,login request,200,OK,Login thread 1-478,text,true,,3965,340,26,26,https://www.saucedemo.com/,281,0,160
+1728067062702,281,login request-0,301,Moved Permanently,Login thread 1-478,text,true,,665,221,26,26,https://saucedemo.com/,281,0,160
+1728067062983,268,login request-1,200,OK,Login thread 1-478,text,true,,3300,119,26,26,https://www.saucedemo.com/,268,0,148
+1728067062745,534,login request,200,OK,Login thread 1-480,text,true,,3964,340,25,25,https://www.saucedemo.com/,269,0,155
+1728067062745,269,login request-0,301,Moved Permanently,Login thread 1-480,text,true,,664,221,25,25,https://saucedemo.com/,269,0,155
+1728067063015,264,login request-1,200,OK,Login thread 1-480,text,true,,3300,119,25,25,https://www.saucedemo.com/,264,0,148
+1728067062725,566,login request,200,OK,Login thread 1-479,text,true,,3964,340,24,24,https://www.saucedemo.com/,289,0,156
+1728067062725,289,login request-0,301,Moved Permanently,Login thread 1-479,text,true,,664,221,24,24,https://saucedemo.com/,289,0,156
+1728067063014,277,login request-1,200,OK,Login thread 1-479,text,true,,3300,119,24,24,https://www.saucedemo.com/,277,0,156
+1728067062764,535,login request,200,OK,Login thread 1-481,text,true,,3966,340,23,23,https://www.saucedemo.com/,264,0,153
+1728067062764,264,login request-0,301,Moved Permanently,Login thread 1-481,text,true,,665,221,23,23,https://saucedemo.com/,264,0,153
+1728067063028,271,login request-1,200,OK,Login thread 1-481,text,true,,3301,119,23,23,https://www.saucedemo.com/,271,0,149
+1728067062783,530,login request,200,OK,Login thread 1-482,text,true,,3964,340,22,22,https://www.saucedemo.com/,258,0,148
+1728067062783,258,login request-0,301,Moved Permanently,Login thread 1-482,text,true,,664,221,22,22,https://saucedemo.com/,258,0,148
+1728067063041,272,login request-1,200,OK,Login thread 1-482,text,true,,3300,119,22,22,https://www.saucedemo.com/,272,0,153
+1728067062803,578,login request,200,OK,Login thread 1-483,text,true,,3965,340,21,21,https://www.saucedemo.com/,284,0,150
+1728067062803,284,login request-0,301,Moved Permanently,Login thread 1-483,text,true,,664,221,21,21,https://saucedemo.com/,284,0,150
+1728067063087,294,login request-1,200,OK,Login thread 1-483,text,true,,3301,119,21,21,https://www.saucedemo.com/,294,0,170
+1728067062823,587,login request,200,OK,Login thread 1-484,text,true,,3965,340,20,20,https://www.saucedemo.com/,292,0,163
+1728067062823,292,login request-0,301,Moved Permanently,Login thread 1-484,text,true,,664,221,20,20,https://saucedemo.com/,292,0,163
+1728067063116,294,login request-1,200,OK,Login thread 1-484,text,true,,3301,119,20,20,https://www.saucedemo.com/,294,0,162
+1728067062862,554,login request,200,OK,Login thread 1-486,text,true,,3965,340,19,19,https://www.saucedemo.com/,257,0,145
+1728067062862,257,login request-0,301,Moved Permanently,Login thread 1-486,text,true,,665,221,19,19,https://saucedemo.com/,257,0,145
+1728067063120,296,login request-1,200,OK,Login thread 1-486,text,true,,3300,119,19,19,https://www.saucedemo.com/,296,0,160
+1728067062883,560,login request,200,OK,Login thread 1-487,text,true,,3964,340,18,18,https://www.saucedemo.com/,263,0,154
+1728067062883,263,login request-0,301,Moved Permanently,Login thread 1-487,text,true,,664,221,18,18,https://saucedemo.com/,263,0,154
+1728067063147,296,login request-1,200,OK,Login thread 1-487,text,true,,3300,119,18,18,https://www.saucedemo.com/,296,0,160
+1728067062904,560,login request,200,OK,Login thread 1-488,text,true,,3965,340,17,17,https://www.saucedemo.com/,259,0,146
+1728067062904,259,login request-0,301,Moved Permanently,Login thread 1-488,text,true,,665,221,17,17,https://saucedemo.com/,259,0,146
+1728067063164,300,login request-1,200,OK,Login thread 1-488,text,true,,3300,119,17,17,https://www.saucedemo.com/,300,0,159
+1728067062922,608,login request,200,OK,Login thread 1-489,text,true,,3964,340,16,16,https://www.saucedemo.com/,293,0,166
+1728067062922,293,login request-0,301,Moved Permanently,Login thread 1-489,text,true,,664,221,16,16,https://saucedemo.com/,293,0,166
+1728067063216,314,login request-1,200,OK,Login thread 1-489,text,true,,3300,119,16,16,https://www.saucedemo.com/,314,0,162
+1728067062943,589,login request,200,OK,Login thread 1-490,text,true,,3965,340,15,15,https://www.saucedemo.com/,277,0,149
+1728067062943,277,login request-0,301,Moved Permanently,Login thread 1-490,text,true,,665,221,15,15,https://saucedemo.com/,277,0,149
+1728067063221,311,login request-1,200,OK,Login thread 1-490,text,true,,3300,119,15,15,https://www.saucedemo.com/,311,0,159
+1728067062963,570,login request,200,OK,Login thread 1-491,text,true,,3965,340,15,15,https://www.saucedemo.com/,267,0,153
+1728067062963,267,login request-0,301,Moved Permanently,Login thread 1-491,text,true,,665,221,15,15,https://saucedemo.com/,267,0,153
+1728067063231,302,login request-1,200,OK,Login thread 1-491,text,true,,3300,119,15,15,https://www.saucedemo.com/,302,0,159
+1728067062983,564,login request,200,OK,Login thread 1-492,text,true,,3965,340,13,13,https://www.saucedemo.com/,266,0,148
+1728067062983,266,login request-0,301,Moved Permanently,Login thread 1-492,text,true,,665,221,13,13,https://saucedemo.com/,266,0,148
+1728067063249,298,login request-1,200,OK,Login thread 1-492,text,true,,3300,119,13,13,https://www.saucedemo.com/,298,0,167
+1728067062843,704,login request,200,OK,Login thread 1-485,text,true,,3964,340,12,12,https://www.saucedemo.com/,408,0,294
+1728067062843,408,login request-0,301,Moved Permanently,Login thread 1-485,text,true,,664,221,12,12,https://saucedemo.com/,408,0,294
+1728067063251,296,login request-1,200,OK,Login thread 1-485,text,true,,3300,119,12,12,https://www.saucedemo.com/,296,0,167
+1728067063003,603,login request,200,OK,Login thread 1-493,text,true,,3964,340,11,11,https://www.saucedemo.com/,271,0,154
+1728067063003,271,login request-0,301,Moved Permanently,Login thread 1-493,text,true,,664,221,11,11,https://saucedemo.com/,271,0,154
+1728067063275,331,login request-1,200,OK,Login thread 1-493,text,true,,3300,119,11,11,https://www.saucedemo.com/,331,0,186
+1728067063023,621,login request,200,OK,Login thread 1-494,text,true,,3965,340,10,10,https://www.saucedemo.com/,273,0,150
+1728067063023,273,login request-0,301,Moved Permanently,Login thread 1-494,text,true,,664,221,10,10,https://saucedemo.com/,273,0,150
+1728067063297,347,login request-1,200,OK,Login thread 1-494,text,true,,3301,119,10,10,https://www.saucedemo.com/,347,0,196
+1728067063044,630,login request,200,OK,Login thread 1-495,text,true,,3964,340,9,9,https://www.saucedemo.com/,276,0,151
+1728067063044,276,login request-0,301,Moved Permanently,Login thread 1-495,text,true,,664,221,9,9,https://saucedemo.com/,276,0,151
+1728067063320,354,login request-1,200,OK,Login thread 1-495,text,true,,3300,119,9,9,https://www.saucedemo.com/,354,0,201
+1728067063062,622,login request,200,OK,Login thread 1-496,text,true,,3964,340,8,8,https://www.saucedemo.com/,268,0,155
+1728067063062,268,login request-0,301,Moved Permanently,Login thread 1-496,text,true,,664,221,8,8,https://saucedemo.com/,268,0,155
+1728067063330,354,login request-1,200,OK,Login thread 1-496,text,true,,3300,119,8,8,https://www.saucedemo.com/,354,0,200
+1728067063103,613,login request,200,OK,Login thread 1-498,text,true,,3965,340,7,7,https://www.saucedemo.com/,275,0,151
+1728067063103,275,login request-0,301,Moved Permanently,Login thread 1-498,text,true,,664,221,7,7,https://saucedemo.com/,275,0,151
+1728067063379,337,login request-1,200,OK,Login thread 1-498,text,true,,3301,119,7,7,https://www.saucedemo.com/,337,0,172
+1728067063083,635,login request,200,OK,Login thread 1-497,text,true,,3965,340,6,6,https://www.saucedemo.com/,290,0,164
+1728067063083,290,login request-0,301,Moved Permanently,Login thread 1-497,text,true,,664,221,6,6,https://saucedemo.com/,290,0,164
+1728067063374,344,login request-1,200,OK,Login thread 1-497,text,true,,3301,119,6,6,https://www.saucedemo.com/,344,0,177
+1728067063123,636,login request,200,OK,Login thread 1-499,text,true,,3965,340,5,5,https://www.saucedemo.com/,293,0,160
+1728067063123,293,login request-0,301,Moved Permanently,Login thread 1-499,text,true,,664,221,5,5,https://saucedemo.com/,293,0,160
+1728067063417,342,login request-1,200,OK,Login thread 1-499,text,true,,3301,119,5,5,https://www.saucedemo.com/,342,0,180
+1728067063143,637,login request,200,OK,Login thread 1-500,text,true,,3964,340,4,4,https://www.saucedemo.com/,283,0,162
+1728067063143,283,login request-0,301,Moved Permanently,Login thread 1-500,text,true,,664,221,4,4,https://saucedemo.com/,283,0,162
+1728067063426,354,login request-1,200,OK,Login thread 1-500,text,true,,3300,119,4,4,https://www.saucedemo.com/,354,0,186
+1728067053907,22359,login request,200,OK,Login thread 1-38,text,true,,3964,340,3,3,https://www.saucedemo.com/,22096,0,21979
+1728067053907,22096,login request-0,301,Moved Permanently,Login thread 1-38,text,true,,664,221,3,3,https://saucedemo.com/,22096,0,21979
+1728067076003,263,login request-1,200,OK,Login thread 1-38,text,true,,3300,119,3,3,https://www.saucedemo.com/,263,0,151
+1728067053186,23510,login request,200,OK,Login thread 1-2,text,true,,3965,340,2,2,https://www.saucedemo.com/,345,0,230
+1728067053186,345,login request-0,301,Moved Permanently,Login thread 1-2,text,true,,664,221,2,2,https://saucedemo.com/,345,0,230
+1728067053531,23165,login request-1,200,OK,Login thread 1-2,text,true,,3301,119,2,2,https://www.saucedemo.com/,23165,0,283
+1728067053668,23462,login request,200,OK,Login thread 1-26,text,true,,3964,340,1,1,https://www.saucedemo.com/,23151,0,23030
+1728067053668,23151,login request-0,301,Moved Permanently,Login thread 1-26,text,true,,664,221,1,1,https://saucedemo.com/,23151,0,23030
+1728067076819,311,login request-1,200,OK,Login thread 1-26,text,true,,3300,119,1,1,https://www.saucedemo.com/,311,0,197
