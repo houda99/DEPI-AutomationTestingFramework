@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="PT-007">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="PT-009">
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
     </TestPlan>
     <hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PT-007 Thread Group">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PT-009 Thread Group">
         <intProp name="ThreadGroup.num_threads">100</intProp>
         <intProp name="ThreadGroup.ramp_time">10</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -18,40 +18,39 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager">
-          <collectionProp name="HeaderManager.headers">
-            <elementProp name="" elementType="Header">
-              <stringProp name="Header.name">Content-Type</stringProp>
-              <stringProp name="Header.value">application/json</stringProp>
-            </elementProp>
-          </collectionProp>
-        </HeaderManager>
-        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get User Request with Cookie">
           <stringProp name="HTTPSampler.domain">reqres.in</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/api/users</stringProp>
           <boolProp name="HTTPSampler.auto_redirects">true</boolProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
           <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;name&quot;:&quot;John Doe&quot;,&quot;email&quot;:&quot;johndoe@example.com&quot;}</stringProp>
+                <stringProp name="Argument.value"></stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="HTTPArgument.content_type">text/plain</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="Duration Assertion" enabled="true">
+          <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="PT-009 Cookie Manager">
+            <collectionProp name="CookieManager.cookies"/>
+            <boolProp name="CookieManager.clearEachIteration">true</boolProp>
+            <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
+          </CookieManager>
+          <hashTree/>
+          <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="Duration Assertion">
             <stringProp name="DurationAssertion.duration">&lt;2000</stringProp>
           </DurationAssertion>
           <hashTree/>
-          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="PT-007 Results">
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="PT-009 Results">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
               <name>saveConfig</name>
@@ -85,7 +84,7 @@
                 <connectTime>true</connectTime>
               </value>
             </objProp>
-            <stringProp name="filename">D:\repos\GitHub\DEPI_AutomationTestingFramework\performance\reqres.in  Performance\PT-007.csv</stringProp>
+            <stringProp name="filename">D:\repos\GitHub\DEPI_AutomationTestingFramework\performance\reqres.in  Performance\PT-009.csv</stringProp>
           </ResultCollector>
           <hashTree/>
           <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
@@ -122,7 +121,7 @@
                 <connectTime>true</connectTime>
               </value>
             </objProp>
-            <stringProp name="filename">D:\repos\GitHub\DEPI_AutomationTestingFramework\performance\reqres.in  Performance\PT-007-summary.csv</stringProp>
+            <stringProp name="filename">D:\repos\GitHub\DEPI_AutomationTestingFramework\performance\reqres.in  Performance\PT-009-summary.csv</stringProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>

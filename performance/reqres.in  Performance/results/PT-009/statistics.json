@@ -1,0 +1,34 @@
+{
+  "Get User Request with Cookie" : {
+    "transaction" : "Get User Request with Cookie",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 182.66999999999993,
+    "medianResTime" : 179.0,
+    "minResTime" : 172.0,
+    "maxResTime" : 272.0,
+    "pct1ResTime" : 190.9,
+    "pct2ResTime" : 206.69999999999993,
+    "pct3ResTime" : 271.67999999999984,
+    "throughput" : 9.928514694201748,
+    "receivedKBytesPerSec" : 18.402657118745037,
+    "sentKBytesPerSec" : 2.688067786934075
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 182.66999999999993,
+    "medianResTime" : 179.0,
+    "minResTime" : 172.0,
+    "maxResTime" : 272.0,
+    "pct1ResTime" : 190.9,
+    "pct2ResTime" : 206.69999999999993,
+    "pct3ResTime" : 271.67999999999984,
+    "throughput" : 9.928514694201748,
+    "receivedKBytesPerSec" : 18.402657118745037,
+    "sentKBytesPerSec" : 2.688067786934075
+  }
+}
