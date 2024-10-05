@@ -1,0 +1,34 @@
+{
+  "Get User Request with Query Parameters" : {
+    "transaction" : "Get User Request with Query Parameters",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 198.4250000000001,
+    "medianResTime" : 198.0,
+    "minResTime" : 174.0,
+    "maxResTime" : 238.0,
+    "pct1ResTime" : 217.0,
+    "pct2ResTime" : 222.95,
+    "pct3ResTime" : 236.95000000000005,
+    "throughput" : 19.688915140775745,
+    "receivedKBytesPerSec" : 26.495434632801732,
+    "sentKBytesPerSec" : 2.67261641071077
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 198.4250000000001,
+    "medianResTime" : 198.0,
+    "minResTime" : 174.0,
+    "maxResTime" : 238.0,
+    "pct1ResTime" : 217.0,
+    "pct2ResTime" : 222.95,
+    "pct3ResTime" : 236.95000000000005,
+    "throughput" : 19.688915140775745,
+    "receivedKBytesPerSec" : 26.495434632801732,
+    "sentKBytesPerSec" : 2.67261641071077
+  }
+}

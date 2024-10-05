@@ -1,0 +1,34 @@
+{
+  "Create User Request with Large Payload" : {
+    "transaction" : "Create User Request with Large Payload",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 201.22499999999997,
+    "medianResTime" : 197.0,
+    "minResTime" : 173.0,
+    "maxResTime" : 405.0,
+    "pct1ResTime" : 217.0,
+    "pct2ResTime" : 229.64999999999992,
+    "pct3ResTime" : 347.4400000000005,
+    "throughput" : 19.727756954034326,
+    "receivedKBytesPerSec" : 26.507343195156835,
+    "sentKBytesPerSec" : 2.6778888834089565
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 201.22499999999997,
+    "medianResTime" : 197.0,
+    "minResTime" : 173.0,
+    "maxResTime" : 405.0,
+    "pct1ResTime" : 217.0,
+    "pct2ResTime" : 229.64999999999992,
+    "pct3ResTime" : 347.4400000000005,
+    "throughput" : 19.727756954034326,
+    "receivedKBytesPerSec" : 26.507343195156835,
+    "sentKBytesPerSec" : 2.6778888834089565
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Delete User Request" : {
+    "transaction" : "Delete User Request",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 261.75000000000006,
+    "medianResTime" : 256.0,
+    "minResTime" : 243.0,
+    "maxResTime" : 357.0,
+    "pct1ResTime" : 285.6,
+    "pct2ResTime" : 293.84999999999997,
+    "pct3ResTime" : 356.8599999999999,
+    "throughput" : 9.8173964264677,
+    "receivedKBytesPerSec" : 7.6698409581778915,
+    "sentKBytesPerSec" : 4.9769597977616336
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 261.75000000000006,
+    "medianResTime" : 256.0,
+    "minResTime" : 243.0,
+    "maxResTime" : 357.0,
+    "pct1ResTime" : 285.6,
+    "pct2ResTime" : 293.84999999999997,
+    "pct3ResTime" : 356.8599999999999,
+    "throughput" : 9.8173964264677,
+    "receivedKBytesPerSec" : 7.6698409581778915,
+    "sentKBytesPerSec" : 4.9769597977616336
+  }
+}
