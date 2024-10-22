@@ -34,6 +34,3 @@ This repository contains a collection of test plans for PT-001 through PT-0010, 
 
 Pull requests are welcome! If you'd like to contribute to this repository, please fork the repository and submit a pull request with your changes.
 
-**Acknowledgments**
-
-This repository was created by Mahmoud osama.
