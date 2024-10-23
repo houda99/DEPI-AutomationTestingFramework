@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="25" passed="7" failed="18" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-30T02:45:51 EEST" name="SauceDemo Tests Suite" finished-at="2024-09-30T02:50:38 EEST" duration-ms="287205">
+  <suite started-at="2024-10-22T20:22:19 EEST" name="SauceDemo Tests Suite" finished-at="2024-10-22T20:28:11 EEST" duration-ms="352227">
     <groups>
     </groups>
-    <test started-at="2024-09-30T02:45:51 EEST" name="Login Functionality Tests" finished-at="2024-09-30T02:46:09 EEST" duration-ms="18095">
+    <test started-at="2024-10-22T20:22:19 EEST" name="Login Functionality Tests" finished-at="2024-10-22T20:22:48 EEST" duration-ms="29338">
       <class name="com.MyTestingCo.tests.login.ValidLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-30T02:45:51 EEST" name="setUp" finished-at="2024-09-30T02:45:55 EEST" duration-ms="3432" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-10-22T20:22:19 EEST" name="setUp" finished-at="2024-10-22T20:22:26 EEST" duration-ms="7240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin()[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-30T02:45:55 EEST" name="testValidLogin" description="Verify that a user can log in with valid credentials" finished-at="2024-09-30T02:45:57 EEST" duration-ms="2511" status="PASS">
+        <test-method signature="testValidLogin()[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-10-22T20:22:26 EEST" name="testValidLogin" description="Verify that a user can log in with valid credentials" finished-at="2024-10-22T20:22:30 EEST" duration-ms="3427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-30T02:45:57 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:45:57 EEST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-10-22T20:22:30 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:22:30 EEST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-30T02:45:57 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:45:57 EEST" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-10-22T20:22:30 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:22:30 EEST" duration-ms="195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,13 +44,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-09-30T02:45:57 EEST" name="tearDown" finished-at="2024-09-30T02:45:58 EEST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.ValidLoginTest@69c81773]" started-at="2024-10-22T20:22:30 EEST" name="tearDown" finished-at="2024-10-22T20:22:30 EEST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.login.ValidLoginTest -->
       <class name="com.MyTestingCo.tests.login.InvalidLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-30T02:45:58 EEST" name="setUp" finished-at="2024-09-30T02:45:59 EEST" duration-ms="1162" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-10-22T20:22:30 EEST" name="setUp" finished-at="2024-10-22T20:22:32 EEST" duration-ms="1194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-30T02:45:59 EEST" name="testInvalidLogin" description="Verify that an error message is displayed with invalid credentials" finished-at="2024-09-30T02:46:00 EEST" duration-ms="1392" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-10-22T20:22:32 EEST" name="testInvalidLogin" description="Verify that an error message is displayed with invalid credentials" finished-at="2024-10-22T20:22:35 EEST" duration-ms="3015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-30T02:46:00 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:46:00 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-10-22T20:22:35 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:22:35 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-30T02:46:00 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:46:00 EEST" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-10-22T20:22:35 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:22:35 EEST" duration-ms="171" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,13 +87,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-09-30T02:46:00 EEST" name="tearDown" finished-at="2024-09-30T02:46:01 EEST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.InvalidLoginTest@6b09fb41]" started-at="2024-10-22T20:22:35 EEST" name="tearDown" finished-at="2024-10-22T20:22:35 EEST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.login.InvalidLoginTest -->
       <class name="com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-30T02:46:06 EEST" name="setUp" finished-at="2024-09-30T02:46:07 EEST" duration-ms="1233" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-10-22T20:22:44 EEST" name="setUp" finished-at="2024-10-22T20:22:45 EEST" duration-ms="1150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,11 +104,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithSpecialCharactersTest()[pri:5, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-30T02:46:07 EEST" name="loginWithSpecialCharactersTest" description="Login with Special Characters Test" finished-at="2024-09-30T02:46:09 EEST" duration-ms="1540" status="PASS">
+        <test-method signature="loginWithSpecialCharactersTest()[pri:5, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-10-22T20:22:45 EEST" name="loginWithSpecialCharactersTest" description="Login with Special Characters Test" finished-at="2024-10-22T20:22:48 EEST" duration-ms="3044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithSpecialCharactersTest -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-30T02:46:09 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:46:09 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-10-22T20:22:48 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:22:48 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-30T02:46:09 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:46:09 EEST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-10-22T20:22:48 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:22:48 EEST" duration-ms="174" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,13 +130,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-09-30T02:46:09 EEST" name="tearDown" finished-at="2024-09-30T02:46:09 EEST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest@782859e]" started-at="2024-10-22T20:22:48 EEST" name="tearDown" finished-at="2024-10-22T20:22:48 EEST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.login.LoginWithSpecialCharactersTest -->
       <class name="com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-30T02:46:03 EEST" name="setUp" finished-at="2024-09-30T02:46:04 EEST" duration-ms="1087" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-10-22T20:22:39 EEST" name="setUp" finished-at="2024-10-22T20:22:41 EEST" duration-ms="1064" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,11 +147,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithEmptyPasswordTest()[pri:4, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-30T02:46:04 EEST" name="loginWithEmptyPasswordTest" description="Login with Empty Password Test" finished-at="2024-09-30T02:46:06 EEST" duration-ms="1310" status="PASS">
+        <test-method signature="loginWithEmptyPasswordTest()[pri:4, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-10-22T20:22:41 EEST" name="loginWithEmptyPasswordTest" description="Login with Empty Password Test" finished-at="2024-10-22T20:22:44 EEST" duration-ms="2999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithEmptyPasswordTest -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-30T02:46:06 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:46:06 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-10-22T20:22:44 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:22:44 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-30T02:46:06 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:46:06 EEST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-10-22T20:22:44 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:22:44 EEST" duration-ms="122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,13 +173,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-09-30T02:46:06 EEST" name="tearDown" finished-at="2024-09-30T02:46:06 EEST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest@3932c79a]" started-at="2024-10-22T20:22:44 EEST" name="tearDown" finished-at="2024-10-22T20:22:44 EEST" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.login.LoginWithEmptyPasswordTest -->
       <class name="com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-30T02:46:01 EEST" name="setUp" finished-at="2024-09-30T02:46:02 EEST" duration-ms="1100" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-10-22T20:22:35 EEST" name="setUp" finished-at="2024-10-22T20:22:36 EEST" duration-ms="1090" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,11 +190,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithEmptyUsernameTest()[pri:3, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-30T02:46:02 EEST" name="loginWithEmptyUsernameTest" description="Login with Empty Username Test" finished-at="2024-09-30T02:46:03 EEST" duration-ms="1148" status="PASS">
+        <test-method signature="loginWithEmptyUsernameTest()[pri:3, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-10-22T20:22:36 EEST" name="loginWithEmptyUsernameTest" description="Login with Empty Username Test" finished-at="2024-10-22T20:22:39 EEST" duration-ms="2949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithEmptyUsernameTest -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-30T02:46:03 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:46:03 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-10-22T20:22:39 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:22:39 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -205,7 +205,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-30T02:46:03 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:46:03 EEST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-10-22T20:22:39 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:22:39 EEST" duration-ms="129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,15 +216,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-09-30T02:46:03 EEST" name="tearDown" finished-at="2024-09-30T02:46:03 EEST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest@624ea235]" started-at="2024-10-22T20:22:39 EEST" name="tearDown" finished-at="2024-10-22T20:22:39 EEST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.login.LoginWithEmptyUsernameTest -->
     </test> <!-- Login Functionality Tests -->
-    <test started-at="2024-09-30T02:46:09 EEST" name="Product Filtering Functionality Tests" finished-at="2024-09-30T02:47:05 EEST" duration-ms="55371">
+    <test started-at="2024-10-22T20:22:49 EEST" name="Product Filtering Functionality Tests" finished-at="2024-10-22T20:23:52 EEST" duration-ms="63048">
       <class name="com.MyTestingCo.tests.filter.FilterByCategoryTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-30T02:46:09 EEST" name="setUp" finished-at="2024-09-30T02:46:10 EEST" duration-ms="1054" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-10-22T20:22:49 EEST" name="setUp" finished-at="2024-10-22T20:22:50 EEST" duration-ms="1186" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,11 +235,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFilterByCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-30T02:46:10 EEST" name="testFilterByCategory" description="Verify that the user can filter products by category" finished-at="2024-09-30T02:46:12 EEST" duration-ms="1449" status="PASS">
+        <test-method signature="testFilterByCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-10-22T20:22:50 EEST" name="testFilterByCategory" description="Verify that the user can filter products by category" finished-at="2024-10-22T20:22:53 EEST" duration-ms="3156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCategory -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-30T02:46:12 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:46:12 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-10-22T20:22:53 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:22:53 EEST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -250,7 +250,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-30T02:46:12 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:46:12 EEST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-10-22T20:22:53 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:22:53 EEST" duration-ms="188" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -261,13 +261,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-09-30T02:46:12 EEST" name="tearDown" finished-at="2024-09-30T02:46:12 EEST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryTest@465232e9]" started-at="2024-10-22T20:22:53 EEST" name="tearDown" finished-at="2024-10-22T20:22:53 EEST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.filter.FilterByCategoryTest -->
       <class name="com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-30T02:46:52 EEST" name="setUp" finished-at="2024-09-30T02:46:53 EEST" duration-ms="1106" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-10-22T20:23:36 EEST" name="setUp" finished-at="2024-10-22T20:23:37 EEST" duration-ms="1500" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,7 +278,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFilterByCategoryWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-30T02:46:53 EEST" name="testFilterByCategoryWithEmptyField" description="Verify that the user cannot filter products by category with an empty field" finished-at="2024-09-30T02:47:04 EEST" duration-ms="11390" status="FAIL">
+        <test-method signature="testFilterByCategoryWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-10-22T20:23:37 EEST" name="testFilterByCategoryWithEmptyField" description="Verify that the user cannot filter products by category with an empty field" finished-at="2024-10-22T20:23:50 EEST" duration-ms="12056" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with text: 
@@ -332,7 +332,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCategoryWithEmptyField -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-30T02:47:04 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:47:04 EEST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-10-22T20:23:50 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:23:50 EEST" duration-ms="170" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -343,7 +343,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-30T02:47:04 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:47:04 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-10-22T20:23:50 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:23:50 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -354,13 +354,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-09-30T02:47:04 EEST" name="tearDown" finished-at="2024-09-30T02:47:05 EEST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest@7486b455]" started-at="2024-10-22T20:23:50 EEST" name="tearDown" finished-at="2024-10-22T20:23:52 EEST" duration-ms="1994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.filter.FilterByCategoryWithEmptyFieldTest -->
       <class name="com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-30T02:46:39 EEST" name="setUp" finished-at="2024-09-30T02:46:40 EEST" duration-ms="1065" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-10-22T20:23:23 EEST" name="setUp" finished-at="2024-10-22T20:23:24 EEST" duration-ms="1040" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -371,7 +371,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFilterByCategoryWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-30T02:46:40 EEST" name="testFilterByCategoryWithSpecialCharacters" description="Verify that the user can filter products by category with special characters" finished-at="2024-09-30T02:46:51 EEST" duration-ms="11397" status="FAIL">
+        <test-method signature="testFilterByCategoryWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-10-22T20:23:24 EEST" name="testFilterByCategoryWithSpecialCharacters" description="Verify that the user can filter products by category with special characters" finished-at="2024-10-22T20:23:35 EEST" duration-ms="11595" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with text: Name (A to Z)!
@@ -425,7 +425,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCategoryWithSpecialCharacters -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-30T02:46:51 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:46:51 EEST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-10-22T20:23:35 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:23:36 EEST" duration-ms="155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -436,7 +436,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-30T02:46:51 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:46:51 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-10-22T20:23:36 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:23:36 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -447,13 +447,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-09-30T02:46:51 EEST" name="tearDown" finished-at="2024-09-30T02:46:52 EEST" duration-ms="349" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest@23941fb4]" started-at="2024-10-22T20:23:36 EEST" name="tearDown" finished-at="2024-10-22T20:23:36 EEST" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.filter.FilterByCategoryWithSpecialCharactersTest -->
       <class name="com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-30T02:46:35 EEST" name="setUp" finished-at="2024-09-30T02:46:37 EEST" duration-ms="1354" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-10-22T20:23:18 EEST" name="setUp" finished-at="2024-10-22T20:23:19 EEST" duration-ms="1223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -464,7 +464,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFilterByMultipleCategories()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-30T02:46:37 EEST" name="testFilterByMultipleCategories" description="Verify that the user can filter products by multiple categories" finished-at="2024-09-30T02:46:38 EEST" duration-ms="1611" status="FAIL">
+        <test-method signature="testFilterByMultipleCategories()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-10-22T20:23:19 EEST" name="testFilterByMultipleCategories" description="Verify that the user can filter products by multiple categories" finished-at="2024-10-22T20:23:22 EEST" duration-ms="2970" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Products are not filtered by the specified category. expected [true] but found [false]]]>
@@ -511,7 +511,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByMultipleCategories -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-30T02:46:38 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:46:38 EEST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-10-22T20:23:22 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:23:23 EEST" duration-ms="154" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -522,7 +522,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-30T02:46:38 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:46:38 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-10-22T20:23:23 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:23:23 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -533,13 +533,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-09-30T02:46:38 EEST" name="tearDown" finished-at="2024-09-30T02:46:39 EEST" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest@1df8da7a]" started-at="2024-10-22T20:23:23 EEST" name="tearDown" finished-at="2024-10-22T20:23:23 EEST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.filter.FilterByMultipleCategoriesTest -->
       <class name="com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-30T02:46:12 EEST" name="setUp" finished-at="2024-09-30T02:46:13 EEST" duration-ms="1140" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-10-22T20:22:53 EEST" name="setUp" finished-at="2024-10-22T20:22:54 EEST" duration-ms="1070" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -550,7 +550,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFilterByInvalidCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-30T02:46:13 EEST" name="testFilterByInvalidCategory" description="Verify that the user cannot filter products by an invalid category" finished-at="2024-09-30T02:46:35 EEST" duration-ms="21446" status="FAIL">
+        <test-method signature="testFilterByInvalidCategory()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-10-22T20:22:54 EEST" name="testFilterByInvalidCategory" description="Verify that the user cannot filter products by an invalid category" finished-at="2024-10-22T20:23:18 EEST" duration-ms="23251" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with text: Invalid Category
@@ -604,7 +604,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByInvalidCategory -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-30T02:46:35 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:46:35 EEST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-10-22T20:23:18 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:23:18 EEST" duration-ms="157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -615,7 +615,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-30T02:46:35 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:46:35 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-10-22T20:23:18 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:23:18 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -626,15 +626,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-09-30T02:46:35 EEST" name="tearDown" finished-at="2024-09-30T02:46:35 EEST" duration-ms="449" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest@798162bc]" started-at="2024-10-22T20:23:18 EEST" name="tearDown" finished-at="2024-10-22T20:23:18 EEST" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.filter.FilterByInvalidCategoryTest -->
     </test> <!-- Product Filtering Functionality Tests -->
-    <test started-at="2024-09-30T02:47:05 EEST" name="Product Sorting Functionality Tests" finished-at="2024-09-30T02:48:16 EEST" duration-ms="71685">
+    <test started-at="2024-10-22T20:23:52 EEST" name="Product Sorting Functionality Tests" finished-at="2024-10-22T20:25:59 EEST" duration-ms="127344">
       <class name="com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-30T02:47:35 EEST" name="setUp" finished-at="2024-09-30T02:47:36 EEST" duration-ms="1058" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-10-22T20:25:24 EEST" name="setUp" finished-at="2024-10-22T20:25:24 EEST" duration-ms="836" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -645,7 +645,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSortByPriceWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-30T02:47:36 EEST" name="testSortByPriceWithSpecialCharacters" description="Verify that the user can sort products by price with special characters" finished-at="2024-09-30T02:47:58 EEST" duration-ms="21374" status="FAIL">
+        <test-method signature="testSortByPriceWithSpecialCharacters()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-10-22T20:25:24 EEST" name="testSortByPriceWithSpecialCharacters" description="Verify that the user can sort products by price with special characters" finished-at="2024-10-22T20:25:46 EEST" duration-ms="21573" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with text: Price (low to high)!
@@ -699,7 +699,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortByPriceWithSpecialCharacters -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-30T02:47:58 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:47:58 EEST" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-10-22T20:25:46 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:25:46 EEST" duration-ms="181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -710,7 +710,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-30T02:47:58 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:47:58 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-10-22T20:25:46 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:25:46 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -721,13 +721,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-09-30T02:47:58 EEST" name="tearDown" finished-at="2024-09-30T02:47:58 EEST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest@700fb871]" started-at="2024-10-22T20:25:46 EEST" name="tearDown" finished-at="2024-10-22T20:25:46 EEST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.sorting.SortByPriceWithSpecialCharactersTest -->
       <class name="com.MyTestingCo.tests.sorting.SortByMultiplePricesTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-30T02:47:30 EEST" name="setUp" finished-at="2024-09-30T02:47:31 EEST" duration-ms="1083" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-10-22T20:25:02 EEST" name="setUp" finished-at="2024-10-22T20:25:03 EEST" duration-ms="1106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -738,17 +738,39 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSortByMultiplePrices()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-30T02:47:31 EEST" name="testSortByMultiplePrices" description="Verify that the user can sort products by multiple prices" finished-at="2024-09-30T02:47:35 EEST" duration-ms="3646" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="testSortByMultiplePrices()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-10-22T20:25:03 EEST" name="testSortByMultiplePrices" description="Verify that the user can sort products by multiple prices" finished-at="2024-10-22T20:25:23 EEST" duration-ms="20029" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Products are not sorted by the specified price. expected [true] but found [false]]]>
+              <![CDATA[timeout: Timed out receiving message from renderer: -0.002
+  (Session info: chrome=130.0.6723.59)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21d281ba4a00e3d21d7b372126187c0b, get {url=https://www.saucedemo.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8684/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21d281ba4a00e3d21d7b372126187c0b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Products are not sorted by the specified price. expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.MyTestingCo.tests.sorting.SortByMultiplePricesTest.testSortByMultiplePrices(SortByMultiplePricesTest.java:48)
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.002
+  (Session info: chrome=130.0.6723.59)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21d281ba4a00e3d21d7b372126187c0b, get {url=https://www.saucedemo.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8684/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21d281ba4a00e3d21d7b372126187c0b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at com.MyTestingCo.tests.sorting.SortByMultiplePricesTest.testSortByMultiplePrices(SortByMultiplePricesTest.java:24)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -781,11 +803,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortByMultiplePrices -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-30T02:47:35 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:47:35 EEST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-10-22T20:25:23 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:25:23 EEST" duration-ms="141" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -796,7 +818,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-30T02:47:35 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:47:35 EEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-10-22T20:25:23 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:25:23 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -807,13 +829,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-09-30T02:47:35 EEST" name="tearDown" finished-at="2024-09-30T02:47:35 EEST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByMultiplePricesTest@29f7cefd]" started-at="2024-10-22T20:25:23 EEST" name="tearDown" finished-at="2024-10-22T20:25:24 EEST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.sorting.SortByMultiplePricesTest -->
       <class name="com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-30T02:47:58 EEST" name="setUp" finished-at="2024-09-30T02:48:01 EEST" duration-ms="2185" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-10-22T20:25:46 EEST" name="setUp" finished-at="2024-10-22T20:25:47 EEST" duration-ms="841" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -824,7 +846,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSortByPriceWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-30T02:48:01 EEST" name="testSortByPriceWithEmptyField" description="Verify that the user cannot sort products by price with an empty field" finished-at="2024-09-30T02:48:16 EEST" duration-ms="15027" status="FAIL">
+        <test-method signature="testSortByPriceWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-10-22T20:25:47 EEST" name="testSortByPriceWithEmptyField" description="Verify that the user cannot sort products by price with an empty field" finished-at="2024-10-22T20:25:59 EEST" duration-ms="11431" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with text: 
@@ -878,7 +900,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortByPriceWithEmptyField -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-30T02:48:16 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:48:16 EEST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-10-22T20:25:59 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:25:59 EEST" duration-ms="164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -889,7 +911,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-30T02:48:16 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:48:16 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-10-22T20:25:59 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:25:59 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -900,13 +922,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-09-30T02:48:16 EEST" name="tearDown" finished-at="2024-09-30T02:48:16 EEST" duration-ms="536" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest@3b35a229]" started-at="2024-10-22T20:25:59 EEST" name="tearDown" finished-at="2024-10-22T20:25:59 EEST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.sorting.SortByPriceWithEmptyFieldTest -->
       <class name="com.MyTestingCo.tests.sorting.SortByInvalidPriceTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-30T02:47:07 EEST" name="setUp" finished-at="2024-09-30T02:47:08 EEST" duration-ms="1039" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-10-22T20:24:13 EEST" name="setUp" finished-at="2024-10-22T20:24:22 EEST" duration-ms="8762" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -917,7 +939,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSortByInvalidPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-30T02:47:08 EEST" name="testSortByInvalidPrice" description="Verify that the user cannot sort products by an invalid price" finished-at="2024-09-30T02:47:30 EEST" duration-ms="21390" status="FAIL">
+        <test-method signature="testSortByInvalidPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-10-22T20:24:22 EEST" name="testSortByInvalidPrice" description="Verify that the user cannot sort products by an invalid price" finished-at="2024-10-22T20:25:02 EEST" duration-ms="39722" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with text: Invalid Price
@@ -971,7 +993,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortByInvalidPrice -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-30T02:47:30 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:47:30 EEST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-10-22T20:25:02 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:25:02 EEST" duration-ms="182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -982,7 +1004,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-30T02:47:30 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:47:30 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-10-22T20:25:02 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:25:02 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -993,13 +1015,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-09-30T02:47:30 EEST" name="tearDown" finished-at="2024-09-30T02:47:30 EEST" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByInvalidPriceTest@1224144a]" started-at="2024-10-22T20:25:02 EEST" name="tearDown" finished-at="2024-10-22T20:25:02 EEST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.sorting.SortByInvalidPriceTest -->
       <class name="com.MyTestingCo.tests.sorting.SortByPriceTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-30T02:47:05 EEST" name="setUp" finished-at="2024-09-30T02:47:06 EEST" duration-ms="986" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-10-22T20:23:52 EEST" name="setUp" finished-at="2024-10-22T20:23:54 EEST" duration-ms="2567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1010,11 +1032,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSortByPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-30T02:47:06 EEST" name="testSortByPrice" description="Verify that the user can sort products by price" finished-at="2024-09-30T02:47:07 EEST" duration-ms="1474" status="PASS">
+        <test-method signature="testSortByPrice()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-10-22T20:23:54 EEST" name="testSortByPrice" description="Verify that the user can sort products by price" finished-at="2024-10-22T20:24:11 EEST" duration-ms="16320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortByPrice -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-30T02:47:07 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:47:07 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-10-22T20:24:11 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:24:11 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1025,7 +1047,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-30T02:47:07 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:47:07 EEST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-10-22T20:24:11 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:24:11 EEST" duration-ms="146" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1036,15 +1058,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-09-30T02:47:07 EEST" name="tearDown" finished-at="2024-09-30T02:47:07 EEST" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.sorting.SortByPriceTest@f58853c]" started-at="2024-10-22T20:24:11 EEST" name="tearDown" finished-at="2024-10-22T20:24:13 EEST" duration-ms="2510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.sorting.SortByPriceTest -->
     </test> <!-- Product Sorting Functionality Tests -->
-    <test started-at="2024-09-30T02:48:16 EEST" name="Add to Cart Functionality Tests" finished-at="2024-09-30T02:49:23 EEST" duration-ms="66561">
+    <test started-at="2024-10-22T20:25:59 EEST" name="Add to Cart Functionality Tests" finished-at="2024-10-22T20:26:59 EEST" duration-ms="59414">
       <class name="com.MyTestingCo.tests.cart.AddValidProductToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-30T02:48:16 EEST" name="setUp" finished-at="2024-09-30T02:48:17 EEST" duration-ms="1035" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-10-22T20:25:59 EEST" name="setUp" finished-at="2024-10-22T20:26:00 EEST" duration-ms="1019" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1055,29 +1077,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddValidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-30T02:48:17 EEST" name="testAddValidProductToCart" description="Verify that a user can add a valid product to the cart after logging in." finished-at="2024-09-30T02:48:27 EEST" duration-ms="10063" status="FAIL">
+        <test-method signature="testAddValidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-10-22T20:26:00 EEST" name="testAddValidProductToCart" description="Verify that a user can add a valid product to the cart after logging in." finished-at="2024-10-22T20:26:10 EEST" duration-ms="10044" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [78365f29a33b87f9002979d9465a0c4e, findElement {value=user-name, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46431/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 78365f29a33b87f9002979d9465a0c4e]]>
+Command: [930c2e44eacac4385597e03d6b9a5e77, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8838/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 930c2e44eacac4385597e03d6b9a5e77]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [78365f29a33b87f9002979d9465a0c4e, findElement {value=user-name, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46431/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 78365f29a33b87f9002979d9465a0c4e
+Command: [930c2e44eacac4385597e03d6b9a5e77, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8838/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 930c2e44eacac4385597e03d6b9a5e77
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1131,7 +1153,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddValidProductToCart -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-30T02:48:27 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:48:27 EEST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-10-22T20:26:10 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:26:10 EEST" duration-ms="163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1142,7 +1164,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-30T02:48:27 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:48:27 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-10-22T20:26:10 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:26:10 EEST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1153,13 +1175,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-09-30T02:48:27 EEST" name="tearDown" finished-at="2024-09-30T02:48:28 EEST" duration-ms="555" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddValidProductToCartTest@311bf055]" started-at="2024-10-22T20:26:10 EEST" name="tearDown" finished-at="2024-10-22T20:26:11 EEST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.cart.AddValidProductToCartTest -->
       <class name="com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-30T02:48:48 EEST" name="setUp" finished-at="2024-09-30T02:48:50 EEST" duration-ms="1329" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-10-22T20:26:23 EEST" name="setUp" finished-at="2024-10-22T20:26:24 EEST" duration-ms="859" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1170,29 +1192,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddMultipleProductsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-30T02:48:50 EEST" name="testAddMultipleProductsToCart" description="Verify that a user can add multiple products to the cart after logging in." finished-at="2024-09-30T02:49:00 EEST" duration-ms="10066" status="FAIL">
+        <test-method signature="testAddMultipleProductsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-10-22T20:26:24 EEST" name="testAddMultipleProductsToCart" description="Verify that a user can add multiple products to the cart after logging in." finished-at="2024-10-22T20:26:34 EEST" duration-ms="10048" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [23e28e426bba28ed9eb121e35a080e76, findElement {value=user-name, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46511/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 23e28e426bba28ed9eb121e35a080e76]]>
+Command: [c8938ee7ef6010aacc417a41b603f3bc, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8921/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8938ee7ef6010aacc417a41b603f3bc]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [23e28e426bba28ed9eb121e35a080e76, findElement {value=user-name, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46511/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 23e28e426bba28ed9eb121e35a080e76
+Command: [c8938ee7ef6010aacc417a41b603f3bc, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8921/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8938ee7ef6010aacc417a41b603f3bc
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1246,7 +1268,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMultipleProductsToCart -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-30T02:49:00 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:49:00 EEST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-10-22T20:26:34 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:26:34 EEST" duration-ms="130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1257,7 +1279,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-30T02:49:00 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:49:00 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-10-22T20:26:34 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:26:34 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1268,13 +1290,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-09-30T02:49:00 EEST" name="tearDown" finished-at="2024-09-30T02:49:00 EEST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest@7d322cad]" started-at="2024-10-22T20:26:34 EEST" name="tearDown" finished-at="2024-10-22T20:26:36 EEST" duration-ms="1784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.cart.AddMultipleProductsToCartTest -->
       <class name="com.MyTestingCo.tests.cart.AddInvalidProductToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-30T02:48:28 EEST" name="setUp" finished-at="2024-09-30T02:48:29 EEST" duration-ms="1070" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-10-22T20:26:11 EEST" name="setUp" finished-at="2024-10-22T20:26:11 EEST" duration-ms="886" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1285,29 +1307,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddInvalidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-30T02:48:29 EEST" name="testAddInvalidProductToCart" description="Verify that a user cannot add an invalid product to the cart." finished-at="2024-09-30T02:48:48 EEST" duration-ms="18729" status="FAIL">
+        <test-method signature="testAddInvalidProductToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-10-22T20:26:11 EEST" name="testAddInvalidProductToCart" description="Verify that a user cannot add an invalid product to the cart." finished-at="2024-10-22T20:26:23 EEST" duration-ms="11243" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [65266f7b0b1f09d3fb6063a27f42f373, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46457/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 65266f7b0b1f09d3fb6063a27f42f373]]>
+Command: [fbe5f22de56874cdcc594f03b6126aed, findElement {using=xpath, value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8877}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8877/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbe5f22de56874cdcc594f03b6126aed]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [65266f7b0b1f09d3fb6063a27f42f373, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46457/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 65266f7b0b1f09d3fb6063a27f42f373
+Command: [fbe5f22de56874cdcc594f03b6126aed, findElement {using=xpath, value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8877}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8877/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbe5f22de56874cdcc594f03b6126aed
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1360,7 +1382,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddInvalidProductToCart -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-30T02:48:48 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:48:48 EEST" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-10-22T20:26:23 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:26:23 EEST" duration-ms="163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1371,7 +1393,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-30T02:48:48 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:48:48 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-10-22T20:26:23 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:26:23 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1382,13 +1404,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-09-30T02:48:48 EEST" name="tearDown" finished-at="2024-09-30T02:48:48 EEST" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddInvalidProductToCartTest@642a7222]" started-at="2024-10-22T20:26:23 EEST" name="tearDown" finished-at="2024-10-22T20:26:23 EEST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.cart.AddInvalidProductToCartTest -->
       <class name="com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-30T02:49:11 EEST" name="setUp" finished-at="2024-09-30T02:49:12 EEST" duration-ms="933" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-10-22T20:26:47 EEST" name="setUp" finished-at="2024-10-22T20:26:48 EEST" duration-ms="830" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1399,29 +1421,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddProductWithEmptyFieldToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-30T02:49:12 EEST" name="testAddProductWithEmptyFieldToCart" description="Verify that a user cannot add a product with an empty field to the cart after logging in." finished-at="2024-09-30T02:49:22 EEST" duration-ms="10046" status="FAIL">
+        <test-method signature="testAddProductWithEmptyFieldToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-10-22T20:26:48 EEST" name="testAddProductWithEmptyFieldToCart" description="Verify that a user cannot add a product with an empty field to the cart after logging in." finished-at="2024-10-22T20:26:58 EEST" duration-ms="10068" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [95dffeccae45554660f0000653f6d5dc, findElement {value=user-name, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46559/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 95dffeccae45554660f0000653f6d5dc]]>
+Command: [bd49a757aa8953b2bf2efaedf7d89122, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8986}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8986/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd49a757aa8953b2bf2efaedf7d89122]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [95dffeccae45554660f0000653f6d5dc, findElement {value=user-name, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46559/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 95dffeccae45554660f0000653f6d5dc
+Command: [bd49a757aa8953b2bf2efaedf7d89122, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8986}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8986/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd49a757aa8953b2bf2efaedf7d89122
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1475,7 +1497,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProductWithEmptyFieldToCart -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-30T02:49:22 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:49:23 EEST" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-10-22T20:26:58 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:26:58 EEST" duration-ms="150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1486,7 +1508,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-30T02:49:23 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:49:23 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-10-22T20:26:58 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:26:58 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1497,13 +1519,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-09-30T02:49:23 EEST" name="tearDown" finished-at="2024-09-30T02:49:23 EEST" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest@4f49f6af]" started-at="2024-10-22T20:26:58 EEST" name="tearDown" finished-at="2024-10-22T20:26:59 EEST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.cart.AddProductWithEmptyFieldToCartTest -->
       <class name="com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-30T02:49:00 EEST" name="setUp" finished-at="2024-09-30T02:49:01 EEST" duration-ms="940" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-10-22T20:26:36 EEST" name="setUp" finished-at="2024-10-22T20:26:37 EEST" duration-ms="987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1514,29 +1536,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddProductWithSpecialCharsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-30T02:49:01 EEST" name="testAddProductWithSpecialCharsToCart" description="Verify that a user can add a product with special characters to the cart after logging in." finished-at="2024-09-30T02:49:11 EEST" duration-ms="10068" status="FAIL">
+        <test-method signature="testAddProductWithSpecialCharsToCart()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-10-22T20:26:37 EEST" name="testAddProductWithSpecialCharsToCart" description="Verify that a user can add a product with special characters to the cart after logging in." finished-at="2024-10-22T20:26:47 EEST" duration-ms="10048" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bbcc584e9d53bfbf36b5ee641d9b7eb8, findElement {value=user-name, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46534/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bbcc584e9d53bfbf36b5ee641d9b7eb8]]>
+Command: [f366b1e86b6db6836eb6c32f7df5a441, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8950/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f366b1e86b6db6836eb6c32f7df5a441]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bbcc584e9d53bfbf36b5ee641d9b7eb8, findElement {value=user-name, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46534/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bbcc584e9d53bfbf36b5ee641d9b7eb8
+Command: [f366b1e86b6db6836eb6c32f7df5a441, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8950/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f366b1e86b6db6836eb6c32f7df5a441
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1590,7 +1612,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProductWithSpecialCharsToCart -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-30T02:49:11 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:49:11 EEST" duration-ms="109" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-10-22T20:26:47 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:26:47 EEST" duration-ms="121" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1601,7 +1623,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-30T02:49:11 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:49:11 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-10-22T20:26:47 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:26:47 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1612,15 +1634,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-09-30T02:49:11 EEST" name="tearDown" finished-at="2024-09-30T02:49:11 EEST" duration-ms="264" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest@21be3395]" started-at="2024-10-22T20:26:47 EEST" name="tearDown" finished-at="2024-10-22T20:26:47 EEST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.cart.AddProductWithSpecialCharsToCartTest -->
     </test> <!-- Add to Cart Functionality Tests -->
-    <test started-at="2024-09-30T02:49:23 EEST" name="Checkout Functionality Tests" finished-at="2024-09-30T02:50:38 EEST" duration-ms="75379">
+    <test started-at="2024-10-22T20:26:59 EEST" name="Checkout Functionality Tests" finished-at="2024-10-22T20:28:11 EEST" duration-ms="72663">
       <class name="com.MyTestingCo.tests.checkout.InvalidCheckoutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-30T02:49:38 EEST" name="setUp" finished-at="2024-09-30T02:49:39 EEST" duration-ms="1031" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-10-22T20:27:13 EEST" name="setUp" finished-at="2024-10-22T20:27:14 EEST" duration-ms="882" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1631,29 +1653,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-30T02:49:39 EEST" name="testInvalidCheckout" description="Verify that a user cannot checkout with invalid information." finished-at="2024-09-30T02:49:53 EEST" duration-ms="13350" status="FAIL">
+        <test-method signature="testInvalidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-10-22T20:27:14 EEST" name="testInvalidCheckout" description="Verify that a user cannot checkout with invalid information." finished-at="2024-10-22T20:27:26 EEST" duration-ms="11928" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f74dabf7a11d5349ddeb332857d0cbf4, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46626}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46626/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f74dabf7a11d5349ddeb332857d0cbf4]]>
+Command: [6f1bb6068443147f1008aa26bd6caa0a, findElement {using=xpath, value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9075/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f1bb6068443147f1008aa26bd6caa0a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f74dabf7a11d5349ddeb332857d0cbf4, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46626}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46626/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f74dabf7a11d5349ddeb332857d0cbf4
+Command: [6f1bb6068443147f1008aa26bd6caa0a, findElement {using=xpath, value=//div[contains(@class, 'inventory_item') and contains(., 'Invalid Product')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9075/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f1bb6068443147f1008aa26bd6caa0a
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1706,7 +1728,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidCheckout -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-30T02:49:53 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:49:53 EEST" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-10-22T20:27:26 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:27:26 EEST" duration-ms="156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1717,7 +1739,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-30T02:49:53 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:49:53 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-10-22T20:27:26 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:27:26 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1728,13 +1750,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-09-30T02:49:53 EEST" name="tearDown" finished-at="2024-09-30T02:49:53 EEST" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5]" started-at="2024-10-22T20:27:26 EEST" name="tearDown" finished-at="2024-10-22T20:27:27 EEST" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.checkout.InvalidCheckoutTest -->
       <class name="com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-30T02:50:09 EEST" name="setUp" finished-at="2024-09-30T02:50:10 EEST" duration-ms="1069" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-10-22T20:27:41 EEST" name="setUp" finished-at="2024-10-22T20:27:41 EEST" duration-ms="840" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1745,29 +1767,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCheckoutWithSpecialChars()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-30T02:50:10 EEST" name="testCheckoutWithSpecialChars" description="Verify that a user can checkout with special characters." finished-at="2024-09-30T02:50:23 EEST" duration-ms="13226" status="FAIL">
+        <test-method signature="testCheckoutWithSpecialChars()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-10-22T20:27:41 EEST" name="testCheckoutWithSpecialChars" description="Verify that a user can checkout with special characters." finished-at="2024-10-22T20:27:53 EEST" duration-ms="11445" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')]"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa84e7e803bda1367e70246f394973a9, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46718/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fa84e7e803bda1367e70246f394973a9]]>
+Command: [57293f9c79ffdde95a906ad48616dff7, findElement {using=xpath, value=//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9157/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57293f9c79ffdde95a906ad48616dff7]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')]"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa84e7e803bda1367e70246f394973a9, findElement {value=//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46718/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fa84e7e803bda1367e70246f394973a9
+Command: [57293f9c79ffdde95a906ad48616dff7, findElement {using=xpath, value=//div[contains(@class, 'inventory_item') and contains(., 'Sauce Labs Onesie!')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9157/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57293f9c79ffdde95a906ad48616dff7
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1820,7 +1842,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckoutWithSpecialChars -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-30T02:50:23 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:50:23 EEST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-10-22T20:27:53 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:27:53 EEST" duration-ms="249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1831,7 +1853,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-30T02:50:23 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:50:23 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-10-22T20:27:53 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:27:53 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1842,13 +1864,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-09-30T02:50:23 EEST" name="tearDown" finished-at="2024-09-30T02:50:23 EEST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4]" started-at="2024-10-22T20:27:53 EEST" name="tearDown" finished-at="2024-10-22T20:27:55 EEST" duration-ms="2065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest -->
       <class name="com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-30T02:50:23 EEST" name="setUp" finished-at="2024-09-30T02:50:24 EEST" duration-ms="1007" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-10-22T20:27:55 EEST" name="setUp" finished-at="2024-10-22T20:27:56 EEST" duration-ms="1169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1859,29 +1881,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCheckoutWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-30T02:50:24 EEST" name="testCheckoutWithEmptyField" description="Verify that a user cannot checkout with an empty field." finished-at="2024-09-30T02:50:38 EEST" duration-ms="13496" status="FAIL">
+        <test-method signature="testCheckoutWithEmptyField()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-10-22T20:27:56 EEST" name="testCheckoutWithEmptyField" description="Verify that a user cannot checkout with an empty field." finished-at="2024-10-22T20:28:11 EEST" duration-ms="14703" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkout\-button"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [33cd553521f67d131843c6f4502a9543, findElement {value=checkout-button, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46762/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33cd553521f67d131843c6f4502a9543]]>
+Command: [5ab6b2ad6d335899580dc262195a5e1f, findElement {using=id, value=checkout-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9215/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab6b2ad6d335899580dc262195a5e1f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout\-button"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [33cd553521f67d131843c6f4502a9543, findElement {value=checkout-button, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46762/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33cd553521f67d131843c6f4502a9543
+Command: [5ab6b2ad6d335899580dc262195a5e1f, findElement {using=id, value=checkout-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9215/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab6b2ad6d335899580dc262195a5e1f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1934,7 +1956,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckoutWithEmptyField -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-30T02:50:38 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:50:38 EEST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-10-22T20:28:11 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:28:11 EEST" duration-ms="107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1945,7 +1967,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-30T02:50:38 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:50:38 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-10-22T20:28:11 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:28:11 EEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1956,13 +1978,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-09-30T02:50:38 EEST" name="tearDown" finished-at="2024-09-30T02:50:38 EEST" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886]" started-at="2024-10-22T20:28:11 EEST" name="tearDown" finished-at="2024-10-22T20:28:11 EEST" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest -->
       <class name="com.MyTestingCo.tests.checkout.ValidCheckoutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-30T02:49:23 EEST" name="setUp" finished-at="2024-09-30T02:49:24 EEST" duration-ms="1060" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-10-22T20:26:59 EEST" name="setUp" finished-at="2024-10-22T20:27:00 EEST" duration-ms="888" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1973,29 +1995,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-30T02:49:24 EEST" name="testValidCheckout" description="Verify that a user can checkout successfully." finished-at="2024-09-30T02:49:38 EEST" duration-ms="13912" status="FAIL">
+        <test-method signature="testValidCheckout()[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-10-22T20:27:00 EEST" name="testValidCheckout" description="Verify that a user can checkout successfully." finished-at="2024-10-22T20:27:13 EEST" duration-ms="13453" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#zip\-code"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8f2d86d562ebdf43f9dbe195982b9b8, findElement {value=zip-code, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46587}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46587/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8f2d86d562ebdf43f9dbe195982b9b8]]>
+Command: [9a1c47f72682967ac90845b057ffa3b2, findElement {using=id, value=zip-code}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9020/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a1c47f72682967ac90845b057ffa3b2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#zip\-code"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8f2d86d562ebdf43f9dbe195982b9b8, findElement {value=zip-code, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46587}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46587/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8f2d86d562ebdf43f9dbe195982b9b8
+Command: [9a1c47f72682967ac90845b057ffa3b2, findElement {using=id, value=zip-code}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9020/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a1c47f72682967ac90845b057ffa3b2
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -2048,7 +2070,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidCheckout -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-30T02:49:38 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:49:38 EEST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-10-22T20:27:13 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:27:13 EEST" duration-ms="106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2059,7 +2081,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-30T02:49:38 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:49:38 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-10-22T20:27:13 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:27:13 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2070,13 +2092,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-09-30T02:49:38 EEST" name="tearDown" finished-at="2024-09-30T02:49:38 EEST" duration-ms="336" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139]" started-at="2024-10-22T20:27:13 EEST" name="tearDown" finished-at="2024-10-22T20:27:13 EEST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.checkout.ValidCheckoutTest -->
       <class name="com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-30T02:49:53 EEST" name="setUp" finished-at="2024-09-30T02:49:54 EEST" duration-ms="951" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-10-22T20:27:27 EEST" name="setUp" finished-at="2024-10-22T20:27:27 EEST" duration-ms="798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2087,29 +2109,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCheckoutWithMultipleProducts()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-30T02:49:54 EEST" name="testCheckoutWithMultipleProducts" description="Verify that a user can checkout with multiple products." finished-at="2024-09-30T02:50:08 EEST" duration-ms="13974" status="FAIL">
+        <test-method signature="testCheckoutWithMultipleProducts()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-10-22T20:27:27 EEST" name="testCheckoutWithMultipleProducts" description="Verify that a user can checkout with multiple products." finished-at="2024-10-22T20:27:40 EEST" duration-ms="12726" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#zip\-code"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d840264ecbd0fc940ec63b9c07c8640, findElement {value=zip-code, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46672/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d840264ecbd0fc940ec63b9c07c8640]]>
+Command: [db59d6d89be2065aad289a4451aa9dc7, findElement {using=id, value=zip-code}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9114/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db59d6d89be2065aad289a4451aa9dc7]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#zip\-code"}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d840264ecbd0fc940ec63b9c07c8640, findElement {value=zip-code, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46672/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d840264ecbd0fc940ec63b9c07c8640
+Command: [db59d6d89be2065aad289a4451aa9dc7, findElement {using=id, value=zip-code}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9114/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db59d6d89be2065aad289a4451aa9dc7
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -2162,7 +2184,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckoutWithMultipleProducts -->
-        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-30T02:50:08 EEST" name="addScreenshotOnFailure" finished-at="2024-09-30T02:50:08 EEST" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-10-22T20:27:40 EEST" name="addScreenshotOnFailure" finished-at="2024-10-22T20:27:40 EEST" duration-ms="138" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2173,7 +2195,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnFailure -->
-        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-30T02:50:08 EEST" name="addScreenshotOnSuccess" finished-at="2024-09-30T02:50:08 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="addScreenshotOnSuccess(org.testng.ITestResult)[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-10-22T20:27:40 EEST" name="addScreenshotOnSuccess" finished-at="2024-10-22T20:27:40 EEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2184,13 +2206,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addScreenshotOnSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-09-30T02:50:08 EEST" name="tearDown" finished-at="2024-09-30T02:50:09 EEST" duration-ms="346" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164]" started-at="2024-10-22T20:27:40 EEST" name="tearDown" finished-at="2024-10-22T20:27:41 EEST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest -->
     </test> <!-- Checkout Functionality Tests -->
-    <test started-at="2024-09-30T02:50:38 EEST" name="Logout Functionality Tests" finished-at="2024-09-30T02:50:38 EEST" duration-ms="0">
+    <test started-at="2024-10-22T20:28:11 EEST" name="Logout Functionality Tests" finished-at="2024-10-22T20:28:11 EEST" duration-ms="1">
     </test> <!-- Logout Functionality Tests -->
   </suite> <!-- SauceDemo Tests Suite -->
 </testng-results>

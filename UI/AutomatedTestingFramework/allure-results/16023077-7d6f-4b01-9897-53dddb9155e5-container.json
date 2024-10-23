@@ -1,1 +1,0 @@
-{"uuid":"16023077-7d6f-4b01-9897-53dddb9155e5","name":"com.MyTestingCo.tests.LogoutTest","children":["010fa68c-13e3-4ed3-ba16-7cab008e4d1d"],"befores":[],"afters":[{"name":"tearDown","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1727188548374,"stop":1727188548374}],"start":1727188548077,"stop":1727188548378}

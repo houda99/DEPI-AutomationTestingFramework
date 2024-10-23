@@ -1,0 +1,31 @@
+[ {
+  "uid" : "211b48ccd633abb",
+  "name" : "Verify that an error message is displayed with invalid credentials",
+  "time" : {
+    "start" : 1727041481998,
+    "stop" : 1727041485390,
+    "duration" : 3392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8534a5e4f385b13e",
+  "name" : "Verify that a user can log out successfully",
+  "time" : {
+    "start" : 1727041486481,
+    "stop" : 1727041488420,
+    "duration" : 1939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb99e76e69b20cb",
+  "name" : "Verify that a user can log in with valid credentials",
+  "time" : {
+    "start" : 1727041477260,
+    "stop" : 1727041480702,
+    "duration" : 3442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

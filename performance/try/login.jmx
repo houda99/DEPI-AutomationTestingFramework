@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="login" enabled="true">
+      <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter converter v.${project.version}. Please contact support@blazemeter.com for further support.</stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="sec-gpc" elementType="Header">
+            <stringProp name="Header.name">sec-gpc</stringProp>
+            <stringProp name="Header.value">1</stringProp>
+          </elementProp>
+          <elementProp name="sec-ch-ua" elementType="Header">
+            <stringProp name="Header.name">sec-ch-ua</stringProp>
+            <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;129&quot;, &quot;Not=A?Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;129&quot;</stringProp>
+          </elementProp>
+          <elementProp name="sec-ch-ua-mobile" elementType="Header">
+            <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+            <stringProp name="Header.value">?0</stringProp>
+          </elementProp>
+          <elementProp name="Accept" elementType="Header">
+            <stringProp name="Header.name">Accept</stringProp>
+            <stringProp name="Header.value">*/*</stringProp>
+          </elementProp>
+          <elementProp name="sec-ch-ua-platform" elementType="Header">
+            <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+            <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+          </elementProp>
+          <elementProp name="User-Agent" elementType="Header">
+            <stringProp name="Header.name">User-Agent</stringProp>
+            <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36</stringProp>
+          </elementProp>
+          <elementProp name="Sec-Fetch-Dest" elementType="Header">
+            <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+            <stringProp name="Header.value">empty</stringProp>
+          </elementProp>
+          <elementProp name="Sec-Fetch-Site" elementType="Header">
+            <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+            <stringProp name="Header.value">cross-site</stringProp>
+          </elementProp>
+          <elementProp name="dnt" elementType="Header">
+            <stringProp name="Header.name">dnt</stringProp>
+            <stringProp name="Header.value">1</stringProp>
+          </elementProp>
+          <elementProp name="Sec-Fetch-Mode" elementType="Header">
+            <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+            <stringProp name="Header.value">cors</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="BASE_URL_1" elementType="Argument">
+            <stringProp name="Argument.name">BASE_URL_1</stringProp>
+            <stringProp name="Argument.value">gc.kis.v2.scr.kaspersky-labs.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults">
+        <boolProp name="HTTPSampler.image_parser">true</boolProp>
+        <boolProp name="HTTPSampler.concurrentDwn">true</boolProp>
+        <intProp name="HTTPSampler.concurrentPool">6</intProp>
+        <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+          <collectionProp name="Arguments.arguments"/>
+        </elementProp>
+        <stringProp name="HTTPSampler.implementation"></stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+      <DNSCacheManager guiclass="DNSCachePanel" testclass="DNSCacheManager" testname="DNS Cache Manager">
+        <collectionProp name="DNSCacheManager.servers"/>
+        <collectionProp name="DNSCacheManager.hosts"/>
+        <boolProp name="DNSCacheManager.clearEachIteration">true</boolProp>
+        <boolProp name="DNSCacheManager.isCustomResolver">false</boolProp>
+      </DNSCacheManager>
+      <hashTree/>
+      <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager">
+        <collectionProp name="AuthManager.auth_list"/>
+        <boolProp name="AuthManager.controlledByThreadGroup">false</boolProp>
+      </AuthManager>
+      <hashTree/>
+      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager">
+        <collectionProp name="CookieManager.cookies"/>
+        <boolProp name="CookieManager.clearEachIteration">true</boolProp>
+        <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
+      </CookieManager>
+      <hashTree/>
+      <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager">
+        <boolProp name="clearEachIteration">true</boolProp>
+        <boolProp name="useExpires">false</boolProp>
+        <boolProp name="CacheManager.controlledByThread">false</boolProp>
+      </CacheManager>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
+        <intProp name="ThreadGroup.num_threads">1</intProp>
+        <intProp name="ThreadGroup.ramp_time">1</intProp>
+        <longProp name="ThreadGroup.duration">0</longProp>
+        <longProp name="ThreadGroup.delay">0</longProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Test">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://gc.kis.v2.scr.kaspersky-labs.com/1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/wsm.sessionActivated?tm=2024-10-04T17%3A39%3A22.407Z">
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port">0</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.path">1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/wsm.sessionActivated?tm=2024-10-04T17%3A39%3A22.407Z</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;result&quot;:0,&quot;method&quot;:&quot;wsm.sessionActivated&quot;,&quot;parameters&quot;:&quot;{\&quot;title\&quot;:\&quot;Swag Labs\&quot;}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">text/plain;charset=UTF-8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://gc.kis.v2.scr.kaspersky-labs.com/1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/dp.onGetFields?tm=2024-10-04T17%3A39%3A24.092Z" enabled="true">
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port">0</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.path">1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/dp.onGetFields?tm=2024-10-04T17%3A39%3A24.092Z</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;result&quot;:0,&quot;method&quot;:&quot;dp.onGetFields&quot;,&quot;parameters&quot;:&quot;{\&quot;dom\&quot;:\&quot;&lt;body&gt;&lt;noscript&gt;You need to enable JavaScript to run this app.&lt;/noscript&gt;&lt;div id=\\\&quot;root\\\&quot;&gt;&lt;div class=\\\&quot;login_container\\\&quot;&gt;&lt;div class=\\\&quot;login_logo\\\&quot;&gt;Swag Labs&lt;/div&gt;&lt;div class=\\\&quot;login_wrapper\\\&quot; data-test=\\\&quot;login-container\\\&quot;&gt;&lt;div class=\\\&quot;login_wrapper-inner\\\&quot;&gt;&lt;div id=\\\&quot;login_button_container\\\&quot; class=\\\&quot;form_column\\\&quot;&gt;&lt;div class=\\\&quot;login-box\\\&quot;&gt;&lt;form&gt;&lt;div class=\\\&quot;form_group\\\&quot;&gt;&lt;input class=\\\&quot;input_error form_input\\\&quot; placeholder=\\\&quot;Username\\\&quot; type=\\\&quot;text\\\&quot; data-test=\\\&quot;username\\\&quot; id=\\\&quot;user-name\\\&quot; name=\\\&quot;user-name\\\&quot; autocorrect=\\\&quot;off\\\&quot; autocapitalize=\\\&quot;none\\\&quot; value=\\\&quot;\\\&quot; wfd-id=\\\&quot;id0\\\&quot;&gt;&lt;/div&gt;&lt;div class=\\\&quot;form_group\\\&quot;&gt;&lt;input class=\\\&quot;input_error form_input\\\&quot; placeholder=\\\&quot;Password\\\&quot; type=\\\&quot;password\\\&quot; data-test=\\\&quot;password\\\&quot; id=\\\&quot;password\\\&quot; name=\\\&quot;password\\\&quot; autocorrect=\\\&quot;off\\\&quot; autocapitalize=\\\&quot;none\\\&quot; value=\\\&quot;\\\&quot; wfd-id=\\\&quot;id1\\\&quot;&gt;&lt;/div&gt;&lt;div class=\\\&quot;error-message-container\\\&quot;&gt;&lt;/div&gt;&lt;input type=\\\&quot;submit\\\&quot; class=\\\&quot;submit-button btn_action\\\&quot; data-test=\\\&quot;login-button\\\&quot; id=\\\&quot;login-button\\\&quot; name=\\\&quot;login-button\\\&quot; value=\\\&quot;Login\\\&quot; wfd-id=\\\&quot;id2\\\&quot;&gt;&lt;/form&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=\\\&quot;login_credentials_wrap\\\&quot; data-test=\\\&quot;login-credentials-container\\\&quot;&gt;&lt;div class=\\\&quot;login_credentials_wrap-inner\\\&quot;&gt;&lt;div id=\\\&quot;login_credentials\\\&quot; class=\\\&quot;login_credentials\\\&quot; data-test=\\\&quot;login-credentials\\\&quot;&gt;&lt;h4&gt;Accepted usernames are:&lt;/h4&gt;standard_user&lt;br&gt;locked_out_user&lt;br&gt;problem_user&lt;br&gt;performance_glitch_user&lt;br&gt;error_user&lt;br&gt;visual_user&lt;br&gt;&lt;/div&gt;&lt;div class=\\\&quot;login_password\\\&quot; data-test=\\\&quot;login-password\\\&quot;&gt;&lt;h4&gt;Password for all users:&lt;/h4&gt;secret_sauce&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;script wfd-invisible=\\\&quot;true\\\&quot;&gt;!function(e){function r(r){for(var n,p,l=r[0],a=r[1],f=r[2],c=0,s=[];c&lt;l.length;c++)p=l[c],Object.prototype.hasOwnProperty.call(o,p)&amp;&amp;o[p]&amp;&amp;s.push(o[p][0]),o[p]=0;for(n in a)Object.prototype.hasOwnProperty.call(a,n)&amp;&amp;(e[n]=a[n]);for(i&amp;&amp;i(r);s.length;)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r&lt;u.length;r++){for(var t=u[r],n=!0,l=1;l&lt;t.length;l++){var a=t[l];0!==o[a]&amp;&amp;(n=!1)}n&amp;&amp;(u.splice(r--,1),e=p(p.s=t[0]))}return e}var n={},o={1:0},u=[];function p(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,p),t.l=!0,t.exports}p.m=e,p.c=n,p.d=function(e,r,t){p.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},p.r=function(e){\\\&quot;undefined\\\&quot;!=typeof Symbol&amp;&amp;Symbol.toStringTag&amp;&amp;Object.defineProperty(e,Symbol.toStringTag,{value:\\\&quot;Module\\\&quot;}),Object.defineProperty(e,\\\&quot;__esModule\\\&quot;,{value:!0})},p.t=function(e,r){if(1&amp;r&amp;&amp;(e=p(e)),8&amp;r)return e;if(4&amp;r&amp;&amp;\\\&quot;object\\\&quot;==typeof e&amp;&amp;e&amp;&amp;e.__esModule)return e;var t=Object.create(null);if(p.r(t),Object.defineProperty(t,\\\&quot;default\\\&quot;,{enumerable:!0,value:e}),2&amp;r&amp;&amp;\\\&quot;string\\\&quot;!=typeof e)for(var n in e)p.d(t,n,function(r){return e[r]}.bind(null,n));return t},p.n=function(e){var r=e&amp;&amp;e.__esModule?function(){return e.default}:function(){return e};return p.d(r,\\\&quot;a\\\&quot;,r),r},p.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},p.p=\\\&quot;/\\\&quot;;var l=this[\\\&quot;webpackJsonpsample-app-web\\\&quot;]=this[\\\&quot;webpackJsonpsample-app-web\\\&quot;]||[],a=l.push.bind(l);l.push=r,l=l.slice();for(var f=0;f&lt;l.length;f++)r(l[f]);var i=a;t()}([])&lt;/script&gt;&lt;script src=\\\&quot;/static/js/2.84a5cbf3.chunk.js\\\&quot; wfd-invisible=\\\&quot;true\\\&quot;&gt;&lt;/script&gt;&lt;script src=\\\&quot;/static/js/main.018d2d1e.chunk.js\\\&quot; wfd-invisible=\\\&quot;true\\\&quot;&gt;&lt;/script&gt;&lt;/body&gt;\&quot;}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">text/plain;charset=UTF-8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://gc.kis.v2.scr.kaspersky-labs.com/1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/vs.onPasswordEntered?get&amp;nocache=1fbea&amp;tm=2024-10-04T17%3A39%3A27.048Z">
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port">0</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.path">1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/vs.onPasswordEntered</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="get" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.name">get</stringProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="nocache" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">nocache</stringProp>
+                  <stringProp name="Argument.value">1fbea</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="tm" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.name">tm</stringProp>
+                  <stringProp name="Argument.value">2024-10-04T17:39:27.048Z</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://gc.kis.v2.scr.kaspersky-labs.com/1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/wsm.onHashChange?tm=2024-10-04T17%3A39%3A28.536Z">
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port">0</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.path">1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/wsm.onHashChange?tm=2024-10-04T17%3A39%3A28.536Z</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;result&quot;:0,&quot;method&quot;:&quot;wsm.onHashChange&quot;,&quot;parameters&quot;:&quot;{\&quot;newLocationUrl\&quot;:\&quot;aHR0cHM6Ly93d3cuc2F1Y2VkZW1vLmNvbS9pbnZlbnRvcnkuaHRtbA==\&quot;,\&quot;urlEncrypted\&quot;:true}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">text/plain;charset=UTF-8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://gc.kis.v2.scr.kaspersky-labs.com/1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/wsm.sessionDeactivated?tm=2024-10-04T17%3A39%3A28.658Z" enabled="true">
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port">0</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.path">1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/wsm.sessionDeactivated?tm=2024-10-04T17%3A39%3A28.658Z</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;result&quot;:0,&quot;method&quot;:&quot;wsm.sessionDeactivated&quot;,&quot;parameters&quot;:&quot;{\&quot;title\&quot;:\&quot;Swag Labs\&quot;}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">text/plain;charset=UTF-8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://gc.kis.v2.scr.kaspersky-labs.com/1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/wsm.sessionActivated?tm=2024-10-04T17%3A39%3A32.698Z">
+            <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+            <stringProp name="HTTPSampler.port">0</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.path">1116EFB5-5A90-4B4B-9A23-98ED51C27D6F/09559983-566F-49A8-99E3-2D31E2C1FA07/to/wsm.sessionActivated?tm=2024-10-04T17%3A39%3A32.698Z</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;result&quot;:0,&quot;method&quot;:&quot;wsm.sessionActivated&quot;,&quot;parameters&quot;:&quot;{\&quot;title\&quot;:\&quot;Swag Labs\&quot;}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">text/plain;charset=UTF-8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

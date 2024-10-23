@@ -1,0 +1,119 @@
+{
+  "uid" : "aa383ed58e515862",
+  "name" : "Verify that a user can log in with valid credentials",
+  "fullName" : "com.MyTestingCo.tests.ValidLoginTest.testValidLogin",
+  "historyId" : "7660dbb7148fae2f5f5033a7b65d344c",
+  "time" : {
+    "start" : 1727041161303,
+    "stop" : 1727041163077,
+    "duration" : 1774
+  },
+  "description" : "This test verifies that a user can successfully log in with valid username and password.",
+  "descriptionHtml" : "<p>This test verifies that a user can successfully log in with valid username and password.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1727041159524,
+      "stop" : 1727041161236,
+      "duration" : 1712
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "addScreenshotOnFailure",
+    "time" : {
+      "start" : 1727041163158,
+      "stop" : 1727041163159,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1727041163169,
+      "stop" : 1727041163365,
+      "duration" : 196
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.MyTestingCo.tests.ValidLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.MyTestingCo.tests.ValidLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testValidLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutomatedTestingSuite"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.MyTestingCo.tests.ValidLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MAHMOUD-PC"
+  }, {
+    "name" : "thread",
+    "value" : "35972@MAHMOUD-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Valid Login"
+  }, {
+    "name" : "feature",
+    "value" : "Login Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa383ed58e515862.json",
+  "parameterValues" : [ "chrome" ]
+}

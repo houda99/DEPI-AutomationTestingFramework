@@ -1,0 +1,95 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MAHMOUD-PC",
+    "children" : [ {
+      "name" : "17680@MAHMOUD-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify that an error message is displayed with invalid credentials",
+        "uid" : "211b48ccd633abb",
+        "parentUid" : "aab40c41536e217b53d6ecb744bfc7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727041481998,
+          "stop" : 1727041485390,
+          "duration" : 3392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "Verify that a user can log out successfully",
+        "uid" : "8534a5e4f385b13e",
+        "parentUid" : "aab40c41536e217b53d6ecb744bfc7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727041486481,
+          "stop" : 1727041488420,
+          "duration" : 1939
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "Verify that a user can log in with valid credentials",
+        "uid" : "2fb99e76e69b20cb",
+        "parentUid" : "aab40c41536e217b53d6ecb744bfc7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727041477260,
+          "stop" : 1727041480702,
+          "duration" : 3442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "aab40c41536e217b53d6ecb744bfc7b2"
+    }, {
+      "name" : "35972@MAHMOUD-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify that a user can log in with valid credentials",
+        "uid" : "aa383ed58e515862",
+        "parentUid" : "f97182d08ce04a806b9a6192692a8ec1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727041161303,
+          "stop" : 1727041163077,
+          "duration" : 1774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "Verify that a user can log out successfully",
+        "uid" : "8db95b681e1227d3",
+        "parentUid" : "f97182d08ce04a806b9a6192692a8ec1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727041167064,
+          "stop" : 1727041169049,
+          "duration" : 1985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "Verify that an error message is displayed with invalid credentials",
+        "uid" : "c064d411d078e552",
+        "parentUid" : "f97182d08ce04a806b9a6192692a8ec1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727041164318,
+          "stop" : 1727041165961,
+          "duration" : 1643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "f97182d08ce04a806b9a6192692a8ec1"
+    } ],
+    "uid" : "38444c528c910fb66b8372011fcc52d6"
+  } ]
+}

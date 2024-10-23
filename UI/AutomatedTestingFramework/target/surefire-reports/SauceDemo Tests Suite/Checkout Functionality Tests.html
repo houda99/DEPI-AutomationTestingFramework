@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 30 02:49:23 EEST 2024</td>
+<td>Started on:</td><td>Tue Oct 22 20:26:59 EEST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>75 seconds (75379 ms)</td>
+<tr><td>Total time:</td><td>72 seconds (72663 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts()'><b>testCheckoutWithMultipleProducts</b><br>Test class: com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest<br>Test method: Verify that a user can checkout with multiple products.</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#zip\-code&quot;}
-  (Session info: chrome=129.0.6668.71)
+<td title='com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars()'><b>testCheckoutWithSpecialChars</b><br>Test class: com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest<br>Test method: Verify that a user can checkout with special characters.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)]&quot;}
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d840264ecbd0fc940ec63b9c07c8640, findElement {value=zip-code, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46672/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d840264ecbd0fc940ec63b9c07c8640
+Command: [57293f9c79ffdde95a906ad48616dff7, findElement {using=xpath, value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9157/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57293f9c79ffdde95a906ad48616dff7
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -97,19 +97,19 @@ Session ID: 3d840264ecbd0fc940ec63b9c07c8640
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.MyTestingCo.pages.CheckoutPage.enterZIPCode(CheckoutPage.java:36)
-	at com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts(CheckoutWithMultipleProductsTest.java:45)
+	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+	at com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars(CheckoutWithSpecialCharsTest.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2012555686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2012555686'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#zip\-code&quot;}
-  (Session info: chrome=129.0.6668.71)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace548828006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace548828006'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)]&quot;}
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d840264ecbd0fc940ec63b9c07c8640, findElement {value=zip-code, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46672/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d840264ecbd0fc940ec63b9c07c8640
+Command: [57293f9c79ffdde95a906ad48616dff7, findElement {using=xpath, value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9157/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57293f9c79ffdde95a906ad48616dff7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -124,8 +124,8 @@ Session ID: 3d840264ecbd0fc940ec63b9c07c8640
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.MyTestingCo.pages.CheckoutPage.enterZIPCode(CheckoutPage.java:36)
-	at com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts(CheckoutWithMultipleProductsTest.java:45)
+	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+	at com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars(CheckoutWithSpecialCharsTest.java:33)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -157,19 +157,19 @@ Session ID: 3d840264ecbd0fc940ec63b9c07c8640
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>13</td>
-<td>com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164</td></tr>
+<td>11</td>
+<td>com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4</td></tr>
 <tr>
-<td title='com.MyTestingCo.tests.checkout.InvalidCheckoutTest.testInvalidCheckout()'><b>testInvalidCheckout</b><br>Test class: com.MyTestingCo.tests.checkout.InvalidCheckoutTest<br>Test method: Verify that a user cannot checkout with invalid information.</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)]&quot;}
-  (Session info: chrome=129.0.6668.71)
+<td title='com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField()'><b>testCheckoutWithEmptyField</b><br>Test class: com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest<br>Test method: Verify that a user cannot checkout with an empty field.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout\-button&quot;}
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f74dabf7a11d5349ddeb332857d0cbf4, findElement {value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46626}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46626/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f74dabf7a11d5349ddeb332857d0cbf4
+Command: [5ab6b2ad6d335899580dc262195a5e1f, findElement {using=id, value=checkout-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9215/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab6b2ad6d335899580dc262195a5e1f
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -181,19 +181,19 @@ Session ID: f74dabf7a11d5349ddeb332857d0cbf4
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
-	at com.MyTestingCo.tests.checkout.InvalidCheckoutTest.testInvalidCheckout(InvalidCheckoutTest.java:35)
+	at com.MyTestingCo.pages.CheckoutPage.clickCheckout(CheckoutPage.java:42)
+	at com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField(CheckoutWithEmptyFieldTest.java:44)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1303734497", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1303734497'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)]&quot;}
-  (Session info: chrome=129.0.6668.71)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1862983918", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1862983918'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout\-button&quot;}
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f74dabf7a11d5349ddeb332857d0cbf4, findElement {value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46626}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46626/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f74dabf7a11d5349ddeb332857d0cbf4
+Command: [5ab6b2ad6d335899580dc262195a5e1f, findElement {using=id, value=checkout-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9215/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab6b2ad6d335899580dc262195a5e1f
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -208,8 +208,8 @@ Session ID: f74dabf7a11d5349ddeb332857d0cbf4
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
-	at com.MyTestingCo.tests.checkout.InvalidCheckoutTest.testInvalidCheckout(InvalidCheckoutTest.java:35)
+	at com.MyTestingCo.pages.CheckoutPage.clickCheckout(CheckoutPage.java:42)
+	at com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField(CheckoutWithEmptyFieldTest.java:44)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -241,19 +241,19 @@ Session ID: f74dabf7a11d5349ddeb332857d0cbf4
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>13</td>
-<td>com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5</td></tr>
+<td>14</td>
+<td>com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886</td></tr>
 <tr>
 <td title='com.MyTestingCo.tests.checkout.ValidCheckoutTest.testValidCheckout()'><b>testValidCheckout</b><br>Test class: com.MyTestingCo.tests.checkout.ValidCheckoutTest<br>Test method: Verify that a user can checkout successfully.</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#zip\-code&quot;}
-  (Session info: chrome=129.0.6668.71)
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8f2d86d562ebdf43f9dbe195982b9b8, findElement {value=zip-code, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46587}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46587/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8f2d86d562ebdf43f9dbe195982b9b8
+Command: [9a1c47f72682967ac90845b057ffa3b2, findElement {using=id, value=zip-code}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9020/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a1c47f72682967ac90845b057ffa3b2
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -268,16 +268,16 @@ Session ID: d8f2d86d562ebdf43f9dbe195982b9b8
 	at com.MyTestingCo.pages.CheckoutPage.enterZIPCode(CheckoutPage.java:36)
 	at com.MyTestingCo.tests.checkout.ValidCheckoutTest.testValidCheckout(ValidCheckoutTest.java:43)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1812378044", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1812378044'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#zip\-code&quot;}
-  (Session info: chrome=129.0.6668.71)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1993314761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1993314761'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#zip\-code&quot;}
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8f2d86d562ebdf43f9dbe195982b9b8, findElement {value=zip-code, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46587}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46587/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8f2d86d562ebdf43f9dbe195982b9b8
+Command: [9a1c47f72682967ac90845b057ffa3b2, findElement {using=id, value=zip-code}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9020}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9020/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a1c47f72682967ac90845b057ffa3b2
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -328,16 +328,16 @@ Session ID: d8f2d86d562ebdf43f9dbe195982b9b8
 <td>13</td>
 <td>com.MyTestingCo.tests.checkout.ValidCheckoutTest@36804139</td></tr>
 <tr>
-<td title='com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField()'><b>testCheckoutWithEmptyField</b><br>Test class: com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest<br>Test method: Verify that a user cannot checkout with an empty field.</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout\-button&quot;}
-  (Session info: chrome=129.0.6668.71)
+<td title='com.MyTestingCo.tests.checkout.InvalidCheckoutTest.testInvalidCheckout()'><b>testInvalidCheckout</b><br>Test class: com.MyTestingCo.tests.checkout.InvalidCheckoutTest<br>Test method: Verify that a user cannot checkout with invalid information.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)]&quot;}
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [33cd553521f67d131843c6f4502a9543, findElement {value=checkout-button, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46762/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33cd553521f67d131843c6f4502a9543
+Command: [6f1bb6068443147f1008aa26bd6caa0a, findElement {using=xpath, value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9075/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f1bb6068443147f1008aa26bd6caa0a
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -349,19 +349,19 @@ Session ID: 33cd553521f67d131843c6f4502a9543
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.MyTestingCo.pages.CheckoutPage.clickCheckout(CheckoutPage.java:42)
-	at com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField(CheckoutWithEmptyFieldTest.java:44)
+	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+	at com.MyTestingCo.tests.checkout.InvalidCheckoutTest.testInvalidCheckout(InvalidCheckoutTest.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace523938160", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace523938160'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout\-button&quot;}
-  (Session info: chrome=129.0.6668.71)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace984302294", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace984302294'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)]&quot;}
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [33cd553521f67d131843c6f4502a9543, findElement {value=checkout-button, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46762/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33cd553521f67d131843c6f4502a9543
+Command: [6f1bb6068443147f1008aa26bd6caa0a, findElement {using=xpath, value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Invalid Product&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9075/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f1bb6068443147f1008aa26bd6caa0a
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -376,8 +376,8 @@ Session ID: 33cd553521f67d131843c6f4502a9543
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.MyTestingCo.pages.CheckoutPage.clickCheckout(CheckoutPage.java:42)
-	at com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest.testCheckoutWithEmptyField(CheckoutWithEmptyFieldTest.java:44)
+	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
+	at com.MyTestingCo.tests.checkout.InvalidCheckoutTest.testInvalidCheckout(InvalidCheckoutTest.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -409,19 +409,19 @@ Session ID: 33cd553521f67d131843c6f4502a9543
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>13</td>
-<td>com.MyTestingCo.tests.checkout.CheckoutWithEmptyFieldTest@10289886</td></tr>
+<td>11</td>
+<td>com.MyTestingCo.tests.checkout.InvalidCheckoutTest@20bd8be5</td></tr>
 <tr>
-<td title='com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars()'><b>testCheckoutWithSpecialChars</b><br>Test class: com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest<br>Test method: Verify that a user can checkout with special characters.</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)]&quot;}
-  (Session info: chrome=129.0.6668.71)
+<td title='com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts()'><b>testCheckoutWithMultipleProducts</b><br>Test class: com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest<br>Test method: Verify that a user can checkout with multiple products.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#zip\-code&quot;}
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa84e7e803bda1367e70246f394973a9, findElement {value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46718/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fa84e7e803bda1367e70246f394973a9
+Command: [db59d6d89be2065aad289a4451aa9dc7, findElement {using=id, value=zip-code}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9114/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db59d6d89be2065aad289a4451aa9dc7
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -433,19 +433,19 @@ Session ID: fa84e7e803bda1367e70246f394973a9
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
-	at com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars(CheckoutWithSpecialCharsTest.java:33)
+	at com.MyTestingCo.pages.CheckoutPage.enterZIPCode(CheckoutPage.java:36)
+	at com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts(CheckoutWithMultipleProductsTest.java:45)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace742806105", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace742806105'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)]&quot;}
-  (Session info: chrome=129.0.6668.71)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace242957908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace242957908'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#zip\-code&quot;}
+  (Session info: chrome=130.0.6723.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa84e7e803bda1367e70246f394973a9, findElement {value=//div[contains(@class, &apos;inventory_item&apos;) and contains(., &apos;Sauce Labs Onesie!&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46718/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fa84e7e803bda1367e70246f394973a9
+Command: [db59d6d89be2065aad289a4451aa9dc7, findElement {using=id, value=zip-code}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\ommmm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9114/devtool..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db59d6d89be2065aad289a4451aa9dc7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -460,8 +460,8 @@ Session ID: fa84e7e803bda1367e70246f394973a9
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.MyTestingCo.pages.ProductsPage.addProductToCart(ProductsPage.java:31)
-	at com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest.testCheckoutWithSpecialChars(CheckoutWithSpecialCharsTest.java:33)
+	at com.MyTestingCo.pages.CheckoutPage.enterZIPCode(CheckoutPage.java:36)
+	at com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest.testCheckoutWithMultipleProducts(CheckoutWithMultipleProductsTest.java:45)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -493,8 +493,8 @@ Session ID: fa84e7e803bda1367e70246f394973a9
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>13</td>
-<td>com.MyTestingCo.tests.checkout.CheckoutWithSpecialCharsTest@24959ca4</td></tr>
+<td>12</td>
+<td>com.MyTestingCo.tests.checkout.CheckoutWithMultipleProductsTest@730d2164</td></tr>
 </table><p>
 </body>
 </html>

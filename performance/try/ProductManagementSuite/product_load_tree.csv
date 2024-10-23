@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1728077824674,779,login time response,200,OK,Product thread 1-1,text,true,,3964,399,1,1,https://www.saucedemo.com/,442,0,241
+1728077824674,442,login time response-0,301,Moved Permanently,Product thread 1-1,text,true,,664,280,1,1,https://saucedemo.com/,442,0,241
+1728077825116,337,login time response-1,200,OK,Product thread 1-1,text,true,,3300,119,1,1,https://www.saucedemo.com/,337,0,226
+1728077827672,505,login time response,200,OK,Product thread 1-2,text,true,,3962,381,1,1,https://www.saucedemo.com/,254,0,145
+1728077827672,254,login time response-0,301,Moved Permanently,Product thread 1-2,text,true,,662,262,1,1,https://saucedemo.com/,254,0,145
+1728077827927,250,login time response-1,200,OK,Product thread 1-2,text,true,,3300,119,1,1,https://www.saucedemo.com/,250,0,140
+1728077830672,515,login time response,200,OK,Product thread 1-3,text,true,,3962,395,1,1,https://www.saucedemo.com/,260,0,149
+1728077830672,260,login time response-0,301,Moved Permanently,Product thread 1-3,text,true,,662,276,1,1,https://saucedemo.com/,260,0,149
+1728077830932,255,login time response-1,200,OK,Product thread 1-3,text,true,,3300,119,1,1,https://www.saucedemo.com/,255,0,144
+1728077833672,523,login time response,200,OK,Product thread 1-4,text,true,,3962,399,1,1,https://www.saucedemo.com/,263,0,147
+1728077833672,263,login time response-0,301,Moved Permanently,Product thread 1-4,text,true,,662,280,1,1,https://saucedemo.com/,263,0,147
+1728077833935,260,login time response-1,200,OK,Product thread 1-4,text,true,,3300,119,1,1,https://www.saucedemo.com/,260,0,147
+1728077836673,527,login time response,200,OK,Product thread 1-5,text,true,,3963,389,1,1,https://www.saucedemo.com/,263,0,149
+1728077836673,263,login time response-0,301,Moved Permanently,Product thread 1-5,text,true,,663,270,1,1,https://saucedemo.com/,263,0,149
+1728077836936,264,login time response-1,200,OK,Product thread 1-5,text,true,,3300,119,1,1,https://www.saucedemo.com/,264,0,148
+1728077839674,629,login time response,200,OK,Product thread 1-6,text,true,,3963,401,1,1,https://www.saucedemo.com/,285,0,145
+1728077839674,285,login time response-0,301,Moved Permanently,Product thread 1-6,text,true,,663,282,1,1,https://saucedemo.com/,285,0,145
+1728077839959,344,login time response-1,200,OK,Product thread 1-6,text,true,,3300,119,1,1,https://www.saucedemo.com/,344,0,200
+1728077842674,537,login time response,200,OK,Product thread 1-7,text,true,,3963,395,1,1,https://www.saucedemo.com/,275,0,148
+1728077842674,275,login time response-0,301,Moved Permanently,Product thread 1-7,text,true,,663,276,1,1,https://saucedemo.com/,275,0,148
+1728077842949,262,login time response-1,200,OK,Product thread 1-7,text,true,,3300,119,1,1,https://www.saucedemo.com/,262,0,147
+1728077845674,513,login time response,200,OK,Product thread 1-8,text,true,,3963,401,1,1,https://www.saucedemo.com/,260,0,145
+1728077845674,260,login time response-0,301,Moved Permanently,Product thread 1-8,text,true,,663,282,1,1,https://saucedemo.com/,260,0,145
+1728077845934,253,login time response-1,200,OK,Product thread 1-8,text,true,,3300,119,1,1,https://www.saucedemo.com/,253,0,143
+1728077848674,532,login time response,200,OK,Product thread 1-9,text,true,,3963,393,1,1,https://www.saucedemo.com/,266,0,153
+1728077848674,266,login time response-0,301,Moved Permanently,Product thread 1-9,text,true,,663,274,1,1,https://saucedemo.com/,266,0,153
+1728077848941,265,login time response-1,200,OK,Product thread 1-9,text,true,,3300,119,1,1,https://www.saucedemo.com/,265,0,151
+1728077851674,648,login time response,200,OK,Product thread 1-10,text,true,,3963,391,1,1,https://www.saucedemo.com/,296,0,146
+1728077851674,296,login time response-0,301,Moved Permanently,Product thread 1-10,text,true,,663,272,1,1,https://saucedemo.com/,296,0,146
+1728077851970,352,login time response-1,200,OK,Product thread 1-10,text,true,,3300,119,1,1,https://www.saucedemo.com/,352,0,144

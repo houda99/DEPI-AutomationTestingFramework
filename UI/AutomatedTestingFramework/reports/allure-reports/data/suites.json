@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "AutomatedTestingSuite",
+    "children" : [ {
+      "name" : "LoginTests",
+      "children" : [ {
+        "name" : "com.MyTestingCo.tests.ValidLoginTest",
+        "children" : [ {
+          "name" : "Verify that a user can log in with valid credentials",
+          "uid" : "2fb99e76e69b20cb",
+          "parentUid" : "bfaa11aac1677852ec0cb681cf9d3e35",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727041477260,
+            "stop" : 1727041480702,
+            "duration" : 3442
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "bfaa11aac1677852ec0cb681cf9d3e35"
+      }, {
+        "name" : "com.MyTestingCo.tests.InvalidLoginTest",
+        "children" : [ {
+          "name" : "Verify that an error message is displayed with invalid credentials",
+          "uid" : "211b48ccd633abb",
+          "parentUid" : "ae4b5ea366efea7cbb64922ad0e650f8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727041481998,
+            "stop" : 1727041485390,
+            "duration" : 3392
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "ae4b5ea366efea7cbb64922ad0e650f8"
+      }, {
+        "name" : "com.MyTestingCo.tests.LogoutTest",
+        "children" : [ {
+          "name" : "Verify that a user can log out successfully",
+          "uid" : "8534a5e4f385b13e",
+          "parentUid" : "2ba84f141bd9bb2e0acb5aa58c7239c3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727041486481,
+            "stop" : 1727041488420,
+            "duration" : 1939
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "2ba84f141bd9bb2e0acb5aa58c7239c3"
+      } ],
+      "uid" : "2695251b3bf73cc0b0501f180cb72aff"
+    } ],
+    "uid" : "00bb925a726db954f7f6003b9d08c8c8"
+  } ]
+}
