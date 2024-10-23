@@ -18,7 +18,7 @@ This repository contains the DEPI Automation Testing Framework which is the fina
 
 * Clone the repository: `git clone https://github.com/houda99/DEPI-AutomationTestingFramework.git'
 * Install dependencies: you will need maven , jmeter , allure and postman to use this app
-* Run tests: instruxtions for each one is mentioned ineach README file 
+* Run tests: instructions for each one is mentioned in each README file 
 
 License
 -------
